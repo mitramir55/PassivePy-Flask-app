@@ -32,14 +32,14 @@ def passivepy_page(tables=None, titles=None):
         sample_text = request.form["sent"]
         df = passivepy.match_text(sample_text)
         #return f'this is the result: {sample_result}'
-        #return render_template('passivepy_page.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
-        return redirect(url_for('result', tables=[df.to_html(classes='data')], titles=df.columns.values))
+        return render_template('passivepy_page.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
+        #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
     else:
-        return render_template('passivepy_page.html', tables='no_result', titles='no_title')
+        return render_template('passivepy_page.html', tables='no_result', titles='no_titles')
 
 @app.route('/result')
 def result(tables, titles):
-    return redirect(url_for('result', tables, titles))
+    return render_template('result.html', tables, titles)
 
 
 if __name__ == "__main__":
