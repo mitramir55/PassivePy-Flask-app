@@ -1,29 +1,3 @@
-from flask import Flask, redirect, url_for, render_template
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return render_template("index.html", content='first page.')
-
-@app.route("/projects")
-def projects():
-    return render_template("projects.html")
-
-@app.route('/passivepy', methods=['POST', 'GET'])
-def get_sent():
-    return render_template("passivepy.html")
-
-@app.route('/<usr>')
-def user(usr):
-    return f'this is {usr}'
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
-
-
-
 
 # passivepy section
 
@@ -40,9 +14,38 @@ spacy_model = "en_core_web_lg"
 passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
 
 
+from flask import Flask, redirect, url_for, render_template, request
 
-# Try changing the sentence below:
-sample_text = 'She has been killed'
-passivepy.match_text(sample_text)
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html", content='first page.')
+
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+@app.route('/passivepy_page', methods=['POST', 'GET'])
+def passivepy_page(tables=None, titles=None):
+    if request.method == 'POST':
+        sample_text = request.form["sent"]
+        df = passivepy.match_text(sample_text)
+        #return f'this is the result: {sample_result}'
+        #return render_template('passivepy_page.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
+        return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
+    else:
+        return render_template('passivepy_page.html')
+
+@app.route('/result')
+def result(tables=None, titles=None):
+    return render_template('result.html', tables, titles)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+
+
 
 

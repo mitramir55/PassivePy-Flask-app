@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+
+
+{% block title  %}
+passivepy page
+{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <p>sentence: </p>
+    <p><input type="text" name="sent"></p>
+    <p><input type="submit" name="submit"></p>
+</form>
+
+{% if titles.any() %}
+
+    {% for table in tables %}
+        {{titles[loop.index]}}
+        {{ table|safe }}
+    {% endfor %}
+{% endif %}
+{% endblock %}
