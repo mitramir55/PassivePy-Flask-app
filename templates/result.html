@@ -8,9 +8,9 @@ passivepy page
 {% block content %}
     
 
-{% for table in tables %}
-{{titles[loop.index]}}
-{{ table|safe }}
-{% endfor %}
+    {% for table in tables %}
+        {{titles[loop.index]}}
+        {{ table|safe }}
+    {% endfor %}
 
 {% endblock %}

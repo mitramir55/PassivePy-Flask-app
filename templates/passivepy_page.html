@@ -12,7 +12,7 @@ passivepy page
     <p><input type="submit" name="submit"></p>
 </form>
 
-{% if titles.any() %}
+{% if titles!='no_title' %}
 
     {% for table in tables %}
         {{titles[loop.index]}}
