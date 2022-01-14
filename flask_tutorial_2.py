@@ -20,7 +20,7 @@ app = Flask(__name__)
 def passivepy_page(mode='', **kwargs):
 
     # sample sentence
-    if request.method == 'POST' and request.form.get("sent"):
+    if request.method == 'POST' and request.form["sent"]:
         sample_text = request.form["sent"]
         df = passivepy.match_text(sample_text)
         #return f'this is the result: {sample_result}'
