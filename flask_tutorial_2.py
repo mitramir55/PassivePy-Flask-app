@@ -19,22 +19,22 @@ app = Flask(__name__)
 @app.route('/passivepy_page', methods=['POST', 'GET'])
 def passivepy_page(mode='', **kwargs):
 
-    # sample sentence
-    if request.method == 'POST' and request.form["sent"]:
+    # sample sentence ----------------------------------------------------------------
+    if request.method == 'POST' and request.form.get("sent"):
         sample_text = request.form["sent"]
-        df = passivepy.match_text(sample_text)
-        #return f'this is the result: {sample_result}'
-        return render_template('passivepy_page.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
-        #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
+        df_sample_text = passivepy.match_text(sample_text)
+        #return f'this is the result: '
+        return render_template("passivepy_page.html", mode='sample_text', zip=zip, 
+                    column_names=df_sample_text.columns.values, row_data=list(df_sample_text.values.tolist()))        #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
     
     # corpus level
-    if request.method == 'POST' and request.form["column_name_c"]:
+    if request.method == 'POST' and request.form.get("column_name_c"):
         column_name = request.form["column_name_c"]
 
         # if there was no file
         if 'sample_df' not in request.files:
             flash ("No file")
-            return render_template('passivepy_page.html', mode='sample_sent', tables=[], titles=[])
+            return render_template('passivepy_page.html')
 
         # if the user didn't choose any file
         file= request.files['sample_df']
@@ -63,11 +63,53 @@ def passivepy_page(mode='', **kwargs):
             output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
             df_detected_c.to_csv(output_path, index=False)
 
-            return render_template('passivepy_page.html', mode='corpus_level', tables=[df_detected_c.to_html(classes='data')], titles=df_detected_c.columns.values, output=output_path)
+
+            # link_column is the column that I want to add a button to
+            return render_template("passivepy_page.html", mode='corpus_level', zip=zip, column_names=df_detected_c.columns.values, row_data=list(df_detected_c.values.tolist()))
+
+            #return render_template('passivepy_page.html', mode='corpus_level', tables=[df_detected_c.to_html(classes='data')], titles=df_detected_c.columns.values, output=output_path)
 
     
+    # corpus level -----------------------------------------------------------------------
+    if request.method == 'POST' and request.form.get("column_name_s"):
+        column_name = request.form["column_name_s"]
+
+        # if there was no file
+        if 'sample_df' not in request.files:
+            flash ("No file")
+            return render_template('passivepy_page.html')
+
+        # if the user didn't choose any file
+        file= request.files['sample_df']
+        if file.filename == '':
+            flash('No selected file')
+
+
+        if file and allowed_file(file.filename):
+
+
+            # get it from the user
+            filename = secure_filename(file.filename)
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+
+            # read the file
+            if filename.rsplit('.', 1)[1].lower() == 'csv':
+                df = pd.read_csv(file_path)
+            elif filename.rsplit('.', 1)[1].lower() == 'xlsx':
+                df = pd.read_excel(file_path)
+
+            # do the analysis
+            df_detected_s = passivepy.match_corpus_level(df=df, column_name = column_name)
+
+            # give it back to user
+            output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
+            df_detected_s.to_csv(output_path, index=False)
+
+            return render_template("passivepy_page.html", mode='sentence_level', zip=zip, 
+            column_names=df_detected_s.columns.values, row_data=list(df_detected_s.values.tolist()))
     else:
-        return render_template('passivepy_page.html', tables=[], titles=[], mode='')
+        return render_template('passivepy_page.html', mode='')
 
 
 # config------------------------------------------------

@@ -1,21 +1,44 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+<h5>Single sentence analysis</h5>
 <form action="#" method="post">
     <p>Please enter your sentence in the box bellow: </p>
     <p><input type="text" name="sent"></p>
     <p><input  type="submit" name="submit"></p>
 </form>
 
-{% if mode=='sample_sent' %}
-    {% for table in tables %}
-        {{titles[loop.index]}}
-        {{ table|safe }}
-    {% endfor %}
+{% if mode=='sample_text' %}
+
+        <table>
+            <tr>
+                {% for col in column_names %}
+                <th style="background-color: #74c5c1;">{{ col }}</th>
+                {% endfor %}
+            </tr>
+            {% for row in row_data %}
+            <tr>
+                {% for col, row_ in zip(column_names, row) %}
+                {% if col == link_column %}
+                <td>
+                        {{ row_ }}
+                </td>
+                {% else %}
+                <td>{{row_}}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+
+        </table>
+
     
 {% endif %}
+<hr>
+<!----------------------------------------- corpus level ------------------------------------->
 
-<h3>Corpus-level analysis</h3>
+<h5>Corpus-level analysis</h5>
 
 <form action="#" method="post" enctype="multipart/form-data">
     <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that need to be
@@ -27,20 +50,89 @@
 
 {% if mode=='corpus_level' %}
 
-
     <a class="btn btn-info" role="button" href="{{output_path}}"
    download="output.csv">
   Download
 </a>
 
+<!--
 
     {% for table in tables %}
         {{titles[loop.index]}}
         {{ table|safe }}
     {% endfor %}
 
+
+-->
+        <table>
+            <tr>
+                {% for col in column_names %}
+                <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+            {% for row in row_data %}
+            <tr>
+                {% for col, row_ in zip(column_names, row) %}
+                {% if col == link_column %}
+                <td>
+                        {{ row_ }}
+                </td>
+                {% else %}
+                <td>{{row_}}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+
+        </table>
+
 {% endif %}
 
+
+<!----------------------------------------- sentence level ------------------------------------->
+
+<hr>
+<h5>Sentence-level analysis</h5>
+
+<form action="#" method="post" enctype="multipart/form-data">
+    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that need to be
+        analyzed in the box bellow: </p>
+    <p> The column name: <input type="text" name="column_name_s"></p>
+    <p>You file: <input type="file" name="sample_df"></p>
+    <p><input type="submit" name="submit"></p>
+</form>
+
+{% if mode=='sentence_level' %}
+
+
+    <a class="btn btn-info" role="button" href="{{output_path}}"
+   download="output.csv">
+  Download
+</a>
+
+<table>
+    <tr>
+        {% for col in column_names %}
+        <th>{{ col }}</th>
+        {% endfor %}
+    </tr>
+    {% for row in row_data %}
+    <tr>
+        {% for col, row_ in zip(column_names, row) %}
+        {% if col == link_column %}
+        <td>
+                {{ row_ }}
+        </td>
+        {% else %}
+        <td>{{row_}}</td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>
+
+{% endif %}
 
 
 
