@@ -25,7 +25,8 @@ def passivepy_page(mode='', **kwargs):
         df_sample_text = passivepy.match_text(sample_text)
         #return f'this is the result: '
         return render_template("passivepy_page.html", mode='sample_text', zip=zip, 
-                    column_names=df_sample_text.columns.values, row_data=list(df_sample_text.values.tolist()))        #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
+                    column_names=df_sample_text.columns.values, row_data=list(df_sample_text.values.tolist()))       
+                     #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
     
     # corpus level
     if request.method == 'POST' and request.form.get("column_name_c"):
