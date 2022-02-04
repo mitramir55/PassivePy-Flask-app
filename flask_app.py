@@ -20,7 +20,7 @@ app = Flask(__name__)
 def passivepy_page(mode='', **kwargs):
 
     # sample sentence ----------------------------------------------------------------
-    if request.method == 'POST' and request.form.get("sent"):
+    if request.method == 'POST' and request.form['submit'] == "Analyze sample":
         sample_text = request.form["sent"]
         df_sample_text = passivepy.match_text(sample_text)
         #return f'this is the result: '
@@ -28,8 +28,12 @@ def passivepy_page(mode='', **kwargs):
                     column_names=df_sample_text.columns.values, row_data=list(df_sample_text.values.tolist()))       
                      #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
     
-    # corpus level
-    if request.method == 'POST' and request.form.get("column_name_c"):
+    # corpus level----------------------------------------------------------------
+    if request.method == 'POST' and request.form['submit'] == "Analyze corpus-level":
+        if not request.form["column_name_c"]:
+            flash('Please enter the column name!')
+            return redirect(url_for('passivepy_page', error=True))
+
         column_name = request.form["column_name_c"]
 
         # if there was no file
@@ -71,8 +75,14 @@ def passivepy_page(mode='', **kwargs):
             #return render_template('passivepy_page.html', mode='corpus_level', tables=[df_detected_c.to_html(classes='data')], titles=df_detected_c.columns.values, output=output_path)
 
     
-    # corpus level -----------------------------------------------------------------------
-    if request.method == 'POST' and request.form.get("column_name_s"):
+    # sentence level -----------------------------------------------------------------------
+    if request.method == 'POST' and request.form['submit'] == "Analyze sentence-level":
+
+        if not request.form["column_name_s"]:
+            flash('Please enter the column name!')
+            return redirect(url_for('passivepy_page', mode='sentence_level', error=True))
+
+
         column_name = request.form["column_name_s"]
 
         # if there was no file
@@ -113,15 +123,19 @@ def passivepy_page(mode='', **kwargs):
         return render_template('passivepy_page.html', mode='')
 
 
+
 # config------------------------------------------------
-UPLOAD_FOLDER = 'uploaded_files'
+UPLOAD_FOLDER = 'uploaded_files/'
 ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['SECRET_KEY'] = '12345'
+
 if __name__ == "__main__":
     app.run(debug=True)
 
 #------------------------------------------------------
+
 
 
 
