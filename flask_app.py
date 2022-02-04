@@ -111,7 +111,7 @@ def passivepy_page(mode='', **kwargs):
                 df = pd.read_excel(file_path)
 
             # do the analysis
-            df_detected_s = passivepy.match_corpus_level(df=df, column_name = column_name)
+            df_detected_s = passivepy.match_sentence_level(df=df, column_name = column_name)
 
             # give it back to user
             output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 

@@ -1,13 +1,13 @@
-document,count_sents,all_passives,passive_count,passive_sents_count,passive_percentages,binary,Unnamed: 0,human_coding
-The politics being discussed were causing scene.,1,['being discussed'],1,1,1.0,1,0,1
-The world of politics is quite fascinating.,1,[],0,0,0.0,0,1,0
-I don usually participate in discussions about politics.,1,[],0,0,0.0,0,2,0
-The president was impeached before his second term.,1,['was impeached'],1,1,1.0,1,3,1
-The President just gave speech about COVID relief.,1,[],0,0,0.0,0,4,0
-I wish the government was better.,1,[],0,0,0.0,0,5,0
-Sanders fights for the working class.,1,[],0,0,0.0,0,6,0
-Politics is topic for the commoners.,1,[],0,0,0.0,0,7,0
-The passage of the bill was interrupted by politics.,1,['was interrupted'],1,1,1.0,1,8,1
-The Democratic candidate won the election by landslide.,1,[],0,0,0.0,0,9,0
-The House passed the bill with bipartisan support.,1,[],0,0,0.0,0,10,0
-Politics was the focus of her television viewing.,1,[],0,0,0.0,0,11,0
+docId,sentenceId,sentences,all_passives,all_passives_count,binary,Unnamed: 0,human_coding
+1,1,the politics being discussed were causing scene.,['being discussed'],1,1,0,1
+2,1,the world of politics is quite fascinating.,,0,0,1,0
+3,1,i don usually participate in discussions about politics.,,0,0,2,0
+4,1,the president was impeached before his second term.,['was impeached'],1,1,3,1
+5,1,the president just gave speech about covid relief.,,0,0,4,0
+6,1,i wish the government was better.,,0,0,5,0
+7,1,sanders fights for the working class.,,0,0,6,0
+8,1,politics is topic for the commoners.,,0,0,7,0
+9,1,the passage of the bill was interrupted by politics.,['was interrupted'],1,1,8,1
+10,1,the democratic candidate won the election by landslide.,,0,0,9,0
+11,1,the house passed the bill with bipartisan support.,,0,0,10,0
+12,1,politics was the focus of her television viewing.,,0,0,11,0
