@@ -50,8 +50,7 @@
 
 {% if mode=='corpus_level' %}
 
-    <a class="btn btn-info" role="button" href="{{output_path}}"
-   download="output.csv">
+    <a class="btn btn-info" role="button" href="{{url_for('static', filename='outputs/output.csv')}}">
   Download
 </a>
 
@@ -97,12 +96,9 @@
 
 {% if mode=='sentence_level' %}
 
-
-    <a class="btn btn-info" role="button" href="{{output_path}}"
-   download="output.csv">
-  Download
-</a>
-
+<a class="btn btn-info" role="button" href="{{url_for('static', filename='outputs/output.csv')}}">
+    Download
+  </a>
         <table>
             <tr>
                 {% for col in column_names %}
