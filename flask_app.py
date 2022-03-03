@@ -16,7 +16,7 @@ passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
 
 # Flask ----------------------------------------------------------------
 app = Flask(__name__)
-@app.route('/passivepy_page', methods=['POST', 'GET'])
+@app.route('/', methods=['POST', 'GET'])
 def passivepy_page(mode='', **kwargs):
 
     # sample sentence ----------------------------------------------------------------
@@ -71,8 +71,6 @@ def passivepy_page(mode='', **kwargs):
 
             # link_column is the column that I want to add a button to
             return render_template("passivepy_page.html", mode='corpus_level', zip=zip, column_names=df_detected_c.columns.values, row_data=list(df_detected_c.values.tolist()))
-
-            #return render_template('passivepy_page.html', mode='corpus_level', tables=[df_detected_c.to_html(classes='data')], titles=df_detected_c.columns.values, output=output_path)
 
     
     # sentence level -----------------------------------------------------------------------
