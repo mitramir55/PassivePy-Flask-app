@@ -123,7 +123,7 @@ def passivepy_page(mode='', **kwargs):
 
 
 # config------------------------------------------------
-UPLOAD_FOLDER = 'uploaded_files/'
+UPLOAD_FOLDER = 'static/uploaded_files/'
 ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
