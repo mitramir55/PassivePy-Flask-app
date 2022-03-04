@@ -1,9 +1,8 @@
 from flask import Flask, flash, redirect, url_for, render_template, request
 import pandas as pd
 import os
-from werkzeug.utils import secure_filename
-pd.set_option('display.max_colwidth', None)
 from PassivePySrc import PassivePy
+from werkzeug.utils import secure_filename
 
 
 def allowed_file(filename):
