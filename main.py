@@ -10,7 +10,7 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
-spacy_model = "en_core_web_lg"
+spacy_model = "en_core_web_sm"
 passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
 
 # Flask ----------------------------------------------------------------
