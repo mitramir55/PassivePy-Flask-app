@@ -26,10 +26,9 @@ def passivepy_page(mode='', **kwargs):
 
         sample_text = request.form["sent"]
         df_sample_text = passivepy.match_text(sample_text)
-        #return f'this is the result: '
+        
         return render_template("passivepy_page.html", mode='sample_text', zip=zip, 
                     column_names=df_sample_text.columns.values, row_data=list(df_sample_text.values.tolist()))       
-                     #return render_template('result.html', tables=[df.to_html(classes='data')], titles=df.columns.values)
     
     # corpus level----------------------------------------------------------------
     if request.method == 'POST' and request.form['submit'] == "Analyze corpus-level":
@@ -75,7 +74,6 @@ def passivepy_page(mode='', **kwargs):
             # link_column is the column that I want to add a button to
             return render_template("passivepy_page.html", mode='corpus_level', zip=zip, column_names=df_detected_c.columns.values, row_data=list(df_detected_c.values.tolist()))
 
-    
     # sentence level -----------------------------------------------------------------------
     if request.method == 'POST' and request.form['submit'] == "Analyze sentence-level":
 
@@ -120,6 +118,8 @@ def passivepy_page(mode='', **kwargs):
 
             return render_template("passivepy_page.html", mode='sentence_level', zip=zip, 
             column_names=df_detected_s.columns.values, row_data=list(df_detected_s.values.tolist()))
+    
+    # main page------------------------------------------------------------------
     else:
         return render_template('passivepy_page.html', mode='')
 
