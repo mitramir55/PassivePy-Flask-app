@@ -5,7 +5,7 @@
 <h5>Single sentence analysis</h5>
 <form action="#" method="post">
     <p>Please enter your sentence in the box bellow: </p>
-    <p><input type="text" name="sent"></p>
+    <p><input type="text" name="sent" aria-label="sent"></p>
     <p><input  type="submit" name="submit" value="Analyze sample"></p>
 </form>
 
@@ -41,10 +41,10 @@
 <h5>Corpus-level analysis</h5>
 
 <form action="#" method="post" enctype="multipart/form-data">
-    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that need to be
+    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that needs to be
         analyzed in the box bellow: </p>
-    <p> The column name: <input type="text" name="column_name_c"></p>
-    <p>Your file: <input type="file" name="sample_df"></p>
+    <label> The column name (case-sensitive): <input type="text" name="column_name_c"></label>
+    <label>Your file: <input type="file" name="sample_df"></label>
     <p><input type="submit" name="submit" value="Analyze corpus-level"></p>
 </form>
 
@@ -87,10 +87,10 @@
 <h5>Sentence-level analysis</h5>
 
 <form action="#" method="post" enctype="multipart/form-data">
-    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that need to be
+    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that needs to be
         analyzed in the box bellow: </p>
-    <p> The colsumn name: <input type="text" name="column_name_s"></p>
-    <p>Your file: <input type="file" name="sample_df"></p>
+    <label> The column name (case-sensitive): <input type="text" name="column_name_s"></label>
+    <label>Your file: <input type="file" name="sample_df"></label>
     <p><input type="submit" name="submit" value="Analyze sentence-level"></p>
 </form>
 
@@ -125,11 +125,11 @@
      
         {% with messages = get_flashed_messages() %}
         {% if messages %}
-            <ul class=flashes>
             {% for message in messages %}
+            <ul class=flashes>
             <li>{{ message }}</li>
-            {% endfor %}
             </ul>
+            {% endfor %}
         {% endif %}
         {% endwith %}
 {% endif %}

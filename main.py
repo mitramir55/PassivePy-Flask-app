@@ -20,6 +20,10 @@ def passivepy_page(mode='', **kwargs):
 
     # sample sentence ----------------------------------------------------------------
     if request.method == 'POST' and request.form['submit'] == "Analyze sample":
+        if not request.form["sent"]:
+            flash('Please enter the sentence!')
+            return redirect(url_for('passivepy_page', error=True))
+
         sample_text = request.form["sent"]
         df_sample_text = passivepy.match_text(sample_text)
         #return f'this is the result: '
