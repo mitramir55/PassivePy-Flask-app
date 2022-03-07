@@ -1,13 +1,1151 @@
-docId,sentenceId,sentences,all_passives,all_passives_count,binary,Unnamed: 0,human_coding
-1,1,the politics being discussed were causing scene.,['being discussed'],1,1,0,1
-2,1,the world of politics is quite fascinating.,,0,0,1,0
-3,1,i don usually participate in discussions about politics.,,0,0,2,0
-4,1,the president was impeached before his second term.,['was impeached'],1,1,3,1
-5,1,the president just gave speech about covid relief.,,0,0,4,0
-6,1,i wish the government was better.,,0,0,5,0
-7,1,sanders fights for the working class.,,0,0,6,0
-8,1,politics is topic for the commoners.,,0,0,7,0
-9,1,the passage of the bill was interrupted by politics.,['was interrupted'],1,1,8,1
-10,1,the democratic candidate won the election by landslide.,,0,0,9,0
-11,1,the house passed the bill with bipartisan support.,,0,0,10,0
-12,1,politics was the focus of her television viewing.,,0,0,11,0
+document,count_sents,all_passives,passive_count,passive_sents_count,passive_percentages,binary,Unnamed: 0,PassiveMatch(es),PassiveCount,ID,Test,Cond,human_coding,match
+The politics being discussed were causing scene.,1,['being discussed'],1,1,1.0,1,0,['being discussed'],1,A3ATU3VULAB7K2,2.0,2,1,True
+The world of politics is quite fascinating.,1,[],0,0,0.0,0,1,,0,A1CTJ8UT7SF317,1.0,1,0,True
+I don usually participate in discussions about politics.,1,[],0,0,0.0,0,2,,0,A327Q0Y175MEH7,1.0,1,0,True
+The president was impeached before his second term.,1,['was impeached'],1,1,1.0,1,3,['was impeached'],1,A19TD2J8506A4Y,1.0,2,1,True
+The President just gave speech about COVID relief.,1,[],0,0,0.0,0,4,,0,A2DDXYTEVDV5F5,1.0,1,0,True
+I wish the government was better.,1,[],0,0,0.0,0,5,,0,AJ9O2ZA0E8UDZ,2.0,2,0,True
+Sanders fights for the working class.,1,[],0,0,0.0,0,6,,0,AYXXMHLZRAPF9,1.0,1,0,True
+Politics is topic for the commoners.,1,[],0,0,0.0,0,7,,0,A3M0L33TPD346S,1.0,1,0,True
+The passage of the bill was interrupted by politics.,1,['was interrupted'],1,1,1.0,1,8,['was interrupted'],1,A33GB614ST7J82,1.0,2,1,True
+The Democratic candidate won the election by landslide.,1,[],0,0,0.0,0,9,,0, COPIEDAKHKMEPXX1YZ9,2.0,1,0,True
+The House passed the bill with bipartisan support.,1,[],0,0,0.0,0,10,,0,A23273YME4RCEB,1.0,1,0,True
+Politics was the focus of her television viewing.,1,[],0,0,0.0,0,11,,0,A3O4WYGKH31OX,1.0,2,0,True
+"A dangerous game, politics sometimes is.",2,[],0,0,0.0,0,12,,0,A3NLSGHK6RFXA8,1.0,2,0,True
+Donald Trump destroyed the Republican Party.,1,[],0,0,0.0,0,13,,0,AOJF7CPZVK5U3,1.0,1,0,True
+An interesting election had occured.,1,[],0,0,0.0,0,14,,0,A154ZJKRSX6847,1.0,2,1,False
+Politics is believed to be unimportant by number of Americans.,1,['is believed'],1,1,1.0,1,15,['is believed'],1,A3FXVNZ5VG98IP,1.0,2,1,True
+I am stunned at the impact politics is having on our country these days.,1,[],0,0,0.0,0,16,['am stunned'],1,AYXN53TNFG71P,1.0,1,0,False
+The president was elected last week. ,1,['was elected'],1,1,1.0,1,17,['was elected'],1,AMUKX1DM4ASA7,1.0,2,1,True
+Politics is hot topic issue for many Americans.,1,[],0,0,0.0,0,18,,0,AFE7E450NETF2,1.0,1,0,True
+POLITICS DRIVE EVERYONE CRAZY.,1,[],0,0,0.0,0,19,,0,A2DLZ9PK82J8L2,1.0,1,0,True
+Politics is den of snakes. ,1,[],0,0,0.0,0,20,,0,ARON01UO1YK7I,2.0,2,0,True
+I was happy to vote. ,1,[],0,0,0.0,0,21,,0,A3RNGN5WLE1OBU,1.0,1,0,True
+The past President did not do so well.,1,[],0,0,0.0,0,22,,0,A1ZZETG57T5D5X,2.0,2,0,True
+Politics is very messy,1,[],0,0,0.0,0,23,,0,A2Z75NJBZ46RE9,1.0,1,0,True
+American politics was ruined by Donald Trump.,1,['was ruined'],1,1,1.0,1,24,['was ruined'],1,A1CI5U3BLQ2DDS,1.0,2,1,True
+ Politics is the art of the possible. ,1,[],0,0,0.0,0,25,,0,A1CI5U3BLQ2DDS ,1.0,1,0,True
+He voted for the Democratic candidate. ,1,[],0,0,0.0,0,26,,0,ATSNZCC16HIOI,1.0,1,0,True
+I want to see the best politics from the Democratic Party ,1,[],0,0,0.0,0,27,,0,A1SWGSFIMZJQE,2.0,2,0,True
+Politics can can cause discomfort in some people. ,1,[],0,0,0.0,0,28,,0,A33UZLF8WW0DV1,2.0,2,0,True
+The Trump regime is far from over.,1,[],0,0,0.0,0,29,,0,A39GP79ULCP9J2,1.0,1,0,True
+Politics is contentious.,1,[],0,0,0.0,0,30,,0,A2X5BYJKVKSYQQ,1.0,1,0,True
+I once voted in local election ,1,[],0,0,0.0,0,31,,0,A12S5JDG2D5HEW,2.0,2,0,True
+I vote because it is my right.,1,[],0,0,0.0,0,32,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+The race was won by President Trump.,1,['was won'],1,1,1.0,1,33,['was won'],1,A3P1QF00PF2DF9,1.0,2,1,True
+I am watching this politician lie right now ,1,[],0,0,0.0,0,34,,0,A16ZLWV0QUJP65,2.0,1,0,True
+Joe Biden signed the stimulus bill.,1,[],0,0,0.0,0,35,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Politics have become senseless.,1,[],0,0,0.0,0,36,,0,A1ZLWV0QUJP65,2.0,2,1,False
+Trump is the worst president of all time. ,1,[],0,0,0.0,0,37,,0,AAL5LUI5U3NAV,1.0,1,0,True
+I do not know much about my country politics. ,1,[],0,0,0.0,0,38,,0,A1TK1M16KJJKEO,1.0,2,0,True
+I went to the political rally,1,[],0,0,0.0,0,39,,0,A79XOBCSS4NTG,1.0,1,0,True
+Politics is difficult career.,1,[],0,0,0.0,0,40,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+Politics are very controversial.,1,[],0,0,0.0,0,41,,0,A2SVKAI2PNTS79,2.0,2,0,True
+"The people voted for the President,",1,[],0,0,0.0,0,42,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+The country was shown lot of problems with politics,1,['was shown'],1,1,1.0,1,43,['was shown'],1,A2VNR6984SDFGQ,1.0,2,1,True
+The voters were important in deciding the election. ,1,[],0,0,0.0,0,44,,0,A3CLBF224TRYC9,1.0,2,0,True
+The man read about politics in his local newspaper.,1,[],0,0,0.0,0,45,,0,A8TLS2F8LFQ68,1.0,1,0,True
+Liberal politics are out of control. ,1,[],0,0,0.0,0,46,,0,AIJPLVW0ULYTH,2.0,1,0,True
+Most politicians seem to only be in it for themselves.,1,[],0,0,0.0,0,47,,0,A3CX0LXFHZ6I3I,1.0,2,0,True
+Getting involved in politics is easy.,1,[],0,0,0.0,0,48,,0,A2LEBJWW395FST,1.0,1,0,True
+The ballots were clearly marked on Election Day.,1,['were clearly marked'],1,1,1.0,1,49,['were clearly marked'],1,AFTSLCMJASJDR,1.0,2,1,True
+He had no interest in politics,1,[],0,0,0.0,0,50,,0,AA0EJ752F121Q,2.0,2,0,True
+Politics often threatens family gatherings that would otherwise be fun.,1,[],0,0,0.0,0,51,,0,A2VN0R4EGGV7KE,2.0,1,0,True
+I went and voted today.,1,[],0,0,0.0,0,52,,0,AJKA9BKC011F2,2.0,1,0,True
+The politics pay big role.,1,[],0,0,0.0,0,53,,0,A2X823PACMMOKP,1.0,1,0,True
+The mayor in the politicians office was corrupted. ,1,['was corrupted'],1,1,1.0,1,54,['was corrupted'],1,ALG1XBLARJ545,1.0,2,1,True
+The Republicans were defeated by the Democrats in the last US Presidential election.,1,['were defeated'],1,1,1.0,1,55,['were defeated'],1,A2SKOPFTRTNFUY,1.0,2,1,True
+Citizens were impacted by the president choices.,1,['were impacted'],1,1,1.0,1,56,['were impacted'],1,A347NXF6NQGM5G,1.0,2,1,True
+A person politics make up their personality.,1,[],0,0,0.0,0,57,,0,AFRKVRPZ2RHY8,1.0,2,0,True
+I am campaigning for cause that supports Republican Politics.,1,[],0,0,0.0,0,58,,0,A2OZKKX2O0YTLD,2.0,1,0,True
+Trump yelled at the heckler ,1,[],0,0,0.0,0,59,,0,A240OTT1T85UGT,1.0,1,0,True
+The family would have heated political arguments after dinner. ,1,[],0,0,0.0,0,60,,0,A55E4CZQLYYO3,2.0,2,0,True
+The debate tonight was heated ,1,[],0,0,0.0,0,61,,0,A3QNSOORS63W0D,2.0,1,0,True
+Politics requires suffering.,1,[],0,0,0.0,0,62,,0,A63XZD0XGIMAI,1.0,1,0,True
+There were not enough votes to elect him.,1,[],0,0,0.0,0,63,,0,A2ONKY3JGB34T3,1.0,2,1,False
+Joe Biden toured the country when he ran for President.,1,[],0,0,0.0,0,64,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Politics ruins society.,1,[],0,0,0.0,0,65,,0,A33B85TN97HQ33,1.0,1,0,True
+Donald Trump got beat by Joe Biden in the 2020 Elections.,1,['got beat'],1,1,1.0,1,66,['got beat'],1,A3J72C0SIACZBS,1.0,2,1,True
+An error was made in the tabulation of votes.,1,['was made'],1,1,1.0,1,67,['was made'],1,AW3PWVBIGPNAA,1.0,2,1,True
+Politics are very complicated.,1,[],0,0,0.0,0,68,,0,AC95JAUAM2L2Z,1.0,1,0,True
+Abortion is sensitive topic for many people.,1,[],0,0,0.0,0,69,,0,AFE7E450NETF2,1.0,2,0,True
+I am into politics,1,[],0,0,0.0,0,70,,0,AXR1QGU4KTMSZ,1.0,1,0,True
+The politician was impeached for extreme corruption.,1,['was impeached'],1,1,1.0,1,71,['was impeached'],1,COPIEDAKHKMEPXX1YZ9,2.0,2,1,True
+I don want to write anything about politics ,1,[],0,0,0.0,0,72,,0,AOZBPO12UMPUY,1.0,1,0,True
+Politics is in every workplace .,1,[],0,0,0.0,0,73,,0,A1JSPB0XCFUUG1,2.0,1,0,True
+The president was elected that night.,1,['was elected'],1,1,1.0,1,74,['was elected'],1,A2VAG94W4SK18C,1.0,2,1,True
+Politics can be stressful to be involved in. ,1,[],0,0,0.0,0,75,['be involved'],1,A2GIT09BQEUM9M,,1,0,False
+Politics are product of systems.,1,[],0,0,0.0,0,76,,0,A162CO8K267FU8,1.0,2,0,True
+I do not like Donal Trump.,1,[],0,0,0.0,0,77,,0,A3S9ASZKIIJ3WF,2.0,1,0,True
+Politics help society function.,1,[],0,0,0.0,0,78,,0,A3JUAN2Y9XTK5L,2.0,1,0,True
+I wish there had been different candidates running for President in the election.,1,[],0,0,0.0,0,79,,0,A23FK9ROU01U4D,2.0,2,1,False
+The nation is arguing over politics,1,[],0,0,0.0,0,80,,0,A79XOBCSS4NTG,1.0,2,0,True
+The president did not want to concede the ellection.,1,[],0,0,0.0,0,81,,0,AU34Y1DWWQ47O,1.0,1,0,True
+i liked politics,1,[],0,0,0.0,0,82,,0,A2TWX0MB777CAB,2.0,2,0,True
+Politics are slipper slope.,1,[],0,0,0.0,0,83,,0,A1HYNGG8LZUV47,2.0,1,0,True
+Politics never interested me growing up.,1,[],0,0,0.0,0,84,,0,AQDBBBTN8NE9X,2.0,2,1,False
+Politics would have to be considered.,1,['be considered'],1,1,1.0,1,85,['be considered'],1,A36G7I51D5O1M4,2.0,2,1,True
+The President signed the bill into law today.,1,[],0,0,0.0,0,86,,0,COPIEDAPV3GK8ZEXB0J,1.0,1,0,True
+I avoid talking about politics.,1,[],0,0,0.0,0,87,,0,A38LW34F26WBJY,1.0,1,0,True
+My favorite candidate is Joe Biden,1,[],0,0,0.0,0,88,,0,A35TZ4YGDSXSEC,1.0,1,0,True
+The American people were misled by the government message.,1,['were misled'],1,1,1.0,1,89,['were misled'],1,A37CSK5QI41636,1.0,2,1,True
+I feel like all they talk about is the politics on the news. ,1,[],0,0,0.0,0,90,,0,ACIWLS3IQPV1J,2.0,1,0,True
+My dad went to vote while I stayed in the car.,1,[],0,0,0.0,0,91,,0,A1N274L13ZKKI5,1.0,2,0,True
+Politics play major role in the formation of opinions.,1,[],0,0,0.0,0,92,,0,A3NG205QJ48IM4,1.0,1,0,True
+I did vote in the last election.,1,[],0,0,0.0,0,93,,0,A2I6YPPQK6BU09,1.0,1,0,True
+If I bring up politics at dinner I ll surely start fight.,1,[],0,0,0.0,0,94,,0,A1H4MYPDJ2K3VI,2.0,1,0,True
+Joe Biden was elected as the next president. ,1,['was elected'],1,1,1.0,1,95,['was elected'],1,A15B294KHVGPFV,1.0,2,1,True
+I really hate Republican s,1,[],0,0,0.0,0,96,,0,A3774HPOUKYTX7,1.0,1,0,True
+Politics can be stressful topic.,1,[],0,0,0.0,0,97,,0,ARTARDCXLJ5H6,2.0,2,0,True
+The taxes are low for education.,1,[],0,0,0.0,0,98,,0,A2RCUR9HJ9D0UQ,1.0,2,0,True
+I spoke with my friend about the political race.,1,[],0,0,0.0,0,99,,0,AO9AKYPPGGGZ4,2.0,1,0,True
+I am so tired of politics,1,[],0,0,0.0,0,100,,0,ADIW4L4IGU98R,1.0,1,0,True
+Jane plays games in politics by running for office under an independent party name.,1,[],0,0,0.0,0,101,,0,A34IZFOSHOZ4GN,1.0,1,0,True
+I voted in the last election. ,1,[],0,0,0.0,0,102,,0,A11ILN5YSUDVG8,1.0,1,0,True
+A rally was held for Biden by the Democratic party before the election. ,1,['was held'],1,1,1.0,1,103,['was held'],1,A13CFYL1AW272Y,1.0,2,1,True
+The state health department was affected negatively by the Governor vote to cut funding.,1,['was affected'],1,1,1.0,1,104,['was affected'],1,AAFM5PPF9P0W,1.0,2,1,True
+Bill Clinton slept with his intern Monika Lewinsky. ,1,[],0,0,0.0,0,105,,0,A20P819KPQWCK0,1.0,1,0,True
+Politics tends to go into one ear and out of the other.,1,[],0,0,0.0,0,106,,0,A2OKJSKQFMCZTP,1.0,2,0,True
+The new mayor seems to not know anything about politics.,1,[],0,0,0.0,0,107,,0,AM0FRMVODTMXA,1.0,1,0,True
+I enjoy watching politics on tv. ,1,[],0,0,0.0,0,108,,0,A2WSYQ5TS09U1,1.0,1,0,True
+Marisha votes for the Democratic Party. ,1,[],0,0,0.0,0,109,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+Politics are always on the television.,1,[],0,0,0.0,0,110,,0,A3C9B757QTE20C,2.0,1,0,True
+Politics can be complicated,1,[],0,0,0.0,0,111,,0,AK70USZXEJSF3,2.0,2,0,True
+I very active in politics.,1,[],0,0,0.0,0,112,,0,A3BWZ6V34W8SXX,2.0,1,0,True
+People often talk about how political discourse was more civil in the past. ,1,[],0,0,0.0,0,113,,0,A3U6RDG7BLH6YZ,2.0,1,0,True
+Some politicians are not to be trusted.,1,['be trusted'],1,1,1.0,1,114,['be trusted'],1,A2HUWXLMG214BI,2.0,2,1,True
+The mayor was satisfied with the voters opinion.,1,[],0,0,0.0,0,115,,0,A16DIQCMNWPBAN,2.0,2,0,True
+It is nice to see president that has morals ,1,[],0,0,0.0,0,116,,0,A357ADRGNGMMKC,1.0,1,0,True
+How much do you enjoy reading about politics ,1,[],0,0,0.0,0,117,,0,A3V2HVY764HJS4,2.0,1,0,True
+Politics is the biggest debate in America ,1,[],0,0,0.0,0,118,,0,A2W5PAZJG6X8Q8,2.0,2,0,True
+In politics senators make huge salaries.,1,[],0,0,0.0,0,119,,0,A118RTS8BOFIH7,1.0,1,0,True
+The election was lost by the Republican.,1,['was lost'],1,1,1.0,1,120,['was lost'],1,A31CNXHGR49DJR,1.0,2,1,True
+Politics can cumbersome,1,[],0,0,0.0,0,121,,0,A3OM2ZQ7FUDTIN,1.0,1,0,True
+Politics have ruined this country.,1,[],0,0,0.0,0,122,,0,A3PSV85ZUXP9VF,2.0,2,0,True
+Last year i voted for man with orange hair,1,[],0,0,0.0,0,123,,0,A3G11HOZ5PCWOH,2.0,2,0,True
+Politics is an exciting game to watch. ,1,[],0,0,0.0,0,124,,0,A33ELVLU0NX9N9,1.0,1,0,True
+The President sits at his desk.,1,[],0,0,0.0,0,125,,0,A2W434UNNBRS4L,1.0,2,0,True
+I think what is happening in the world is wrong,1,[],0,0,0.0,0,126,,0,A2EW08X2I87RXL,2.0,1,0,True
+Misleading statements were made during the debate.,1,['were made'],1,1,1.0,1,127,['were made'],1,AHTWQSOY6HTJI,1.0,2,1,True
+I hated that politics class.,1,[],0,0,0.0,0,128,,0,A16Y5JEB1EF9CY,1.0,2,0,True
+I think politics are overrated.,1,[],0,0,0.0,0,129,['are overrated'],1,A3M0L33TPD346S,2.0,2,0,False
+The president enacted some controversial policies.,1,[],0,0,0.0,0,130,,0,AY4KZOUEZ8BAM,1.0,1,0,True
+Politics pays havoc with people mind.,1,[],0,0,0.0,0,131,,0,A14Z1JSAR9JEON,1.0,2,0,True
+Politics is very important issue in our country.,1,[],0,0,0.0,0,132,,0,A3M2Q7EZCJ85GE,2.0,2,0,True
+I think I know lot about politics.,1,[],0,0,0.0,0,133,,0,A36W1PIV68AE5KÔÉÖ,2.0,2,0,True
+I will change people opinion about racial rights.,1,[],0,0,0.0,0,134,,0,ANR81FZBHHR0F,1.0,1,0,True
+Politics are not often discussed in the workplace.,1,['are not often discussed'],1,1,1.0,1,135,,0,A2UOOBZQ5L2EL1,2.0,2,1,False
+Politics are currently all anyone talks about at work.,1,[],0,0,0.0,0,136,,0,j2wj0096lt,2.0,1,0,True
+I love how the polling is going ,1,[],0,0,0.0,0,137,,0,A3NUGUAMBKYMZY,1.0,1,0,True
+Politics runs the world.,1,[],0,0,0.0,0,138,,0,A33TBDS0UALKW2,1.0,1,0,True
+The incumbent senator was defeated by the challenger.,1,['was defeated'],1,1,1.0,1,139,['was defeated'],1,A2BT7QVGXJKFKI,1.0,2,1,True
+"John was just elected mayor of our town, something he has always wanted to be.",1,['was just elected'],1,1,1.0,1,140,['was just elected'],1,A39J8MSTUDVH0D,1.0,1,1,True
+Politicians should not tweet about politics.,1,[],0,0,0.0,0,141,,0,A15X9KAJB8M54B,2.0,2,0,True
+politics is the bane of existence.,1,[],0,0,0.0,0,142,,0,A1CRE2Z623JZ6V,2.0,1,0,True
+The senator approval ratings had sunken since voting for the crime bill.,1,[],0,0,0.0,0,143,,0,A3H8A6SSZH6MQQ,2.0,2,1,False
+Politics was not topuc of conversation.,1,[],0,0,0.0,0,144,,0,A2137K4XEU12TI,1.0,2,0,True
+The mayor decides to run for office another year after successful year in politics.,1,[],0,0,0.0,0,145,,0,AMFIHFK9N0OVK,2.0,1,0,True
+I closely follow politics.,1,[],0,0,0.0,0,146,,0,A1JAWNX4R60ZZ0,1.0,1,0,True
+I voted for the President.,1,[],0,0,0.0,0,147,,0,A1MPJYJCUAOFOB,1.0,1,0,True
+I heard many things about politics.,1,[],0,0,0.0,0,148,,0,A3HT6YYXPBRKN3,2.0,2,0,True
+I believe politicians will not lead our country in the right direction.,1,[],0,0,0.0,0,149,,0,A3V9UGWBPDRFSG,1.0,1,0,True
+The preident does not like politics when there devicive.,1,[],0,0,0.0,0,150,,0,A1ZJ3TU4QJIKLY,2.0,2,0,True
+Politics is definitely very sensitive topic in this society.,1,[],0,0,0.0,0,151,,0,A129LL7SYP8EOE,2.0,1,0,True
+The vote certification was delayed several hours due to an attack on Congress.,1,['was delayed'],1,1,1.0,1,152,['was delayed'],1,A2VUF0V7HT51Q3,1.0,2,1,True
+In the past I was not very interested in politics.,1,[],0,0,0.0,0,153,,0,A3IB7YJHP04OHI,2.0,2,0,True
+The president is calling staff meeting.,1,[],0,0,0.0,0,154,,0,A13DHPKBQXN9R7,2.0,1,0,True
+I do not follow politics.,1,[],0,0,0.0,0,155,,0,A1B3K5W6NZ03U2,1.0,1,0,True
+The political ad was placed by Cathy.,1,['was placed'],1,1,1.0,1,156,['was placed'],1,A29KJK7GPUF3OT,1.0,2,1,True
+The politician scheduled his week-long campaign.,1,[],0,0,0.0,0,157,,0,A26A77APE2SUR5,2.0,2,0,True
+Politics makes people crazy ,1,[],0,0,0.0,0,158,,0,A8BSFVAPZBIUS ,1.0,1,0,True
+I am going to be running for office during the next election. ,1,[],0,0,0.0,0,159,,0,A1ADRYNCJIRFOO,1.0,1,0,True
+The election was won by the oldest candidate.,1,['was won'],1,1,1.0,1,160,['was won'],1,A1PAN54I7HWSZI,1.0,2,1,True
+ Effective campaigning is paramount to winning.,1,[],0,0,0.0,0,161,,0,AS8JG1LSWTMGY,2.0,2,0,True
+Politics are not for the soft hearted.,1,[],0,0,0.0,0,162,,0,A25D8WXH1F4CG9,1.0,1,0,True
+People in politics lie all the time.,1,[],0,0,0.0,0,163,,0,A1TK1M16KJJKEO,1.0,2,0,True
+George studied politics in college for his major.,1,[],0,0,0.0,0,164,,0,A1282WX3YWXM6E,2.0,1,0,True
+I VOTED IN THE LAST ELECTION,1,[],0,0,0.0,0,165,,0,A3SUUPLFBSG1T9,1.0,1,0,True
+Politics was used by student body.,1,['was used'],1,1,1.0,1,166,['was used'],1,A2T6EBB0Z6TQZS  ,1.0,2,1,True
+The nation is now calm after our new president has arrived.,1,[],0,0,0.0,0,167,,0,A3G1X3IP2VM4IK,2.0,2,0,True
+The Senator was begging for votes.,1,[],0,0,0.0,0,168,,0,A1KRDCZ1YYBUIZ,1.0,1,0,True
+We were in line with many Trump supporters. ,1,[],0,0,0.0,0,169,,0,A1X84CLJ7N1PLZ,1.0,2,0,True
+Politics can be disappointing subject.,1,[],0,0,0.0,0,170,,0,A141B3S3ZLY8DI,2.0,2,0,True
+The politics of it were getting messy.,1,[],0,0,0.0,0,171,,0,A1BDJMFP24FBGL,1.0,1,0,True
+the news told me about politics,1,[],0,0,0.0,0,172,,0,A3F34OE3VQ7W0V,1.0,2,0,True
+The Demomcrats conceded to the Republicans objections.,1,[],0,0,0.0,0,173,,0,A2BQ5JORLYGZMV,2.0,2,0,True
+The politicians are voting ,1,[],0,0,0.0,0,174,,0,A3ONF400XL2Y9U,1.0,1,0,True
+Politics have become too much to handle. ,1,[],0,0,0.0,0,175,,0,A2HDZE2L9EX2SY,1.0,1,0,True
+Trump was defeated,1,['was defeated'],1,1,1.0,1,176,['was defeated'],1,A2EY0J9LOPU3TU,1.0,2,1,True
+American politics have become highly polarized.,1,[],0,0,0.0,0,177,,0,A20SXG1DHDIDI7,1.0,1,0,True
+My political voice was suppressed by public opinion ,1,['was suppressed'],1,1,1.0,1,178,['was suppressed'],1,A2Y81T0DIFJ866,1.0,2,1,True
+Politics can be very complex to discuss ,1,[],0,0,0.0,0,179,,0,A2MF4QDKE40KVN,1.0,1,0,True
+who do you want to vote,1,[],0,0,0.0,0,180,,0,A7Z6P6K85HX54,1.0,2,0,True
+Politics are divisive topic.,1,[],0,0,0.0,0,181,,0,A2PY9UB56M2PP2,1.0,1,0,True
+Politics was once where Americans worked together to solve problems.,1,[],0,0,0.0,0,182,,0,A2JUTTLDE5LGHH,1.0,2,0,True
+I sometimes follow politics,1,[],0,0,0.0,0,183,,0,A2F58OOW7K3DD2,1.0,1,0,True
+Politics are all that he had to go on.,1,[],0,0,0.0,0,184,,0,A1QW2XUJ7KZCV5,2.0,2,0,True
+Some people just don understand. ,1,[],0,0,0.0,0,185,,0,A3G3TIX6FEMN8R,2.0,2,0,True
+The dog is barking at the mailman.,1,[],0,0,0.0,0,186,,0,A2DDPSXH2X96RF,1.0,1,0,True
+Politics are terrible right now,1,[],0,0,0.0,0,187,,0,A2BZY06YRWGEDL,2.0,1,0,True
+Poor decisions led to the loss by the candidate. ,1,[],0,0,0.0,0,188,,0,A1C8FN01981A69,2.0,2,0,True
+When will the next Congressmen run for office ,1,[],0,0,0.0,0,189,,0,A2DU76P3SED4T6,2.0,1,0,True
+I want to be more involed in Politics,1,[],0,0,0.0,0,190,,0,AYSX5GNO640MZ,1.0,1,0,True
+I voted at my local voting precinct.,1,[],0,0,0.0,0,191,,0,A2R30HQXQN76IC,1.0,1,0,True
+"The political process may move slowly, but eventually there are results.",1,[],0,0,0.0,0,192,,0,AMDUEMZUK9GJC,1.0,1,0,True
+The candidate is shown to have lied several times.,1,['is shown'],1,1,1.0,1,193,['is shown'],1,A2WS07SCLNP1GV,1.0,2,1,True
+"If politics were not allowed in the news, there would be no news. ",1,['were not allowed'],1,1,1.0,1,194,,0,A3V3LIPOU53GZQ,2.0,2,1,False
+The Democrats won the election this year.,1,[],0,0,0.0,0,195,,0,AQDA6OMC4W5V8,1.0,2,0,True
+President Biden wins the election.,1,[],0,0,0.0,0,196,,0,A1K3VCFF62LIO2,2.0,1,0,True
+Many citizens passionately debate politics.,1,[],0,0,0.0,0,197,,0,A2AFAWJX5LTUVN,2.0,1,0,True
+When is Biden going to make speech in Atlanta ,1,[],0,0,0.0,0,198,,0,AW8JVJQNLTXND,2.0,1,0,True
+The candidate is likely to win.,1,[],0,0,0.0,0,199,,0,A26ZENZ5G8AEGM,1.0,1,0,True
+People are made fools due to some political leaders.,1,['are made'],1,1,1.0,1,200,['are made'],1,A3Q9H7A8J8GR01,1.0,2,1,True
+The president was satisfied with the bill so he signed it. ,1,[],0,0,0.0,0,201,,0,A2SULQE4M8C3CM,2.0,2,0,True
+Politics changes the ways people understand each other.,1,[],0,0,0.0,0,202,,0,A2LDDDJ4WBKB8Y,1.0,1,0,True
+Politics can be tricky on either the democratic or the republican side.,1,[],0,0,0.0,0,203,,0,A2VJ27EN5W4MU,1.0,2,0,True
+They are following politics.,1,[],0,0,0.0,0,204,,0,A1SBWRAOJBEFIM,1.0,1,0,True
+THE POLITICS THIS DAYS ARE SO COMPLICATED.,1,[],0,0,0.0,0,205,,0,A12JQZP4XVOABB,2.0,2,0,True
+he hates politics,1,[],0,0,0.0,0,206,,0,AE5138F868GYB,1.0,1,0,True
+Politics can sometimes help person reason.,1,[],0,0,0.0,0,207,,0,AY2L2CZ6OKNEA,2.0,1,0,True
+The disease was released by the President.,1,['was released'],1,1,1.0,1,208,['was released'],1,A2S7LNJG767XIU,1.0,2,1,True
+Donald Trump frequently engages in politics with other political figures.,1,[],0,0,0.0,0,209,,0,A370S3V5OUNP4E,1.0,1,0,True
+He is going to run in the next election.,1,[],0,0,0.0,0,210,,0,A2ZKKOPPN3AX2G,1.0,2,0,True
+The politics of it are confusing.,1,[],0,0,0.0,0,211,,0,AH7I3K3OJKA5L,2.0,1,0,True
+Republicans and Democrats are opposed to one another.,1,[],0,0,0.0,0,212,,0,A5BCSSPC180AG,2.0,2,0,True
+Politics in the country suck ,1,[],0,0,0.0,0,213,,0,A1TO9C7AZND1VO,1.0,1,0,True
+That what became of the voters.,1,[],0,0,0.0,0,214,,0,AE0C5U5HZ7WR9,2.0,2,0,True
+I am moderate when it comes to politics.,1,[],0,0,0.0,0,215,,0,A1D4RC6K6Y5KAV,2.0,1,0,True
+I identify as Republican.,1,[],0,0,0.0,0,216,,0,A345TDMHP3DQ3G,1.0,1,0,True
+The position was removed from office,1,['was removed'],1,1,1.0,1,217,['was removed'],1,A1U5UPSCURNRAA,2.0,2,1,True
+Politics is very relevant topic in the world today.,1,[],0,0,0.0,0,218,,0,A18UTX5FD7NPRV,2.0,1,0,True
+Voters were discouraged to gather at the polls.,1,[],0,0,0.0,0,219,['were discouraged'],1,A3T79IEUFBB473,2.0,2,1,True
+The brothers argued over who they would vote for in the election.,1,[],0,0,0.0,0,220,,0,A3HKD5JYXYBK5Q,1.0,1,0,True
+I am over the politics.,1,[],0,0,0.0,0,221,,0,A3MSMV01T3S53S,2.0,1,0,True
+The election was very unfair.,1,[],0,0,0.0,0,222,,0,A2JAE9P7FQXU2T,2.0,2,0,True
+Politics makes me so upset ,1,[],0,0,0.0,0,223,,0,A23K77HMD9APAJ,1.0,1,0,True
+I avoid speaking about Politics while at work. ,1,[],0,0,0.0,0,224,,0,A322UHGPRL2UWO,2.0,1,0,True
+My political views were not recognized.,1,['were not recognized'],1,1,1.0,1,225,,0,A1EDKVYT9ZCGUH,2.0,2,1,False
+I will run for political office one day.,1,[],0,0,0.0,0,226,,0,A3CX8S6Q0QEW8E,1.0,1,0,True
+My mom was already aware of the current politics.,1,[],0,0,0.0,0,227,,0,AYX9OCFWBM939,2.0,2,0,True
+They battled about immigration in the debate last night.,1,[],0,0,0.0,0,228,,0,A1HNB2243A2PQH,2.0,2,0,True
+Her use of politics had been tricky to understanding in the meeting.,1,[],0,0,0.0,0,229,,0,A1Y38T7IZWJQAE,2.0,2,0,True
+The sports being gambled on were very fast paced.,1,['being gambled'],1,1,1.0,1,230,['being gambled'],1,A3ATU3VULAB7K2,2.0,2,1,True
+Sports is an entertaining activity.,1,[],0,0,0.0,0,231,,0,A1CTJ8UT7SF317,1.0,1,0,True
+I do not enjoy sports.,1,[],0,0,0.0,0,232,,0,A327Q0Y175MEH7,1.0,1,0,True
+The basketball team was driven home in bus.,1,['was driven'],1,1,1.0,1,233,['was driven'],1,A19TD2J8506A4Y,1.0,2,1,True
+I play basketball on the weekends.,1,[],0,0,0.0,0,234,,0,A2DDXYTEVDV5F5,1.0,1,0,True
+I wish the Lakers would win.,1,[],0,0,0.0,0,235,,0,AJ9O2ZA0E8UDZ,2.0,2,0,True
+Our pitcher throws 150km h.,1,[],0,0,0.0,0,236,,0,AYXXMHLZRAPF9,1.0,1,0,True
+I feel that sports are gateway to high fitness.,1,[],0,0,0.0,0,237,,0,A3M0L33TPD346S,1.0,1,0,True
+Sports were enjoyed by the fans.,1,['were enjoyed'],1,1,1.0,1,238,['were enjoyed'],1,A33GB614ST7J82,1.0,2,1,True
+The football player scored touchdown.,1,[],0,0,0.0,0,239,,0, COPIEDAKHKMEPXX1YZ9,2.0,1,0,True
+The quarterback caught the ball.,1,[],0,0,0.0,0,240,,0,A23273YME4RCEB,1.0,1,0,True
+Sports was the activity she enjoyed the most.,1,[],0,0,0.0,0,241,,0,A3O4WYGKH31OX,1.0,2,0,True
+Football is the sport I played in high school.,1,[],0,0,0.0,0,242,,0,A3NLSGHK6RFXA8,1.0,2,0,True
+Bob watched sports all day on TV.,1,[],0,0,0.0,0,243,,0,AOJF7CPZVK5U3,1.0,1,0,True
+Soccer was played by millions last year.,1,['was played'],1,1,1.0,1,244,['was played'],1,A154ZJKRSX6847,1.0,2,1,True
+Sports are watched for entertainment purposes by the masses.,1,['are watched'],1,1,1.0,1,245,['are watched'],1,A3FXVNZ5VG98IP,1.0,2,1,True
+My niece participates in various sports in school.,1,[],0,0,0.0,0,246,,0,AYXN53TNFG71P,1.0,1,0,True
+The ball was hit out of bounds.,1,['was hit'],1,1,1.0,1,247,['was hit'],1,AMUKX1DM4ASA7,1.0,2,1,True
+The soccer game is alot of fun.,1,[],0,0,0.0,0,248,,0,AFE7E450NETF2,1.0,1,0,True
+SPORTS DRIVE EVERYONE CRAZY. ,1,[],0,0,0.0,0,249,,0,A2DLZ9PK82J8L2,1.0,1,0,True
+Sports seem boring to me. ,1,[],0,0,0.0,0,250,,0,ARON01UO1YK7I,2.0,2,0,True
+Gymnastics is one of the sports I like watching. ,1,[],0,0,0.0,0,251,,0,A3RNGN5WLE1OBU,1.0,1,1,False
+The player had hit the ball so far.,1,[],0,0,0.0,0,252,,0,A1ZZETG57T5D5X,2.0,2,0,True
+Sports are entertaining to watch,1,[],0,0,0.0,0,253,,0,A2Z75NJBZ46RE9,1.0,1,0,True
+All sports were halted during the pandemic.,1,['were halted'],1,1,1.0,1,254,['were halted'],1,A1CI5U3BLQ2DDS,1.0,2,1,True
+ The government canceled all sports during the pandemic. ,1,[],0,0,0.0,0,255,,0,A1CI5U3BLQ2DDS ,1.0,1,0,True
+I love hitting the baseball. ,1,[],0,0,0.0,0,256,,0,ATSNZCC16HIOI,1.0,1,0,True
+I like watching sports on television ,1,[],0,0,0.0,0,257,,0,A1SWGSFIMZJQE,2.0,2,0,True
+Sports can help pass the time. ,1,[],0,0,0.0,0,258,,0,A33UZLF8WW0DV1,2.0,2,0,True
+Tiger Woods will not be playing golf due to his automobile accident.,1,[],0,0,0.0,0,259,,0,A39GP79ULCP9J2,1.0,1,0,True
+Sports is entertaining.,1,[],0,0,0.0,0,260,,0,A2X5BYJKVKSYQQ,1.0,1,0,True
+Sometimes sports games can seem little long.,1,[],0,0,0.0,0,261,,0,A12S5JDG2D5HEW,2.0,2,0,True
+I kick the soccer ball to Sam.,1,[],0,0,0.0,0,262,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+The baseball game was playing on the TV.,1,[],0,0,0.0,0,263,,0,A3P1QF00PF2DF9,1.0,2,0,True
+The quarterback is being tackled before the throw.,1,['is being tackled'],1,1,1.0,1,264,['being tackled'],1,A16ZLWV0QUJP65,2.0,1,1,True
+The first-ranked tennis player won Wimbledon.,1,[],0,0,0.0,0,265,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Sports channel was great last weekend,1,[],0,0,0.0,0,266,,0,A1ZLWV0QUJP65,2.0,2,0,True
+Candace is the fastest runner in her class. ,1,[],0,0,0.0,0,267,,0,AAL5LUI5U3NAV,1.0,1,0,True
+He plays on many sports teams. ,1,[],0,0,0.0,0,268,,0,A1TK1M16KJJKEO,1.0,2,0,True
+I played lot of sports,1,[],0,0,0.0,0,269,,0,A79XOBCSS4NTG,1.0,1,0,True
+Many people enjoy sports.,1,[],0,0,0.0,0,270,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+Sports are extremely fun to play when one is competitive.,1,[],0,0,0.0,0,271,,0,A2SVKAI2PNTS79,2.0,2,0,True
+Sports are popular with kids.,1,[],0,0,0.0,0,272,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+The sports hero was known for his homerun streak.,1,['was known'],1,1,1.0,1,273,['was known'],1,A2VNR6984SDFGQ,1.0,2,1,True
+He was one of the best players on the court. ,1,[],0,0,0.0,0,274,,0,A3CLBF224TRYC9,1.0,2,0,True
+The children played various sports on the playground.,1,[],0,0,0.0,0,275,,0,A8TLS2F8LFQ68,1.0,1,0,True
+Sports are keeping you healthy.,1,[],0,0,0.0,0,276,,0,AIJPLVW0ULYTH,2.0,1,0,True
+i not truly fan of football.,1,[],0,0,0.0,0,277,,0,A3CX0LXFHZ6I3I,1.0,2,0,True
+I playing sports more and more lately.,1,[],0,0,0.0,0,278,,0,A2LEBJWW395FST,1.0,1,0,True
+The football glided across the field.,1,[],0,0,0.0,0,279,,0,AFTSLCMJASJDR,1.0,2,0,True
+Sports are important to him.,1,[],0,0,0.0,0,280,,0,AA0EJ752F121Q,2.0,2,0,True
+The cyclist pedaled quickly away from his challengers.,1,[],0,0,0.0,0,281,,0,A2VN0R4EGGV7KE,2.0,1,0,True
+I played volleyball yesterday.,1,[],0,0,0.0,0,282,,0,AJKA9BKC011F2,2.0,1,0,True
+All sports has been cancelled due to the pandemic. ,1,['has been cancelled'],1,1,1.0,1,283,['been cancelled'],1,A2X823PACMMOKP,1.0,1,1,True
+The sports station will be cleaned by me.,1,['will be cleaned'],1,1,1.0,1,284,['be cleaned'],1,ALG1XBLARJ545,1.0,2,1,True
+My team was the recipient of the trophy.,1,[],0,0,0.0,0,285,,0,A2SKOPFTRTNFUY,1.0,2,0,True
+Swimming was one of my hobbies.,1,[],0,0,0.0,0,286,,0,A347NXF6NQGM5G,1.0,2,0,True
+Sports can be exciting,1,[],0,0,0.0,0,287,,0,AFRKVRPZ2RHY8,1.0,2,0,True
+I am watching Sports and eating nachos.,1,[],0,0,0.0,0,288,,0,A2OZKKX2O0YTLD,2.0,1,0,True
+He collided with the opposing player ,1,[],0,0,0.0,0,289,,0,A240OTT1T85UGT,1.0,1,0,True
+He used to play sports before the car crash.,1,[],0,0,0.0,0,290,,0,A55E4CZQLYYO3,2.0,2,0,True
+I play basketball.,1,[],0,0,0.0,0,291,,0,A3QNSOORS63W0D,2.0,1,0,True
+Sports remain entertaining.,1,[],0,0,0.0,0,292,,0,A63XZD0XGIMAI,1.0,1,0,True
+The baseball game was tiring.,1,[],0,0,0.0,0,293,,0,A2ONKY3JGB34T3,1.0,2,0,True
+Alex Rodriguez hit home run.,1,[],0,0,0.0,0,294,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Sports teaches people how to work in teams.,1,[],0,0,0.0,0,295,,0,A33B85TN97HQ33,1.0,1,0,True
+"If the team has weak offensive line, their quarterback will more likely be sacked.",1,['be sacked'],1,1,1.0,1,296,['be sacked'],1,A3J72C0SIACZBS,1.0,2,1,True
+The opposing team was prevented from scoring.,1,['was prevented'],1,1,1.0,1,297,['was prevented'],1,AW3PWVBIGPNAA,1.0,2,1,True
+We play sports.,1,[],0,0,0.0,0,298,,0,AC95JAUAM2L2Z,1.0,1,0,True
+Soccer is game reserved for dedicated athletes.,1,[],0,0,0.0,0,299,['game reserved'],1,AFE7E450NETF2,1.0,2,0,False
+im into sports,1,[],0,0,0.0,0,300,,0,AXR1QGU4KTMSZ,1.0,1,0,True
+The player was sent to the bench.,1,['was sent'],1,1,1.0,1,301,['was sent'],1,COPIEDAKHKMEPXX1YZ9,2.0,2,1,True
+Kids need sports for their physical development,1,[],0,0,0.0,0,302,,0,AOZBPO12UMPUY,1.0,1,0,True
+watching sports is fun.,1,[],0,0,0.0,0,303,,0,A1JSPB0XCFUUG1,2.0,1,0,True
+The ball was thrown.,1,['was thrown'],1,1,1.0,1,304,['was thrown'],1,A2VAG94W4SK18C,1.0,2,1,True
+Cheerleading was one of my favorite sports when I was in high school. ,1,[],0,0,0.0,0,305,,0,A2GIT09BQEUM9M,,1,0,True
+Sports are played. ,1,['are played'],1,1,1.0,1,306,['are played'],1,A162CO8K267FU8,1.0,2,1,True
+I hit the ball in baseball.,1,[],0,0,0.0,0,307,,0,A3S9ASZKIIJ3WF,2.0,1,0,True
+Sports bring fun to the masses.,1,[],0,0,0.0,0,308,,0,A3JUAN2Y9XTK5L,2.0,1,0,True
+Kansas City should have won the game.,1,[],0,0,0.0,0,309,,0,A23FK9ROU01U4D,2.0,2,0,True
+The sports team is good,1,[],0,0,0.0,0,310,,0,A79XOBCSS4NTG,1.0,2,0,True
+The quarterback threw the ball. ,1,[],0,0,0.0,0,311,,0,AU34Y1DWWQ47O,1.0,1,0,True
+i played sports,1,[],0,0,0.0,0,312,,0,A2TWX0MB777CAB,2.0,2,0,True
+Sports are the greatest thing ever created ,1,['thing ever created'],1,1,1.0,1,313,,0,A1HYNGG8LZUV47,2.0,1,0,True
+Sports were popular even amongst early man ,1,[],0,0,0.0,0,314,,0,AQDBBBTN8NE9X,2.0,2,0,True
+Sports were not his favorite topic.,1,[],0,0,0.0,0,315,,0,A36G7I51D5O1M4,2.0,2,0,True
+Sports was broadcasted earlier than usual.,1,['was broadcasted'],1,1,1.0,1,316,['was broadcasted'],1,COPIEDAPV3GK8ZEXB0J,1.0,1,1,True
+I love to play sports.,1,[],0,0,0.0,0,317,,0,A38LW34F26WBJY,1.0,1,0,True
+I performed well in my basketball game.,1,[],0,0,0.0,0,318,,0,A35TZ4YGDSXSEC,1.0,1,0,True
+The ball ended up in the goal.,1,[],0,0,0.0,0,319,,0,A37CSK5QI41636,1.0,2,0,True
+This was great year for Sports in Tampa. ,1,[],0,0,0.0,0,320,,0,ACIWLS3IQPV1J,2.0,1,0,True
+My brother played soccer and I was chatting to my friend while he was playing.,1,[],0,0,0.0,0,321,,0,A1N274L13ZKKI5,1.0,2,0,True
+Billy is sports fanatic.,1,[],0,0,0.0,0,322,,0,A3NG205QJ48IM4,1.0,1,0,True
+She did not have talent in Sports.,1,[],0,0,0.0,0,323,,0,A2I6YPPQK6BU09,1.0,1,0,True
+Sports isn cancelled yet. ,1,[],0,0,0.0,0,324,,0,A1H4MYPDJ2K3VI,2.0,1,1,False
+He was interested in playing basketball.,1,[],0,0,0.0,0,325,,0,A15B294KHVGPFV,1.0,2,0,True
+I love baseball ,1,[],0,0,0.0,0,326,,0,A3774HPOUKYTX7,1.0,1,0,True
+I played all types of sports when I was younger.,1,[],0,0,0.0,0,327,,0,ARTARDCXLJ5H6,2.0,2,0,True
+Football is fun to watch.,1,[],0,0,0.0,0,328,,0,A2RCUR9HJ9D0UQ,1.0,2,0,True
+I love playing and watching sports.,1,[],0,0,0.0,0,329,,0,AO9AKYPPGGGZ4,2.0,1,0,True
+I hate playing sports,1,[],0,0,0.0,0,330,,0,ADIW4L4IGU98R,1.0,1,0,True
+"Johnnie plays several sports, including basketball, football and wrestling.",1,[],0,0,0.0,0,331,,0,A34IZFOSHOZ4GN,1.0,1,0,True
+Sue cheered at the baseball game. ,1,[],0,0,0.0,0,332,,0,A11ILN5YSUDVG8,1.0,1,0,True
+Football was played by the kids during recess. ,1,['was played'],1,1,1.0,1,333,['was played'],1,A13CFYL1AW272Y,1.0,2,1,True
+The new player was delighted by the star player athletic ability.,1,['was delighted'],1,1,1.0,1,334,['was delighted'],1,AAFM5PPF9P0W,1.0,2,1,True
+Tom Brady the goat. ,1,[],0,0,0.0,0,335,,0,A20P819KPQWCK0,1.0,1,0,True
+Sports is not the only thing on television these days.,1,[],0,0,0.0,0,336,,0,A2OKJSKQFMCZTP,1.0,2,0,True
+i enjoy participating in sports,1,[],0,0,0.0,0,337,,0,AM0FRMVODTMXA,1.0,1,0,True
+I am playing sports this afternoon. ,1,[],0,0,0.0,0,338,,0,A2WSYQ5TS09U1,1.0,1,0,True
+Sam throws the soccer ball to his dog.,1,[],0,0,0.0,0,339,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+I watch the sport of baseball daily.,1,[],0,0,0.0,0,340,,0,A3C9B757QTE20C,2.0,1,0,True
+Sports can be means to express oneself,1,[],0,0,0.0,0,341,,0,AK70USZXEJSF3,2.0,2,0,True
+I love to play sports.,1,[],0,0,0.0,0,342,,0,A3BWZ6V34W8SXX,2.0,1,0,True
+I don watch sports as frequently as I used to. ,1,[],0,0,0.0,0,343,,0,A3U6RDG7BLH6YZ,2.0,1,0,True
+Sports figures are paid exorbitant amounts of money.,1,['are paid'],1,1,1.0,1,344,['are paid'],1,A2HUWXLMG214BI,2.0,2,0,False
+The team was cheered on by their fans.,1,['was cheered'],1,1,1.0,1,345,['was cheered'],1,A16DIQCMNWPBAN,2.0,2,1,True
+I am very interested in basketball.,1,[],0,0,0.0,0,346,,0,A357ADRGNGMMKC,1.0,1,0,True
+Sports is just not my interest.,1,[],0,0,0.0,0,347,,0,A3V2HVY764HJS4,2.0,1,0,True
+He never enjoyed playing sports.,1,[],0,0,0.0,0,348,,0,A2W5PAZJG6X8Q8,2.0,2,0,True
+Sports bring many people together.,1,[],0,0,0.0,0,349,,0,A118RTS8BOFIH7,1.0,1,0,True
+The game was lost by the team.,1,['was lost'],1,1,1.0,1,350,['was lost'],1,A31CNXHGR49DJR,1.0,2,1,True
+I love to participate in sports.,1,[],0,0,0.0,0,351,,0,A3OM2ZQ7FUDTIN,1.0,1,0,True
+I used to play sports when I was younger.,1,[],0,0,0.0,0,352,,0,A3PSV85ZUXP9VF,2.0,2,0,True
+I shot basketball and pooped at the same time. ,1,[],0,0,0.0,0,353,,0,A3G11HOZ5PCWOH,2.0,2,0,True
+Sports are way of killing time. ,1,[],0,0,0.0,0,354,,0,A33ELVLU0NX9N9,1.0,1,0,True
+The field was filled with players.,1,[],0,0,0.0,0,355,['was filled'],1,A2W434UNNBRS4L,1.0,2,0,False
+my team is winning,1,[],0,0,0.0,0,356,,0,A2EW08X2I87RXL,2.0,1,0,True
+Tackles were missed on the long touchdown run.,1,['were missed'],1,1,1.0,1,357,['were missed'],1,AHTWQSOY6HTJI,1.0,2,1,True
+I had the best time at that football game.,1,[],0,0,0.0,0,358,,0,A16Y5JEB1EF9CY,1.0,2,0,True
+Sports are mildly amusing.,1,[],0,0,0.0,0,359,,0,A3M0L33TPD346S,2.0,2,0,True
+The baseball player hit more home runs than any other player this season.,1,[],0,0,0.0,0,360,,0,AY4KZOUEZ8BAM,1.0,1,0,True
+Sports plays crucial role in everyone life.,1,[],0,0,0.0,0,361,,0,A14Z1JSAR9JEON,1.0,2,0,True
+"Being in football requires, good education and good attitude.",1,[],0,0,0.0,0,362,,0,A3M2Q7EZCJ85GE,2.0,2,0,True
+I watched sports on T.V. last night.,1,[],0,0,0.0,0,363,,0,A36W1PIV68AE5KÔÉÖ,2.0,2,0,True
+I played basketball when I was kid.,1,[],0,0,0.0,0,364,,0,ANR81FZBHHR0F,1.0,1,0,True
+Team sports ceased during the pandemic,1,[],0,0,0.0,0,365,,0,A2UOOBZQ5L2EL1,2.0,2,0,True
+Sports are great for getting in some extra exercise ,1,[],0,0,0.0,0,366,,0,j2wj0096lt,2.0,1,0,True
+"Oh man, that looks fun ",1,[],0,0,0.0,0,367,,0,A3NUGUAMBKYMZY,1.0,1,0,True
+Sports impact the betting business.,1,[],0,0,0.0,0,368,,0,A33TBDS0UALKW2,1.0,1,0,True
+The field goal was made by the kicker.,1,['was made'],1,1,1.0,1,369,['was made'],1,A2BT7QVGXJKFKI,1.0,2,1,True
+The quarterback practiced daily.,1,[],0,0,0.0,0,370,,0,A39J8MSTUDVH0D,1.0,1,0,True
+Extreme sports open up new horizons.,1,[],0,0,0.0,0,371,,0,A15X9KAJB8M54B,2.0,2,0,True
+sports are no longer exciting.,1,[],0,0,0.0,0,372,,0,A1CRE2Z623JZ6V,2.0,1,0,True
+The player could not keep track of the ball.,1,[],0,0,0.0,0,373,,0,A3H8A6SSZH6MQQ,2.0,2,0,True
+Sports were halted during the pandemic.,1,['were halted'],1,1,1.0,1,374,['were halted'],1,A2137K4XEU12TI,1.0,2,1,True
+Playing baseball with the team is one example of sports.,1,[],0,0,0.0,0,375,,0,AMFIHFK9N0OVK,2.0,1,0,True
+I play basketball.,1,[],0,0,0.0,0,376,,0,A1JAWNX4R60ZZ0,1.0,1,0,True
+I kicked the ball in the goal.,1,[],0,0,0.0,0,377,,0,A1MPJYJCUAOFOB,1.0,1,0,True
+I heard nothing about sports.,1,[],0,0,0.0,0,378,,0,A3HT6YYXPBRKN3,2.0,2,0,True
+I love football season and March Madness.,1,[],0,0,0.0,0,379,,0,A3V9UGWBPDRFSG,1.0,1,0,True
+my time was not recognized at the sports game.,1,['was not recognized'],1,1,1.0,1,380,,0,A1ZJ3TU4QJIKLY,2.0,2,1,False
+Sport are fun but are very difficult and time consuming when done professionally.,1,[],0,0,0.0,0,381,,0,A129LL7SYP8EOE,2.0,1,1,False
+The off-season is covered extensively on espn.com.,1,['is covered'],1,1,1.0,1,382,['is covered'],1,A2VUF0V7HT51Q3,1.0,2,1,True
+I never did much with sports.,1,[],0,0,0.0,0,383,,0,A3IB7YJHP04OHI,2.0,2,0,True
+The football player is running for office.,1,[],0,0,0.0,0,384,,0,A13DHPKBQXN9R7,2.0,1,0,True
+Football is the only sport I watch.,1,[],0,0,0.0,0,385,,0,A1B3K5W6NZ03U2,1.0,1,0,True
+The baseball game was watched at 5 P.M.,1,['was watched'],1,1,1.0,1,386,['was watched'],1,A29KJK7GPUF3OT,1.0,2,1,True
+The ball was dribbled by me.,1,['was dribbled'],1,1,1.0,1,387,['was dribbled'],1,A26A77APE2SUR5,2.0,2,1,True
+I love watching sports on TV.,1,[],0,0,0.0,0,388,,0,A8BSFVAPZBIUS ,1.0,1,0,True
+I am going to play some baseball ,1,[],0,0,0.0,0,389,,0,A1ADRYNCJIRFOO,1.0,1,0,True
+The ball was thrown by the tallest player on the team.,1,['was thrown'],1,1,1.0,1,390,['was thrown'],1,A1PAN54I7HWSZI,1.0,2,1,True
+The Basketball season is ending.,1,[],0,0,0.0,0,391,,0,AS8JG1LSWTMGY,2.0,2,0,True
+Sports are welcome respite.,1,[],0,0,0.0,0,392,,0,A25D8WXH1F4CG9,1.0,1,0,True
+Sports teams are always looking for new players. ,1,[],0,0,0.0,0,393,,0,A1TK1M16KJJKEO,1.0,2,0,True
+Frank played sports all through high school.,1,[],0,0,0.0,0,394,,0,A1282WX3YWXM6E,2.0,1,0,True
+I LOVE PLAYING GOLF,1,[],0,0,0.0,0,395,,0,A3SUUPLFBSG1T9,1.0,1,0,True
+Sports was used by politician.,1,['was used'],1,1,1.0,1,396,['was used'],1,A2T6EBB0Z6TQZS  ,1.0,2,1,True
+The player was left saddened by the bad play. ,1,['was left'],1,1,1.0,1,397,['was left'],1,A3G1X3IP2VM4IK,2.0,2,1,True
+I wish I could play softball.,1,[],0,0,0.0,0,398,,0,A1KRDCZ1YYBUIZ,1.0,1,0,True
+We were watching the ball game. ,1,[],0,0,0.0,0,399,,0,A1X84CLJ7N1PLZ,1.0,2,0,True
+Sports make me happy when my team wins.,1,[],0,0,0.0,0,400,,0,A141B3S3ZLY8DI,2.0,2,0,True
+The sports games were cancelled. ,1,['were cancelled'],1,1,1.0,1,401,['were cancelled'],1,A1BDJMFP24FBGL,1.0,1,1,True
+the baseball player was good at sports,1,[],0,0,0.0,0,402,,0,A3F34OE3VQ7W0V,1.0,2,0,True
+The Soccer player was sent to the bench.,1,['was sent'],1,1,1.0,1,403,['was sent'],1,A2BQ5JORLYGZMV,2.0,2,1,True
+I am playing basketball ,1,[],0,0,0.0,0,404,,0,A3ONF400XL2Y9U,1.0,1,0,True
+Everybody loves to watch sports.,1,[],0,0,0.0,0,405,,0,A2HDZE2L9EX2SY,1.0,1,0,True
+NBA fans are screwed,1,[],0,0,0.0,0,406,['are screwed'],1,A2EY0J9LOPU3TU,1.0,2,0,False
+The sports complex is across the street.,1,[],0,0,0.0,0,407,,0,A20SXG1DHDIDI7,1.0,1,0,True
+Sports were taking up significant part of my life,1,[],0,0,0.0,0,408,,0,A2Y81T0DIFJ866,1.0,2,0,True
+I love watching Sports ,1,[],0,0,0.0,0,409,,0,A2MF4QDKE40KVN,1.0,1,0,True
+I love football,1,[],0,0,0.0,0,410,,0,A7Z6P6K85HX54,1.0,2,0,True
+Soccer is the most watched of all sports worldwide.,1,[],0,0,0.0,0,411,,0,A2PY9UB56M2PP2,1.0,1,0,True
+Sports is now just another arm of politics. ,1,[],0,0,0.0,0,412,,0,A2JUTTLDE5LGHH,1.0,2,0,True
+I like basketball,1,[],0,0,0.0,0,413,,0,A2F58OOW7K3DD2,1.0,1,0,True
+He was very interested in sports in high school.,1,[],0,0,0.0,0,414,,0,A1QW2XUJ7KZCV5,2.0,2,0,True
+You missed my game. ,1,[],0,0,0.0,0,415,,0,A3G3TIX6FEMN8R,2.0,2,0,True
+Close the door after you come inside.,1,[],0,0,0.0,0,416,,0,A2DDPSXH2X96RF,1.0,1,0,True
+I like watching my sports right now,1,[],0,0,0.0,0,417,,0,A2BZY06YRWGEDL,2.0,1,0,True
+The ball was kicked by the goalie. ,1,['was kicked'],1,1,1.0,1,418,['was kicked'],1,A1C8FN01981A69,2.0,2,1,True
+When will the Chicago Bulls win their next game ,1,[],0,0,0.0,0,419,,0,A2DU76P3SED4T6,2.0,1,0,True
+I played basketball,1,[],0,0,0.0,0,420,,0,AYSX5GNO640MZ,1.0,1,0,True
+The ball sailed over my head and I lost the points.,1,[],0,0,0.0,0,421,,0,A2R30HQXQN76IC,1.0,1,0,True
+"Not everyone is sports fan, but I love them.",1,[],0,0,0.0,0,422,,0,AMDUEMZUK9GJC,1.0,1,0,True
+She had been the last to bat in two innings.,1,[],0,0,0.0,0,423,,0,A2WS07SCLNP1GV,1.0,2,0,True
+"At one time in history, sports were America favorite past time, but now it is being offended. ",1,['is being offended'],1,1,1.0,1,424,['being offended'],1,A3V3LIPOU53GZQ,2.0,2,1,True
+The team did an okay job this match.,1,[],0,0,0.0,0,425,,0,AQDA6OMC4W5V8,1.0,2,0,True
+Chris used to play baseball.,1,[],0,0,0.0,0,426,,0,A1K3VCFF62LIO2,2.0,1,0,True
+The students play sports every day.,1,[],0,0,0.0,0,427,,0,A2AFAWJX5LTUVN,2.0,1,0,True
+The Cardinals will begin playing in one hour. ,1,[],0,0,0.0,0,428,,0,AW8JVJQNLTXND,2.0,1,0,True
+The athlete won the race.,1,[],0,0,0.0,0,429,,0,A26ZENZ5G8AEGM,1.0,1,0,True
+Basketball is sport commonly played.,1,[],0,0,0.0,0,430,,0,A3Q9H7A8J8GR01,1.0,2,0,True
+The players celebrated when the game ended. ,1,[],0,0,0.0,0,431,,0,A2SULQE4M8C3CM,2.0,2,0,True
+Sports controls much of the attention in college towns.,1,[],0,0,0.0,0,432,,0,A2LDDDJ4WBKB8Y,1.0,1,0,True
+Sports can be very interesting and fun spectating event.,1,[],0,0,0.0,0,433,,0,A2VJ27EN5W4MU,1.0,2,0,True
+They played the sports.,1,[],0,0,0.0,0,434,,0,A1SBWRAOJBEFIM,1.0,1,0,True
+SPORTS IS ONE OF ACTIVITY TO BUILD YOUR BODY S IMMUNE SYSTEM.,1,[],0,0,0.0,0,435,,0,A12JQZP4XVOABB,2.0,2,0,True
+he likes sports,1,[],0,0,0.0,0,436,,0,AE5138F868GYB,1.0,1,0,True
+A sports team is selling t-shirts outside.,1,[],0,0,0.0,0,437,,0,AY2L2CZ6OKNEA,2.0,1,0,True
+The ball was caught by the catcher.,1,['was caught'],1,1,1.0,1,438,['was caught'],1,A2S7LNJG767XIU,1.0,2,1,True
+"Sports, such as football and soccer, entertain people of all ages.",1,[],0,0,0.0,0,439,,0,A370S3V5OUNP4E,1.0,1,0,True
+He was going to quit the team.,1,[],0,0,0.0,0,440,,0,A2ZKKOPPN3AX2G,1.0,2,0,True
+The sports arena is filled.,1,[],0,0,0.0,0,441,['is filled'],1,AH7I3K3OJKA5L,2.0,1,0,False
+A pitcher throws the ball to batter in baseball.,1,[],0,0,0.0,0,442,,0,A5BCSSPC180AG,2.0,2,0,True
+Sports are fun afterschool activity for kids.,1,[],0,0,0.0,0,443,,0,A1TO9C7AZND1VO,1.0,1,0,True
+I wish I hit the baseball.,1,[],0,0,0.0,0,444,,0,AE0C5U5HZ7WR9,2.0,2,0,True
+My favorite Sports game is arm chair football.,1,[],0,0,0.0,0,445,,0,A1D4RC6K6Y5KAV,2.0,1,0,True
+I played soccer.,1,[],0,0,0.0,0,446,,0,A345TDMHP3DQ3G,1.0,1,0,True
+Sports were never mentioned ,1,['were never mentioned'],1,1,1.0,1,447,,0,A1U5UPSCURNRAA,2.0,2,1,False
+Playing sports is great exercise.,1,[],0,0,0.0,0,448,,0,A18UTX5FD7NPRV,2.0,1,0,True
+Players had been taken off the field.,1,['had been taken'],1,1,1.0,1,449,['been taken'],1,A3T79IEUFBB473,2.0,2,1,True
+The ball just barely hit the hoop as it went through the basket.,1,[],0,0,0.0,0,450,,0,A3HKD5JYXYBK5Q,1.0,1,0,True
+Sports are fun.,1,[],0,0,0.0,0,451,,0,A3MSMV01T3S53S,2.0,1,0,True
+I wish I had seen the game.,1,[],0,0,0.0,0,452,,0,A2JAE9P7FQXU2T,2.0,2,0,True
+Sports is probably the absolute best way to pass time.,1,[],0,0,0.0,0,453,,0,A23K77HMD9APAJ,1.0,1,0,True
+Sports promote living an active lifestyle. ,1,[],0,0,0.0,0,454,,0,A322UHGPRL2UWO,2.0,1,0,True
+The player was sent off before the end of the period.,1,['was sent'],1,1,1.0,1,455,['was sent'],1,A1EDKVYT9ZCGUH,2.0,2,1,True
+I am on the way to tackle the player on the field.,1,[],0,0,0.0,0,456,,0,A3CX8S6Q0QEW8E,1.0,1,0,True
+Bill and Dan were talking about sports.,1,[],0,0,0.0,0,457,,0,AYX9OCFWBM939,2.0,2,0,True
+They won the game 10-7,1,[],0,0,0.0,0,458,,0,A1HNB2243A2PQH,2.0,2,0,True
+Sports were discussed at dinner yesterday.,1,['were discussed'],1,1,1.0,1,459,['were discussed'],1,A1Y38T7IZWJQAE,2.0,2,1,True
+The science being done was cutting edge.,1,['being done'],1,1,1.0,1,460,['being done'],1,A3ATU3VULAB7K2,2.0,2,1,True
+Science will solve many new problems.,1,[],0,0,0.0,0,461,,0,A1CTJ8UT7SF317,1.0,1,0,True
+I liked science in school.,1,[],0,0,0.0,0,462,,0,A327Q0Y175MEH7,1.0,1,0,True
+The students were tested on the periodic chart.,1,['were tested'],1,1,1.0,1,463,['were tested'],1,A19TD2J8506A4Y,1.0,2,1,True
+The biologists studies various life forms. ,1,[],0,0,0.0,0,464,,0,A2DDXYTEVDV5F5,1.0,1,0,True
+I wish that the days was longer.,1,[],0,0,0.0,0,465,,0,AJ9O2ZA0E8UDZ,2.0,2,0,True
+The engineer used result from esoteric mathematics.,1,[],0,0,0.0,0,466,,0,AYXXMHLZRAPF9,1.0,1,0,True
+Science is going to pave the way to the future.,1,[],0,0,0.0,0,467,,0,A3M0L33TPD346S,1.0,1,0,True
+A fascinating subject is science.,1,[],0,0,0.0,0,468,,0,A33GB614ST7J82,1.0,2,0,True
+The doctor discovered cure for cancer.,1,[],0,0,0.0,0,469,,0, COPIEDAKHKMEPXX1YZ9,2.0,1,0,True
+Atoms split during nuclear fission.,1,[],0,0,0.0,0,470,,0,A23273YME4RCEB,1.0,1,0,True
+Science was the theme of the fair.,1,[],0,0,0.0,0,471,,0,A3O4WYGKH31OX,1.0,2,0,True
+"When discussing science, less said the better.",1,[],0,0,0.0,0,472,,0,A3NLSGHK6RFXA8,1.0,2,0,True
+The scientist studies the new data.,1,[],0,0,0.0,0,473,,0,AOJF7CPZVK5U3,1.0,1,0,True
+Many research articles are published.,1,['are published'],1,1,1.0,1,474,['are published'],1,A154ZJKRSX6847,1.0,2,0,False
+Science is trusted by intelligent and informed people.,1,['is trusted'],1,1,1.0,1,475,['is trusted'],1,A3FXVNZ5VG98IP,1.0,2,1,True
+We should listen to science in our battle against COVID-19.,1,[],0,0,0.0,0,476,,0,AYXN53TNFG71P,1.0,1,0,True
+The chemicals were ordered by the lab.,1,['were ordered'],1,1,1.0,1,477,['were ordered'],1,AMUKX1DM4ASA7,1.0,2,1,True
+How does science relate in the studies of the humanities ,1,[],0,0,0.0,0,478,,0,AFE7E450NETF2,1.0,1,0,True
+SCIENCE MAKES EVERYONE HAVE FUN.,1,[],0,0,0.0,0,479,,0,A2DLZ9PK82J8L2,1.0,1,0,True
+Science is risky business. ,1,[],0,0,0.0,0,480,,0,ARON01UO1YK7I,2.0,2,0,True
+Perserverance successful landing delighted me ,1,[],0,0,0.0,0,481,,0,A3RNGN5WLE1OBU,1.0,1,0,True
+"The moon has been around for very long time, I wish I saw the rocket launch back in the day.",1,[],0,0,0.0,0,482,,0,A1ZZETG57T5D5X,2.0,2,0,True
+Science explains lot of phenomena ,1,[],0,0,0.0,0,483,,0,A2Z75NJBZ46RE9,1.0,1,0,True
+Science was almost destroyed by the ignorant masses.,1,['was almost destroyed'],1,1,1.0,1,484,['was almost destroyed'],1,A1CI5U3BLQ2DDS,1.0,2,1,True
+ Science will cure all our problems. ,1,[],0,0,0.0,0,485,,0,A1CI5U3BLQ2DDS ,1.0,1,0,True
+The scientists evaluated their theses in the lab. ,1,[],0,0,0.0,0,486,,0,ATSNZCC16HIOI,1.0,1,0,True
+I wish I was scientist ,1,[],0,0,0.0,0,487,,0,A1SWGSFIMZJQE,2.0,2,0,True
+Science isn believed by everyone. ,1,[],0,0,0.0,0,488,,0,A33UZLF8WW0DV1,2.0,2,1,False
+New video from the Mars landing is online.,1,[],0,0,0.0,0,489,,0,A39GP79ULCP9J2,1.0,1,0,True
+Science is useful.,1,[],0,0,0.0,0,490,,0,A2X5BYJKVKSYQQ,1.0,1,0,True
+Some people think that science is not real ,1,[],0,0,0.0,0,491,,0,A12S5JDG2D5HEW,2.0,2,0,True
+I look through telescopes to see the planet and stars. ,1,[],0,0,0.0,0,492,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+The infection was caused by covid.,1,['was caused'],1,1,1.0,1,493,['was caused'],1,A3P1QF00PF2DF9,1.0,2,1,True
+Theaters are moving slowly as I look at the sky.,1,[],0,0,0.0,0,494,,0,A16ZLWV0QUJP65,2.0,1,0,True
+The physics teacher advocated encouraging women students to study S.T.E.M. subjects.,2,[],0,0,0.0,0,495,,0,AOJD8D9NXVAR3,1.0,1,0,True
+The full moon passed last week.,1,[],0,0,0.0,0,496,,0,A1ZLWV0QUJP65,2.0,2,0,True
+She completed the lab experiment.,1,[],0,0,0.0,0,497,,0,AAL5LUI5U3NAV,1.0,1,0,True
+Mary studied science in college. ,1,[],0,0,0.0,0,498,,0,A1TK1M16KJJKEO,1.0,2,0,True
+I took the science class,1,[],0,0,0.0,0,499,,0,A79XOBCSS4NTG,1.0,1,0,True
+Science study is gaining interest.,1,[],0,0,0.0,0,500,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+Science is difficult subject.,1,[],0,0,0.0,0,501,,0,A2SVKAI2PNTS79,2.0,2,0,True
+Science classes are full.,1,[],0,0,0.0,0,502,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+Science is known for its research.,1,['is known'],1,1,1.0,1,503,['is known'],1,A2VNR6984SDFGQ,1.0,2,0,False
+Scientists were studying. ,1,[],0,0,0.0,0,504,,0,A3CLBF224TRYC9,1.0,2,0,True
+The teacher showed the students the science textbook.,1,[],0,0,0.0,0,505,,0,A8TLS2F8LFQ68,1.0,1,0,True
+The science of global warming is very popular. ,1,[],0,0,0.0,0,506,,0,AIJPLVW0ULYTH,2.0,1,0,True
+Science has come such long way since i was born.,1,[],0,0,0.0,0,507,['was born'],1,A3CX0LXFHZ6I3I,1.0,2,0,False
+I studying science so I can make career out of it.,1,[],0,0,0.0,0,508,,0,A2LEBJWW395FST,1.0,1,0,True
+The chemical interaction resulted in an explosion.,1,[],0,0,0.0,0,509,,0,AFTSLCMJASJDR,1.0,2,0,True
+He is interested in Science,1,[],0,0,0.0,0,510,,0,AA0EJ752F121Q,2.0,2,0,True
+Dr. Fauci applies science when he speaks about Covid strategy.,1,[],0,0,0.0,0,511,,0,A2VN0R4EGGV7KE,2.0,1,0,True
+We performed an experiment in the lab today.,1,[],0,0,0.0,0,512,,0,AJKA9BKC011F2,2.0,1,0,True
+Science is the key to make progress. ,1,[],0,0,0.0,0,513,,0,A2X823PACMMOKP,1.0,1,0,True
+The science fair will be very busy today.,1,[],0,0,0.0,0,514,,0,ALG1XBLARJ545,1.0,2,0,True
+My science textbook was rather outdated.,1,[],0,0,0.0,0,515,,0,A2SKOPFTRTNFUY,1.0,2,0,True
+A lot of time was put into researching for vaccine.,1,['was put'],1,1,1.0,1,516,['was put'],1,A347NXF6NQGM5G,1.0,2,1,True
+The science of it is strong.,1,[],0,0,0.0,0,517,,0,AFRKVRPZ2RHY8,1.0,2,0,True
+I am taking Science class.,1,[],0,0,0.0,0,518,,0,A2OZKKX2O0YTLD,2.0,1,0,True
+I stirred the bot until the chemical blew up ,1,[],0,0,0.0,0,519,,0,A240OTT1T85UGT,1.0,1,0,True
+She studied science at the local university. ,1,[],0,0,0.0,0,520,,0,A55E4CZQLYYO3,2.0,2,0,True
+I conduct chemical experiments.,1,[],0,0,0.0,0,521,,0,A3QNSOORS63W0D,2.0,1,0,True
+Science explores our existance.,1,[],0,0,0.0,0,522,,0,A63XZD0XGIMAI,1.0,1,0,True
+Science was never strong topic for me in school.,1,[],0,0,0.0,0,523,,0,A2ONKY3JGB34T3,1.0,2,0,True
+Dr. Fauci made remarks about the variants of COVID-19.,1,[],0,0,0.0,0,524,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Science gives many people employment opportunities.,1,[],0,0,0.0,0,525,,0,A33B85TN97HQ33,1.0,1,0,True
+Pluto was discovered in the 20th century.,1,['was discovered'],1,1,1.0,1,526,['was discovered'],1,A3J72C0SIACZBS,1.0,2,1,True
+Money was not granted for research.,1,['was not granted'],1,1,1.0,1,527,,0,AW3PWVBIGPNAA,1.0,2,1,False
+Science has many different categories.,1,[],0,0,0.0,0,528,,0,AC95JAUAM2L2Z,1.0,1,0,True
+Chemistry reveals the mysteries of everyday chain reactions.,1,[],0,0,0.0,0,529,,0,AFE7E450NETF2,1.0,2,0,True
+im into science,1,[],0,0,0.0,0,530,,0,AXR1QGU4KTMSZ,1.0,1,0,True
+Chemistry is an interesting field of study.,1,[],0,0,0.0,0,531,,0,COPIEDAKHKMEPXX1YZ9,2.0,2,0,True
+Science rocks,1,[],0,0,0.0,0,532,,0,AOZBPO12UMPUY,1.0,1,0,True
+Science is important for growth.,1,[],0,0,0.0,0,533,,0,A1JSPB0XCFUUG1,2.0,1,0,True
+The animals were used in the experiment.,1,['were used'],1,1,1.0,1,534,['were used'],1,A2VAG94W4SK18C,1.0,2,1,True
+Science can be quite fun when doing experiments. ,1,[],0,0,0.0,0,535,,0,A2GIT09BQEUM9M,,1,0,True
+Science is great.,1,[],0,0,0.0,0,536,,0,A162CO8K267FU8,1.0,2,0,True
+I love science.,1,[],0,0,0.0,0,537,,0,A3S9ASZKIIJ3WF,2.0,1,0,True
+Science lead to medical progress.,1,[],0,0,0.0,0,538,,0,A3JUAN2Y9XTK5L,2.0,1,0,True
+He was late for his geology class yesterday.,1,[],0,0,0.0,0,539,,0,A23FK9ROU01U4D,2.0,2,0,True
+The science class seems fun,1,[],0,0,0.0,0,540,,0,A79XOBCSS4NTG,1.0,2,0,True
+The biologists helped create vaccine. ,1,[],0,0,0.0,0,541,,0,AU34Y1DWWQ47O,1.0,1,0,True
+he enjoyed sceince,1,[],0,0,0.0,0,542,,0,A2TWX0MB777CAB,2.0,2,0,True
+"Science is so very exciting, especially for the younger kids.",1,[],0,0,0.0,0,543,,0,A1HYNGG8LZUV47,2.0,1,0,True
+Science was discussed at the meeting,1,['was discussed'],1,1,1.0,1,544,['was discussed'],1,AQDBBBTN8NE9X,2.0,2,1,True
+The subject discussed was science.,1,[],0,0,0.0,0,545,,0,A36G7I51D5O1M4,2.0,2,1,False
+Science required lot more study time than Math.,1,[],0,0,0.0,0,546,,0,COPIEDAPV3GK8ZEXB0J,1.0,1,0,True
+I read magazines about science.,1,[],0,0,0.0,0,547,,0,A38LW34F26WBJY,1.0,1,0,True
+"Science is the best learning subject,",1,[],0,0,0.0,0,548,,0,A35TZ4YGDSXSEC,1.0,1,0,True
+DNA was discovered by Watson and Crick.,1,['was discovered'],1,1,1.0,1,549,['was discovered'],1,A37CSK5QI41636,1.0,2,1,True
+Life is more like science experiment with each day changing. ,1,[],0,0,0.0,0,550,,0,ACIWLS3IQPV1J,2.0,1,0,True
+I experimented with with some salt in water while I read the instructions.,1,[],0,0,0.0,0,551,,0,A1N274L13ZKKI5,1.0,2,0,True
+Science makes the unbelievable understandable.,1,[],0,0,0.0,0,552,,0,A3NG205QJ48IM4,1.0,1,0,True
+I do not know much about science.,1,[],0,0,0.0,0,553,,0,A2I6YPPQK6BU09,1.0,1,0,True
+Science is the final frontier. ,1,[],0,0,0.0,0,554,,0,A1H4MYPDJ2K3VI,2.0,1,0,True
+The professor was struggling to teach evolution to the creationists. ,1,[],0,0,0.0,0,555,,0,A15B294KHVGPFV,1.0,2,0,True
+I really enjoy chemistry.,1,[],0,0,0.0,0,556,,0,A3774HPOUKYTX7,1.0,1,0,True
+We can learn lot of fun things in science class.,1,[],0,0,0.0,0,557,,0,ARTARDCXLJ5H6,2.0,2,0,True
+The scientist is from New York.,1,[],0,0,0.0,0,558,,0,A2RCUR9HJ9D0UQ,1.0,2,0,True
+Tyson names science as one of his favorite school subjects.,1,[],0,0,0.0,0,559,,0,AO9AKYPPGGGZ4,2.0,1,0,True
+I love science,1,[],0,0,0.0,0,560,,0,ADIW4L4IGU98R,1.0,1,0,True
+"I study science and therefore, am knowledgeable about vaccines.",1,[],0,0,0.0,0,561,,0,A34IZFOSHOZ4GN,1.0,1,0,True
+I mixed the chemical per instruction in the lab. ,1,[],0,0,0.0,0,562,,0,A11ILN5YSUDVG8,1.0,1,0,True
+The vaccine was developed by top scientists in the country. ,1,['was developed'],1,1,1.0,1,563,['was developed'],1,A13CFYL1AW272Y,1.0,2,1,True
+The microscope was focused on the sample of skin cells.,1,['was focused'],1,1,1.0,1,564,['was focused'],1,AAFM5PPF9P0W,1.0,2,1,True
+Bill Nye the Science guy had his own tv show. ,1,[],0,0,0.0,0,565,,0,A20P819KPQWCK0,1.0,1,0,True
+Science is the S is STEM.,1,[],0,0,0.0,0,566,,0,A2OKJSKQFMCZTP,1.0,2,0,True
+i wish i had engaged more in Science class,1,[],0,0,0.0,0,567,,0,AM0FRMVODTMXA,1.0,1,0,True
+I am going to Science class today. ,1,[],0,0,0.0,0,568,,0,A2WSYQ5TS09U1,1.0,1,0,True
+I am measuring the temperature of this beaker.,1,[],0,0,0.0,0,569,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+I take science class everyday.,1,[],0,0,0.0,0,570,,0,A3C9B757QTE20C,2.0,1,0,True
+Science explains great deal about the universe,1,[],0,0,0.0,0,571,,0,AK70USZXEJSF3,2.0,2,0,True
+I a big fan of science.,1,[],0,0,0.0,0,572,,0,A3BWZ6V34W8SXX,2.0,1,0,True
+Today settled science is tomorrow flat earth theory. ,1,[],0,0,0.0,0,573,,0,A3U6RDG7BLH6YZ,2.0,1,0,True
+Science can never answer every question.,1,[],0,0,0.0,0,574,,0,A2HUWXLMG214BI,2.0,2,0,True
+The science teacher was pleased with his students test scores.,1,[],0,0,0.0,0,575,,0,A16DIQCMNWPBAN,2.0,2,0,True
+This is the most important scientific breakthrough in recent years. ,1,[],0,0,0.0,0,576,,0,A357ADRGNGMMKC,1.0,1,0,True
+Every student must take class in science.,1,[],0,0,0.0,0,577,,0,A3V2HVY764HJS4,2.0,1,0,True
+The student skipped science class.,1,[],0,0,0.0,0,578,,0,A2W5PAZJG6X8Q8,2.0,2,0,True
+In Science many scientists spend their time researching new theories.,1,[],0,0,0.0,0,579,,0,A118RTS8BOFIH7,1.0,1,0,True
+The sea tides are controlled by the moon.,1,['are controlled'],1,1,1.0,1,580,['are controlled'],1,A31CNXHGR49DJR,1.0,2,1,True
+Science is must,1,[],0,0,0.0,0,581,,0,A3OM2ZQ7FUDTIN,1.0,1,0,True
+"The professor taught science, but was not very good at it.",1,[],0,0,0.0,0,582,,0,A3PSV85ZUXP9VF,2.0,2,0,True
+I skipped my science class. ,1,[],0,0,0.0,0,583,,0,A3G11HOZ5PCWOH,2.0,2,0,True
+Science tells us things about our world. ,1,[],0,0,0.0,0,584,,0,A33ELVLU0NX9N9,1.0,1,0,True
+The laboratory is filled with chemicals.,1,[],0,0,0.0,0,585,['is filled'],1,A2W434UNNBRS4L,1.0,2,0,False
+what is happening in the world right now is science,1,[],0,0,0.0,0,586,,0,A2EW08X2I87RXL,2.0,1,0,True
+False findings were presented at the conference. ,1,['were presented'],1,1,1.0,1,587,['were presented'],1,AHTWQSOY6HTJI,1.0,2,1,True
+"When I used to take biology, I enjoyed it.",1,[],0,0,0.0,0,588,,0,A16Y5JEB1EF9CY,1.0,2,0,True
+I think science is interesting.,1,[],0,0,0.0,0,589,,0,A3M0L33TPD346S,2.0,2,0,True
+The biologist fought with the psychologist about the results of the other.,1,[],0,0,0.0,0,590,,0,AY4KZOUEZ8BAM,1.0,1,0,True
+Science is the main driver of advancement.,1,[],0,0,0.0,0,591,,0,A14Z1JSAR9JEON,1.0,2,0,True
+Science use to be my favorite subject ,1,[],0,0,0.0,0,592,,0,A3M2Q7EZCJ85GE,2.0,2,0,True
+I watched man on about science experiments. ,1,[],0,0,0.0,0,593,,0,A36W1PIV68AE5KÔÉÖ,2.0,2,0,True
+I wish I could investigate more on volcanoes.,1,[],0,0,0.0,0,594,,0,ANR81FZBHHR0F,1.0,1,0,True
+Science was not taken into consideration during the discussion.,1,['was not taken'],1,1,1.0,1,595,,0,A2UOOBZQ5L2EL1,2.0,2,1,False
+Science is the favorite subject of my entire class.,1,[],0,0,0.0,0,596,,0,j2wj0096lt,2.0,1,0,True
+now we can blow it up ,1,[],0,0,0.0,0,597,,0,A3NUGUAMBKYMZY,1.0,1,0,True
+Science is making the world better place.,1,[],0,0,0.0,0,598,,0,A33TBDS0UALKW2,1.0,1,0,True
+The biology experiment was approved by the committee.,1,['was approved'],1,1,1.0,1,599,['was approved'],1,A2BT7QVGXJKFKI,1.0,2,1,True
+Science is Matt favorite subject he loves solving problems,1,[],0,0,0.0,0,600,,0,A39J8MSTUDVH0D,1.0,1,0,True
+Science has discovered the cell cycle is influenced by many things.,1,['is influenced'],1,1,1.0,1,601,['is influenced'],1,A15X9KAJB8M54B,2.0,2,1,True
+science is evolving continuously.,1,[],0,0,0.0,0,602,,0,A1CRE2Z623JZ6V,2.0,1,0,True
+The water was heated to boiling point.,1,[],0,0,0.0,0,603,['was heated'],1,A3H8A6SSZH6MQQ,2.0,2,1,True
+science has been given more recognition after covid.,1,['has been given'],1,1,1.0,1,604,['been given'],1,A2137K4XEU12TI,1.0,2,1,True
+Students perform experiments as part of learning about the subject of science.,1,[],0,0,0.0,0,605,,0,AMFIHFK9N0OVK,2.0,1,0,True
+It is important to study science.,1,[],0,0,0.0,0,606,,0,A1JAWNX4R60ZZ0,1.0,1,0,True
+Flowers produce nectar to attract insects.,1,[],0,0,0.0,0,607,,0,A1MPJYJCUAOFOB,1.0,1,0,True
+I heard science was important.,1,[],0,0,0.0,0,608,,0,A3HT6YYXPBRKN3,2.0,2,0,True
+I love learning about medical technology advances.,1,[],0,0,0.0,0,609,,0,A3V9UGWBPDRFSG,1.0,1,0,True
+The scientest was satisfied with his colegues anatomy esay.,2,[],0,0,0.0,0,610,,0,A1ZJ3TU4QJIKLY,2.0,2,0,True
+Science is very difficult to some people.,1,[],0,0,0.0,0,611,,0,A129LL7SYP8EOE,2.0,1,0,True
+The experiment was conducted over period of six months.,1,['was conducted'],1,1,1.0,1,612,['was conducted'],1,A2VUF0V7HT51Q3,1.0,2,1,True
+I wish I had studied science in school.,1,[],0,0,0.0,0,613,,0,A3IB7YJHP04OHI,2.0,2,0,True
+The lab tech is working late.,1,[],0,0,0.0,0,614,,0,A13DHPKBQXN9R7,2.0,1,0,True
+I like to read about science.,1,[],0,0,0.0,0,615,,0,A1B3K5W6NZ03U2,1.0,1,0,True
+The theory was proven by scientist.,1,['was proven'],1,1,1.0,1,616,['was proven'],1,A29KJK7GPUF3OT,1.0,2,1,True
+The frog was dissected for exploration.,1,['was dissected'],1,1,1.0,1,617,['was dissected'],1,A26A77APE2SUR5,2.0,2,1,True
+Science blows that theory out of the water.,1,[],0,0,0.0,0,618,,0,A8BSFVAPZBIUS ,1.0,1,0,True
+I am going to do crazy experiment in chemistry.,1,[],0,0,0.0,0,619,,0,A1ADRYNCJIRFOO,1.0,1,0,True
+The experiment was completed by the team with the largest monetary grant.,1,['was completed'],1,1,1.0,1,620,['was completed'],1,A1PAN54I7HWSZI,1.0,2,1,True
+Science knowledge has grown exponentially in the last decade. ,1,[],0,0,0.0,0,621,,0,AS8JG1LSWTMGY,2.0,2,0,True
+Science and politics make strange bedfellows.,1,[],0,0,0.0,0,622,,0,A25D8WXH1F4CG9,1.0,1,0,True
+Many people think science is the most important part of evolution. ,1,[],0,0,0.0,0,623,,0,A1TK1M16KJJKEO,1.0,2,0,True
+Ralph enjoyed teaching science in his classroom.,1,[],0,0,0.0,0,624,,0,A1282WX3YWXM6E,2.0,1,0,True
+VIROLOGY IS THE STUDY OF VIRUSES,1,[],0,0,0.0,0,625,,0,A3SUUPLFBSG1T9,1.0,1,0,True
+Science was neglected.,1,['was neglected'],1,1,1.0,1,626,['was neglected'],1,A2T6EBB0Z6TQZS  ,1.0,2,1,True
+The girl quickly cleaned up the mess she made after combining chemicals in the test tube.,1,[],0,0,0.0,0,627,,0,A3G1X3IP2VM4IK,2.0,2,0,True
+The scientist measured the chemicals for the experiment.,1,[],0,0,0.0,0,628,,0,A1KRDCZ1YYBUIZ,1.0,1,0,True
+We were studying physics. ,1,[],0,0,0.0,0,629,,0,A1X84CLJ7N1PLZ,1.0,2,0,True
+Science is about observation.,1,[],0,0,0.0,0,630,,0,A141B3S3ZLY8DI,2.0,2,0,True
+The science was sound and well reasoned.,1,[],0,0,0.0,0,631,,0,A1BDJMFP24FBGL,1.0,1,0,True
+the kids learned science at school,1,[],0,0,0.0,0,632,,0,A3F34OE3VQ7W0V,1.0,2,0,True
+The scientists were made to reschedule their rocket launch.,1,['were made'],1,1,1.0,1,633,['were made'],1,A2BQ5JORLYGZMV,2.0,2,1,True
+The science is evolving ,1,[],0,0,0.0,0,634,,0,A3ONF400XL2Y9U,1.0,1,0,True
+Science is the truth.,1,[],0,0,0.0,0,635,,0,A2HDZE2L9EX2SY,1.0,1,0,True
+it was called science matter,1,['was called'],1,1,1.0,1,636,['was called'],1,A2EY0J9LOPU3TU,1.0,2,0,False
+Science is always evolving with new information.,1,[],0,0,0.0,0,637,,0,A20SXG1DHDIDI7,1.0,1,0,True
+Science was denied in the national news,1,['was denied'],1,1,1.0,1,638,['was denied'],1,A2Y81T0DIFJ866,1.0,2,1,True
+Science can be difficult topic to discuss ,1,[],0,0,0.0,0,639,,0,A2MF4QDKE40KVN,1.0,1,0,True
+I hate science,1,[],0,0,0.0,0,640,,0,A7Z6P6K85HX54,1.0,2,0,True
+Science is my son favorite subject.,1,[],0,0,0.0,0,641,,0,A2PY9UB56M2PP2,1.0,1,0,True
+Science is our salvation. ,1,[],0,0,0.0,0,642,,0,A2JUTTLDE5LGHH,1.0,2,0,True
+I read about latest developments in science,1,[],0,0,0.0,0,643,,0,A2F58OOW7K3DD2,1.0,1,0,True
+Science was her second choice after she realized she didn qualify for the Arts program.,1,[],0,0,0.0,0,644,,0,A1QW2XUJ7KZCV5,2.0,2,0,True
+You forgot about the assignment. ,1,[],0,0,0.0,0,645,,0,A3G3TIX6FEMN8R,2.0,2,0,True
+I am baking chocolate cake this evening.,1,[],0,0,0.0,0,646,,0,A2DDPSXH2X96RF,1.0,1,0,True
+Science is doing wonders right now,1,[],0,0,0.0,0,647,,0,A2BZY06YRWGEDL,2.0,1,0,True
+Discoveries were made in the Chemistry laboratory. ,1,['were made'],1,1,1.0,1,648,['were made'],1,A1C8FN01981A69,2.0,2,1,True
+When will everyone have chance to get COVID-19 vaccine ,1,[],0,0,0.0,0,649,,0,A2DU76P3SED4T6,2.0,1,0,True
+Science helps me discover other planets.,1,[],0,0,0.0,0,650,,0,AYSX5GNO640MZ,1.0,1,0,True
+Stephen poured one chemical into another with small poof of smoke.,1,[],0,0,0.0,0,651,,0,A2R30HQXQN76IC,1.0,1,0,True
+The scientist was excited by her new discovery.,1,['was excited'],1,1,1.0,1,652,['was excited'],1,AMDUEMZUK9GJC,1.0,1,1,True
+The experiment had been repeated by other labs.,1,['had been repeated'],1,1,1.0,1,653,['been repeated'],1,A2WS07SCLNP1GV,1.0,2,1,True
+In science we were asked to build model volcano. ,1,['were asked'],1,1,1.0,1,654,['were asked'],1,A3V3LIPOU53GZQ,2.0,2,1,True
+I don really know much about science.,1,[],0,0,0.0,0,655,,0,AQDA6OMC4W5V8,1.0,2,0,True
+Sam is going to take the science exam.,1,[],0,0,0.0,0,656,,0,A1K3VCFF62LIO2,2.0,1,0,True
+We need to follow the science to get through this pandemic.,1,[],0,0,0.0,0,657,,0,A2AFAWJX5LTUVN,2.0,1,0,True
+The new trial for the vaccine will begin today. ,1,[],0,0,0.0,0,658,,0,AW8JVJQNLTXND,2.0,1,0,True
+Science is an important subject in school.,1,[],0,0,0.0,0,659,,0,A26ZENZ5G8AEGM,1.0,1,0,True
+Lot of benefits are provided by science.,1,['are provided'],1,1,1.0,1,660,['are provided'],1,A3Q9H7A8J8GR01,1.0,2,1,True
+The science experiment illustrated how water freezes. ,1,[],0,0,0.0,0,661,,0,A2SULQE4M8C3CM,2.0,2,0,True
+Science creates new knowledge we use to shape our world.,1,[],0,0,0.0,0,662,,0,A2LDDDJ4WBKB8Y,1.0,1,0,True
+We can learn lot about COVID-19 from science and research.,1,[],0,0,0.0,0,663,,0,A2VJ27EN5W4MU,1.0,2,0,True
+Children learn science.,1,[],0,0,0.0,0,664,,0,A1SBWRAOJBEFIM,1.0,1,0,True
+SCIENCE IS FUNDAMENTAL OF PHYSICS.,1,[],0,0,0.0,0,665,,0,A12JQZP4XVOABB,2.0,2,0,True
+I was good in Science.,1,[],0,0,0.0,0,666,,0,AE5138F868GYB,1.0,1,0,True
+Science has contributed to many advances in beauty.,1,[],0,0,0.0,0,667,,0,AY2L2CZ6OKNEA,2.0,1,0,True
+The monkey was studied by Scientist name Jack.,1,['was studied'],1,1,1.0,1,668,['was studied'],1,A2S7LNJG767XIU,1.0,2,1,True
+"Science, specifically biology, interests Kiera the most in school. ",1,[],0,0,0.0,0,669,,0,A370S3V5OUNP4E,1.0,1,0,True
+He was going to ask about climate change.,1,[],0,0,0.0,0,670,,0,A2ZKKOPPN3AX2G,1.0,2,0,True
+There is science to what will happen.,1,[],0,0,0.0,0,671,,0,AH7I3K3OJKA5L,2.0,1,0,True
+Scientists love facts.,1,[],0,0,0.0,0,672,,0,A5BCSSPC180AG,2.0,2,0,True
+Science is popular subject to take in college.,1,[],0,0,0.0,0,673,,0,A1TO9C7AZND1VO,1.0,1,0,True
+Who knows if it science or fiction ,1,[],0,0,0.0,0,674,,0,AE0C5U5HZ7WR9,2.0,2,0,True
+It is Science that is curing the nation from the Covid virus.,1,[],0,0,0.0,0,675,,0,A1D4RC6K6Y5KAV,2.0,1,0,True
+I hate studying science.,1,[],0,0,0.0,0,676,,0,A345TDMHP3DQ3G,1.0,1,0,True
+Science has been my worst subject ,1,[],0,0,0.0,0,677,,0,A1U5UPSCURNRAA,2.0,2,0,True
+Science is very big topic lately.,1,[],0,0,0.0,0,678,,0,A18UTX5FD7NPRV,2.0,1,0,True
+Discoveries in physic were lagging from past years.,1,[],0,0,0.0,0,679,,0,A3T79IEUFBB473,2.0,2,0,True
+Plants make nutrients with their leaves and roots.,1,[],0,0,0.0,0,680,,0,A3HKD5JYXYBK5Q,1.0,1,0,True
+Science is interesting.,1,[],0,0,0.0,0,681,,0,A3MSMV01T3S53S,2.0,1,0,True
+The science was manipulated to make the people wear masks.,1,['was manipulated'],1,1,1.0,1,682,['was manipulated'],1,A2JAE9P7FQXU2T,2.0,2,1,True
+I love how complex science is ,1,[],0,0,0.0,0,683,,0,A23K77HMD9APAJ,1.0,1,0,True
+Science divides into many different sub-categories. ,1,[],0,0,0.0,0,684,,0,A322UHGPRL2UWO,2.0,1,0,True
+My hypothesis was not recognized.,1,['was not recognized'],1,1,1.0,1,685,,0,A1EDKVYT9ZCGUH,2.0,2,1,False
+I wish I could use the microscope.,1,[],0,0,0.0,0,686,,0,A3CX8S6Q0QEW8E,1.0,1,0,True
+The teacher was completed the science fair.,1,['was completed'],1,1,1.0,1,687,['was completed'],1,AYX9OCFWBM939,2.0,2,0,False
+They had found some evidence of rashes in the vaccine.,1,[],0,0,0.0,0,688,,0,A1HNB2243A2PQH,2.0,2,0,True
+Science has been an essential component of recovery from the global pandemic.,1,[],0,0,0.0,0,689,,0,A1Y38T7IZWJQAE,2.0,2,0,True
+The culture was being appropriated.,1,['was being appropriated'],1,1,1.0,1,690,['being appropriated'],1,A3ATU3VULAB7K2,2.0,2,1,True
+The culture is delightful to me.,1,[],0,0,0.0,0,691,,0,A1CTJ8UT7SF317,1.0,1,0,True
+I would love to learn about different culture ,1,[],0,0,0.0,0,692,,0,A327Q0Y175MEH7,1.0,1,0,True
+Thanksgiving dinner was eaten at home.,1,['was eaten'],1,1,1.0,1,693,['was eaten'],1,A19TD2J8506A4Y,1.0,2,1,True
+Americans enjoy barbecuing on July 4th. ,1,[],0,0,0.0,0,694,,0,A2DDXYTEVDV5F5,1.0,1,0,True
+I wish I could see them during the ceremony.,1,[],0,0,0.0,0,695,,0,AJ9O2ZA0E8UDZ,2.0,2,0,True
+I learning new language.,1,[],0,0,0.0,0,696,,0,AYXXMHLZRAPF9,1.0,1,0,True
+I feel culture is imperative to style.,1,[],0,0,0.0,0,697,,0,A3M0L33TPD346S,1.0,1,0,True
+The people were shaped by culture.,1,['were shaped'],1,1,1.0,1,698,['were shaped'],1,A33GB614ST7J82,1.0,2,1,True
+Young people these days are on their phones constantly.,1,[],0,0,0.0,0,699,,0, COPIEDAKHKMEPXX1YZ9,2.0,1,0,True
+"The Cherokee tribal traditions include language, spirituality, food, storytelling, and art.",1,[],0,0,0.0,0,700,,0,A23273YME4RCEB,1.0,1,0,True
+Culture was taught at school.,1,['was taught'],1,1,1.0,1,701,['was taught'],1,A3O4WYGKH31OX,1.0,2,1,True
+"As for culture, they clearly had none.",1,[],0,0,0.0,0,702,,0,A3NLSGHK6RFXA8,1.0,2,0,True
+The museum exhibit will make us question reality. ,1,[],0,0,0.0,0,703,,0,AOJF7CPZVK5U3,1.0,1,0,True
+Culture was common study topic.,1,[],0,0,0.0,0,704,,0,A154ZJKRSX6847,1.0,2,0,True
+Culture is passed down through generations of people.,1,['is passed'],1,1,1.0,1,705,['is passed'],1,A3FXVNZ5VG98IP,1.0,2,1,True
+I am very surprised at all of the Cancel Culture initiaves.,1,[],0,0,0.0,0,706,,0,AYXN53TNFG71P,1.0,1,0,True
+The magazine was delivered to her house. ,1,['was delivered'],1,1,1.0,1,707,['was delivered'],1,AMUKX1DM4ASA7,1.0,2,1,True
+Japanese culture thrives on an honorable set of values.,1,[],0,0,0.0,0,708,,0,AFE7E450NETF2,1.0,1,0,True
+EVERYONE IS MOLDED BY CULTURE. ,1,['is molded'],1,1,1.0,1,709,,0,A2DLZ9PK82J8L2,1.0,1,1,False
+Culture is an ideology. ,1,[],0,0,0.0,0,710,,0,ARON01UO1YK7I,2.0,2,0,True
+I enjoy culture activities such as dance and plays.,1,[],0,0,0.0,0,711,,0,A3RNGN5WLE1OBU,1.0,1,0,True
+The room is filled with lot of diversity.,1,[],0,0,0.0,0,712,['is filled'],1,A1ZZETG57T5D5X,2.0,2,0,False
+Culture enriches our lives,1,[],0,0,0.0,0,713,,0,A2Z75NJBZ46RE9,1.0,1,0,True
+Roman culture was destroyed by the barbarians.,1,['was destroyed'],1,1,1.0,1,714,['was destroyed'],1,A1CI5U3BLQ2DDS,1.0,2,1,True
+Culture enlivens our lives.,1,[],0,0,0.0,0,715,,0,A1CI5U3BLQ2DDS ,1.0,1,0,True
+The museum attendees gawked at the Egyptian tombs. ,1,[],0,0,0.0,0,716,,0,ATSNZCC16HIOI,1.0,1,0,True
+I will influence the culture ,1,[],0,0,0.0,0,717,,0,A1SWGSFIMZJQE,2.0,2,0,True
+Cultures are different all over the world. ,1,[],0,0,0.0,0,718,,0,A33UZLF8WW0DV1,2.0,2,0,True
+The Scandinavian Heritage festival takes place on Memorial Day weekend.,1,[],0,0,0.0,0,719,,0,A39GP79ULCP9J2,1.0,1,0,True
+The culture was toxic.,1,[],0,0,0.0,0,720,,0,A2X5BYJKVKSYQQ,1.0,1,0,True
+I always wondered what is American culture. ,1,[],0,0,0.0,0,721,,0,A12S5JDG2D5HEW,2.0,2,0,True
+Some cultures bow to each other in greeting.,1,[],0,0,0.0,0,722,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+Our culture has been overtaken by political correctness.,1,['has been overtaken'],1,1,1.0,1,723,['been overtaken'],1,A3P1QF00PF2DF9,1.0,2,1,True
+This concert is filled with cultural experience.,1,[],0,0,0.0,0,724,['is filled'],1,A16ZLWV0QUJP65,2.0,1,0,False
+I went to the museum to learn about Japanese art culture.,1,[],0,0,0.0,0,725,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Back in the day culture was important.,1,[],0,0,0.0,0,726,,0,A1ZLWV0QUJP65,2.0,2,0,True
+I learned lot about the African culture.,1,[],0,0,0.0,0,727,,0,AAL5LUI5U3NAV,1.0,1,0,True
+Her Irish culture shows when she get angry. ,1,[],0,0,0.0,0,728,,0,A1TK1M16KJJKEO,1.0,2,0,True
+I experience the country culture,1,[],0,0,0.0,0,729,,0,A79XOBCSS4NTG,1.0,1,0,True
+Culture is important to society.,1,[],0,0,0.0,0,730,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+Culture is varied among the world.,1,[],0,0,0.0,0,731,,0,A2SVKAI2PNTS79,2.0,2,0,True
+Culture is the way we understand our society.,1,[],0,0,0.0,0,732,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+The culture had been known.,1,['had been known'],1,1,1.0,1,733,['been known'],1,A2VNR6984SDFGQ,1.0,2,1,True
+They were from different country. ,1,[],0,0,0.0,0,734,,0,A3CLBF224TRYC9,1.0,2,0,True
+I enjoy engaging in cultures other than my own.,1,[],0,0,0.0,0,735,,0,A8TLS2F8LFQ68,1.0,1,0,True
+Our culture is changing with each generation. ,1,[],0,0,0.0,0,736,,0,AIJPLVW0ULYTH,2.0,1,0,True
+i wondering if the culture within our organization is safe.,1,[],0,0,0.0,0,737,,0,A3CX0LXFHZ6I3I,1.0,2,0,True
+My culture is part of who I am. ,1,[],0,0,0.0,0,738,,0,A2LEBJWW395FST,1.0,1,0,True
+The changing culture has had negative effect on society.,1,[],0,0,0.0,0,739,,0,AFTSLCMJASJDR,1.0,2,0,True
+The culture was different than she expected,2,[],0,0,0.0,0,740,,0,AA0EJ752F121Q,2.0,2,0,True
+The company embraces culture of diversity.,1,[],0,0,0.0,0,741,,0,A2VN0R4EGGV7KE,2.0,1,0,True
+We learned about the Chinese culture when we were there.,1,[],0,0,0.0,0,742,,0,AJKA9BKC011F2,2.0,1,0,True
+My culture is disappearing fast.,1,[],0,0,0.0,0,743,,0,A2X823PACMMOKP,1.0,1,0,True
+The people in the Indian culture were running. ,1,[],0,0,0.0,0,744,,0,ALG1XBLARJ545,1.0,2,0,True
+The island culture was judged as being primitive.,1,['was judged'],1,1,1.0,1,745,['was judged'],1,A2SKOPFTRTNFUY,1.0,2,1,True
+Thanksgiving is celebrated by Americans.,1,['is celebrated'],1,1,1.0,1,746,['is celebrated'],1,A347NXF6NQGM5G,1.0,2,1,True
+The culture of country is important,1,[],0,0,0.0,0,747,,0,AFRKVRPZ2RHY8,1.0,2,0,True
+I am immersing myself in my Latina Culture.,1,[],0,0,0.0,0,748,,0,A2OZKKX2O0YTLD,2.0,1,0,True
+They danced to their cultural music ,1,[],0,0,0.0,0,749,,0,A240OTT1T85UGT,1.0,1,0,True
+The town culture disappeared after the volcano eruption.,1,[],0,0,0.0,0,750,,0,A55E4CZQLYYO3,2.0,2,0,True
+The black lives matter movement is powerful.,1,[],0,0,0.0,0,751,,0,A3QNSOORS63W0D,2.0,1,0,True
+Culture enables understanding.,1,[],0,0,0.0,0,752,,0,A63XZD0XGIMAI,1.0,1,0,True
+People of different cultures were not represented in the meeting.,1,['were not represented'],1,1,1.0,1,753,,0,A2ONKY3JGB34T3,1.0,2,1,False
+The painting had hints of Japanese culture to it.,1,[],0,0,0.0,0,754,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Culture has very divisive nature.,1,[],0,0,0.0,0,755,,0,A33B85TN97HQ33,1.0,1,0,True
+Some songs are popularized by the movies that played them.,1,['are popularized'],1,1,1.0,1,756,['are popularized'],1,A3J72C0SIACZBS,1.0,2,1,True
+Our culture has been corrupted.,1,['has been corrupted'],1,1,1.0,1,757,['been corrupted'],1,AW3PWVBIGPNAA,1.0,2,1,True
+Your culture comes from your community.,1,[],0,0,0.0,0,758,,0,AC95JAUAM2L2Z,1.0,1,0,True
+Culture is something people have in common.,1,[],0,0,0.0,0,759,,0,AFE7E450NETF2,1.0,2,0,True
+I am into culture,1,[],0,0,0.0,0,760,,0,AXR1QGU4KTMSZ,1.0,1,0,True
+Social media use is rampant among young people.,1,[],0,0,0.0,0,761,,0,COPIEDAKHKMEPXX1YZ9,2.0,2,0,True
+There is culture war going on in today society,1,[],0,0,0.0,0,762,,0,AOZBPO12UMPUY,1.0,1,0,True
+We need to preserve our culture.,1,[],0,0,0.0,0,763,,0,A1JSPB0XCFUUG1,2.0,1,0,True
+The award winner was nominated that night.,1,['was nominated'],1,1,1.0,1,764,['was nominated'],1,A2VAG94W4SK18C,1.0,2,1,True
+Exploring different cultures can be quite fun. ,1,[],0,0,0.0,0,765,,0,A2GIT09BQEUM9M,,1,0,True
+Culture is learned. ,1,['is learned'],1,1,1.0,1,766,['is learned'],1,A162CO8K267FU8,1.0,2,1,True
+I celebrate Christmas because I am catholic.,1,[],0,0,0.0,0,767,,0,A3S9ASZKIIJ3WF,2.0,1,0,True
+Culture brings sophistication to society.,1,[],0,0,0.0,0,768,,0,A3JUAN2Y9XTK5L,2.0,1,0,True
+The students had already studied the achievements of the country.,1,[],0,0,0.0,0,769,,0,A23FK9ROU01U4D,2.0,2,0,True
+The culture of that country is cool,1,[],0,0,0.0,0,770,,0,A79XOBCSS4NTG,1.0,2,0,True
+Italians love to eat pasta. ,1,[],0,0,0.0,0,771,,0,AU34Y1DWWQ47O,1.0,1,0,True
+the person is cultured,1,[],0,0,0.0,0,772,,0,A2TWX0MB777CAB,2.0,2,0,True
+Everyone is mean in this culture ,1,[],0,0,0.0,0,773,,0,A1HYNGG8LZUV47,2.0,1,0,True
+Egyptian culture was extremely weird.,1,[],0,0,0.0,0,774,,0,AQDBBBTN8NE9X,2.0,2,0,True
+Culture has been overlooked in many areas.,1,['has been overlooked'],1,1,1.0,1,775,['been overlooked'],1,A36G7I51D5O1M4,2.0,2,1,True
+Culture requires different points of view.,1,[],0,0,0.0,0,776,,0,COPIEDAPV3GK8ZEXB0J,1.0,1,0,True
+I know lot about culture.,1,[],0,0,0.0,0,777,,0,A38LW34F26WBJY,1.0,1,0,True
+I love my ethnic culture.,1,[],0,0,0.0,0,778,,0,A35TZ4YGDSXSEC,1.0,1,0,True
+The art was well-received by the audience.,1,[],0,0,0.0,0,779,,0,A37CSK5QI41636,1.0,2,1,False
+I feel everyone gets offended by someone relating to their culture. ,1,['gets offended'],1,1,1.0,1,780,['gets offended'],1,ACIWLS3IQPV1J,2.0,1,1,True
+I watched Euphoria in the background while doing my homework.,1,[],0,0,0.0,0,781,,0,A1N274L13ZKKI5,1.0,2,0,True
+His Haitian culture is extremely important to him.,1,[],0,0,0.0,0,782,,0,A3NG205QJ48IM4,1.0,1,0,True
+Celebrity culture is overrated.,1,[],0,0,0.0,0,783,,0,A2I6YPPQK6BU09,1.0,1,0,True
+Cancel culture is dangerous to society. ,1,[],0,0,0.0,0,784,,0,A1H4MYPDJ2K3VI,2.0,1,0,True
+The Maori was happy to perform the hakka dance. ,1,[],0,0,0.0,0,785,,0,A15B294KHVGPFV,1.0,2,0,True
+I love your hair style ,1,[],0,0,0.0,0,786,,0,A3774HPOUKYTX7,1.0,1,0,True
+We are studying about culture in school this week.,1,[],0,0,0.0,0,787,,0,ARTARDCXLJ5H6,2.0,2,0,True
+The art museum is nice.,1,[],0,0,0.0,0,788,,0,A2RCUR9HJ9D0UQ,1.0,2,0,True
+John loved learning about Asian culture.,1,[],0,0,0.0,0,789,,0,AO9AKYPPGGGZ4,2.0,1,0,True
+I am going to chair the culture committee,1,[],0,0,0.0,0,790,,0,ADIW4L4IGU98R,1.0,1,0,True
+I participate in my culture of celebrating St. Patrick Day.,2,[],0,0,0.0,0,791,,0,A34IZFOSHOZ4GN,1.0,1,0,True
+Tom toured the new museum. ,1,[],0,0,0.0,0,792,,0,A11ILN5YSUDVG8,1.0,1,0,True
+Ben family was not very accepting of the cultural differences presented by his new girlfriend.,1,[],0,0,0.0,0,793,,0,A13CFYL1AW272Y,1.0,2,0,True
+The American was impressed by the vibrant Colombian culture.,1,['was impressed'],1,1,1.0,1,794,['was impressed'],1,AAFM5PPF9P0W,1.0,2,1,True
+Cancel culture toxic. ,1,[],0,0,0.0,0,795,,0,A20P819KPQWCK0,1.0,1,0,True
+Culture is about the people more so than the traditions.,1,[],0,0,0.0,0,796,,0,A2OKJSKQFMCZTP,1.0,2,0,True
+I wish i had asked more questions to my grandmother about our culture.,1,[],0,0,0.0,0,797,,0,AM0FRMVODTMXA,1.0,1,0,True
+I am going the Culture fair today. ,1,[],0,0,0.0,0,798,,0,A2WSYQ5TS09U1,1.0,1,0,True
+I bow when greeting my elders. ,1,[],0,0,0.0,0,799,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+My culture tells me about where I am from.,1,[],0,0,0.0,0,800,,0,A3C9B757QTE20C,2.0,1,0,True
+Culture can mean lot to people.,1,[],0,0,0.0,0,801,,0,AK70USZXEJSF3,2.0,2,0,True
+I love to integrate myself in other cultures.,1,[],0,0,0.0,0,802,,0,A3BWZ6V34W8SXX,2.0,1,0,True
+"Comic book art used to be looked down upon, but it is now seen as viable art form. ",1,"['be looked', 'is now seen']",2,1,1.0,1,803,"['be looked', 'is now seen']",2,A3U6RDG7BLH6YZ,2.0,1,1,False
+My thoughts about today culture isn popular.,1,[],0,0,0.0,0,804,,0,A2HUWXLMG214BI,2.0,2,0,True
+The father was proud oh his sons eagerness to learn their native language.,1,[],0,0,0.0,0,805,,0,A16DIQCMNWPBAN,2.0,2,0,True
+I want to see the new African Art exhibit and the museum. ,1,[],0,0,0.0,0,806,,0,A357ADRGNGMMKC,1.0,1,0,True
+Their culture is very colorful.,1,[],0,0,0.0,0,807,,0,A3V2HVY764HJS4,2.0,1,0,True
+Many cultures are appropriated by white people ,1,['are appropriated'],1,1,1.0,1,808,['are appropriated'],1,A2W5PAZJG6X8Q8,2.0,2,1,True
+"In culture many people enjoy their food, dance, and customs of their ancestors. ",1,[],0,0,0.0,0,809,,0,A118RTS8BOFIH7,1.0,1,0,True
+The movie was made hit by the actors.,1,['was made'],1,1,1.0,1,810,['was made'],1,A31CNXHGR49DJR,1.0,2,1,True
+Culture is passed down,1,['is passed'],1,1,1.0,1,811,['is passed'],1,A3OM2ZQ7FUDTIN,1.0,1,1,True
+"The society had such rich culture, there was much to learn of them.",1,[],0,0,0.0,0,812,,0,A3PSV85ZUXP9VF,2.0,2,0,True
+I did not know about the sneaker culture around my school. ,1,[],0,0,0.0,0,813,,0,A3G11HOZ5PCWOH,2.0,2,0,True
+Culture is the way we know how to act in public. ,1,[],0,0,0.0,0,814,,0,A33ELVLU0NX9N9,1.0,1,0,True
+The Aztecs ruled Mesoamerica.,1,[],0,0,0.0,0,815,,0,A2W434UNNBRS4L,1.0,2,0,True
+there is cultural difference beet week different people,1,[],0,0,0.0,0,816,,0,A2EW08X2I87RXL,2.0,1,0,True
+The gallery opening was attended by many important figures.,1,['was attended'],1,1,1.0,1,817,['was attended'],1,AHTWQSOY6HTJI,1.0,2,1,True
+"When we went to Puerto Rico, the culture was beautiful.",1,[],0,0,0.0,0,818,,0,A16Y5JEB1EF9CY,1.0,2,0,True
+"Culture is best ignored, maybe.",1,[],0,0,0.0,0,819,,0,A3M0L33TPD346S,2.0,2,1,False
+My favorite celebrity spoke out against racism last week.,1,[],0,0,0.0,0,820,,0,AY4KZOUEZ8BAM,1.0,1,0,True
+Culture both divides and unites people.,1,[],0,0,0.0,0,821,,0,A14Z1JSAR9JEON,1.0,2,0,True
+"Cultures, comes in many color shapes and sizes.",1,[],0,0,0.0,0,822,,0,A3M2Q7EZCJ85GE,2.0,2,0,True
+We need to do more about different culture.,1,[],0,0,0.0,0,823,,0,A36W1PIV68AE5KÔÉÖ,2.0,2,0,True
+I eat Kimchi since it is part of my Korean culture.,1,[],0,0,0.0,0,824,,0,ANR81FZBHHR0F,1.0,1,0,True
+The girls culture was forgotten about.,1,['was forgotten'],1,1,1.0,1,825,['was forgotten'],1,A2UOOBZQ5L2EL1,2.0,2,1,True
+Our differences in culture is perhaps what I find most interesting.,1,[],0,0,0.0,0,826,,0,j2wj0096lt,2.0,1,0,True
+I love how this cuisine tastes ,1,[],0,0,0.0,0,827,,0,A3NUGUAMBKYMZY,1.0,1,0,True
+Culture makes up our characters.,1,[],0,0,0.0,0,828,,0,A33TBDS0UALKW2,1.0,1,0,True
+The weekend was improved by the opening of the museum.,1,['was improved'],1,1,1.0,1,829,['was improved'],1,A2BT7QVGXJKFKI,1.0,2,1,True
+Jill studies modern art at the local college.,1,[],0,0,0.0,0,830,,0,A39J8MSTUDVH0D,1.0,1,0,True
+Culture is the core of our society.,1,[],0,0,0.0,0,831,,0,A15X9KAJB8M54B,2.0,2,0,True
+The woke culture is hilarious.,1,[],0,0,0.0,0,832,,0,A1CRE2Z623JZ6V,2.0,1,0,True
+Television has become more diverse in 2020.,1,[],0,0,0.0,0,833,,0,A3H8A6SSZH6MQQ,2.0,2,0,True
+Culture was the main drive of the museum visit.,1,[],0,0,0.0,0,834,,0,A2137K4XEU12TI,1.0,2,0,True
+Having an expressive personality is part of LGBTQ culture.,1,[],0,0,0.0,0,835,,0,AMFIHFK9N0OVK,2.0,1,0,True
+I love studying different cultures.,1,[],0,0,0.0,0,836,,0,A1JAWNX4R60ZZ0,1.0,1,0,True
+I celebrate Christmas with my family.,1,[],0,0,0.0,0,837,,0,A1MPJYJCUAOFOB,1.0,1,0,True
+I hear very little about culture.,1,[],0,0,0.0,0,838,,0,A3HT6YYXPBRKN3,2.0,2,0,True
+My culture needs to work together to improve so that we can acheive.,1,[],0,0,0.0,0,839,,0,A3V9UGWBPDRFSG,1.0,1,0,True
+careers revolve around persons culture.,1,[],0,0,0.0,0,840,,0,A1ZJ3TU4QJIKLY,2.0,2,0,True
+learning about different cultures is interesting.,1,[],0,0,0.0,0,841,,0,A129LL7SYP8EOE,2.0,1,0,True
+Cultural studies will always be considered an important part of liberal arts education.,1,['be considered'],1,1,1.0,1,842,['be considered'],1,A2VUF0V7HT51Q3,1.0,2,1,True
+I did not check on anything about my culture.,1,[],0,0,0.0,0,843,,0,A3IB7YJHP04OHI,2.0,2,0,True
+I love to learn about different cultures.,1,[],0,0,0.0,0,844,,0,A13DHPKBQXN9R7,2.0,1,0,True
+I do not know much about pop culture.,1,[],0,0,0.0,0,845,,0,A1B3K5W6NZ03U2,1.0,1,0,True
+"The movie was watched by 3,000 people.",1,['was watched'],1,1,1.0,1,846,['was watched'],1,A29KJK7GPUF3OT,1.0,2,1,True
+The festival is scheduled for next week.,1,['is scheduled'],1,1,1.0,1,847,['is scheduled'],1,A26A77APE2SUR5,2.0,2,1,True
+The work culture at Google is very relaxed.,1,[],0,0,0.0,0,848,,0,A8BSFVAPZBIUS ,1.0,1,0,True
+I want to know how to make sushi ,1,[],0,0,0.0,0,849,,0,A1ADRYNCJIRFOO,1.0,1,0,True
+The traditional dance was performed by the women in the group.,1,['was performed'],1,1,1.0,1,850,['was performed'],1,A1PAN54I7HWSZI,1.0,2,1,True
+The culture is changing at breakneck speed ,1,[],0,0,0.0,0,851,,0,AS8JG1LSWTMGY,2.0,2,0,True
+Great Britain culture is overdue for change.,1,[],0,0,0.0,0,852,,0,A25D8WXH1F4CG9,1.0,1,0,True
+My culture revolves around my Italian upbringing. ,1,[],0,0,0.0,0,853,,0,A1TK1M16KJJKEO,1.0,2,0,True
+Leah loved to learn of her culture as time went on.,1,[],0,0,0.0,0,854,,0,A1282WX3YWXM6E,2.0,1,0,True
+CONCERTS ARE A FUN THING TO DO ON THE WEEKENDS,1,[],0,0,0.0,0,855,,0,A3SUUPLFBSG1T9,1.0,1,0,True
+Culture was changed by altering the story.,1,['was changed'],1,1,1.0,1,856,['was changed'],1,A2T6EBB0Z6TQZS  ,1.0,2,1,True
+The young girls sighed as they were tired from dancing on Tik Tok. ,1,[],0,0,0.0,0,857,,0,A3G1X3IP2VM4IK,2.0,2,0,True
+Her culture was known to celebrate on that day.,1,['was known'],1,1,1.0,1,858,['was known'],1,A1KRDCZ1YYBUIZ,1.0,1,1,True
+We were interested in the Asian exhibits. ,1,[],0,0,0.0,0,859,,0,A1X84CLJ7N1PLZ,1.0,2,0,True
+Choose your culture wisely.,1,[],0,0,0.0,0,860,,0,A141B3S3ZLY8DI,2.0,2,0,True
+The culture dictates the rules.,1,[],0,0,0.0,0,861,,0,A1BDJMFP24FBGL,1.0,1,0,True
+the show told me about culture,1,[],0,0,0.0,0,862,,0,A3F34OE3VQ7W0V,1.0,2,0,True
+Minority cultures assimilate into the dominant culture over time.,1,[],0,0,0.0,0,863,,0,A2BQ5JORLYGZMV,2.0,2,0,True
+We are celebrating Christmas ,1,[],0,0,0.0,0,864,,0,A3ONF400XL2Y9U,1.0,1,0,True
+Downtown is full of culture.,1,[],0,0,0.0,0,865,,0,A2HDZE2L9EX2SY,1.0,1,0,True
+Americans are mindconrolled by NBA,1,['are mindconrolled'],1,1,1.0,1,866,['are mindconrolled'],1,A2EY0J9LOPU3TU,1.0,2,1,True
+Pop culture is unimportant in the grand scheme of things.,1,[],0,0,0.0,0,867,,0,A20SXG1DHDIDI7,1.0,1,0,True
+The culture exhibit was victimized by vandalism,1,['was victimized'],1,1,1.0,1,868,['was victimized'],1,A2Y81T0DIFJ866,1.0,2,1,True
+I really enjoy embracing my culture and uplifting those who do as well ,1,[],0,0,0.0,0,869,,0,A2MF4QDKE40KVN,1.0,1,0,True
+we all have different cultures,1,[],0,0,0.0,0,870,,0,A7Z6P6K85HX54,1.0,2,0,True
+Culture varies across our country.,1,[],0,0,0.0,0,871,,0,A2PY9UB56M2PP2,1.0,1,0,True
+American culture is in decline. ,1,[],0,0,0.0,0,872,,0,A2JUTTLDE5LGHH,1.0,2,0,True
+The french has an unique culture,1,[],0,0,0.0,0,873,,0,A2F58OOW7K3DD2,1.0,1,0,True
+It was in Marvin culture to celebrate different holiday.,1,[],0,0,0.0,0,874,,0,A1QW2XUJ7KZCV5,2.0,2,0,True
+They just always do things the wrong way. ,1,[],0,0,0.0,0,875,,0,A3G3TIX6FEMN8R,2.0,2,0,True
+Cats don like to eat asparagus.,1,[],0,0,0.0,0,876,,0,A2DDPSXH2X96RF,1.0,1,0,True
+I love the culture,1,[],0,0,0.0,0,877,,0,A2BZY06YRWGEDL,2.0,1,0,True
+The trend was popular among teens.,1,[],0,0,0.0,0,878,,0,A1C8FN01981A69,2.0,2,0,True
+ Chinese is sub-category of Asian.,1,[],0,0,0.0,0,879,,0,A2DU76P3SED4T6,2.0,1,0,True
+I wanted to be at the top of culture,1,[],0,0,0.0,0,880,,0,AYSX5GNO640MZ,1.0,1,0,True
+I made my mother famous Italian dish for my friends.,1,[],0,0,0.0,0,881,,0,A2R30HQXQN76IC,1.0,1,0,True
+Some say culture is dead in the 21st century.,1,[],0,0,0.0,0,882,,0,AMDUEMZUK9GJC,1.0,1,0,True
+The walls were covered in vibrant grafitti.,1,['were covered'],1,1,1.0,1,883,['were covered'],1,A2WS07SCLNP1GV,1.0,2,1,True
+Culture has become very large separator among society today. ,1,[],0,0,0.0,0,884,,0,A3V3LIPOU53GZQ,2.0,2,0,True
+I ve never been to Safari before.,1,[],0,0,0.0,0,885,,0,AQDA6OMC4W5V8,1.0,2,0,True
+Billy has learned lot about his culture.,1,[],0,0,0.0,0,886,,0,A1K3VCFF62LIO2,2.0,1,0,True
+Culture plays huge role in how we see ourselves.,1,[],0,0,0.0,0,887,,0,A2AFAWJX5LTUVN,2.0,1,0,True
+The new rock band is going to be touring soon.,1,[],0,0,0.0,0,888,,0,AW8JVJQNLTXND,2.0,1,0,True
+Observing culture is important in society.,1,[],0,0,0.0,0,889,,0,A26ZENZ5G8AEGM,1.0,1,0,True
+The character of nation is reflected by its culture.,1,['is reflected'],1,1,1.0,1,890,['is reflected'],1,A3Q9H7A8J8GR01,1.0,2,1,True
+The natives had culture that recognized adulthood at age 12. ,1,[],0,0,0.0,0,891,,0,A2SULQE4M8C3CM,2.0,2,0,True
+Culture shapes relationships amongst people.,1,[],0,0,0.0,0,892,,0,A2LDDDJ4WBKB8Y,1.0,1,0,True
+The Mayan culture is very interesting topic to read,1,[],0,0,0.0,0,893,,0,A2VJ27EN5W4MU,1.0,2,0,True
+She is learning about the culture.,1,[],0,0,0.0,0,894,,0,A1SBWRAOJBEFIM,1.0,1,0,True
+CULTURE BUILT EVERY TRADITION IN A COMMUNITY.,1,[],0,0,0.0,0,895,,0,A12JQZP4XVOABB,2.0,2,0,True
+I attend cultural show,1,[],0,0,0.0,0,896,,0,AE5138F868GYB,1.0,1,0,True
+I believe culture is benefit to society.,1,[],0,0,0.0,0,897,,0,AY2L2CZ6OKNEA,2.0,1,0,True
+Cheeseburgers are eaten by Americans.,1,['are eaten'],1,1,1.0,1,898,['are eaten'],1,A2S7LNJG767XIU,1.0,2,1,True
+"To Dalton, the meaning of culture includes language, arts, cuisine, music, social habits and religions.",1,[],0,0,0.0,0,899,,0,A370S3V5OUNP4E,1.0,1,0,True
+He was going to date outside of his culture.,1,[],0,0,0.0,0,900,,0,A2ZKKOPPN3AX2G,1.0,2,0,True
+Culture today is out of hand.,1,[],0,0,0.0,0,901,,0,AH7I3K3OJKA5L,2.0,1,0,True
+Teens love alternative music.,1,[],0,0,0.0,0,902,,0,A5BCSSPC180AG,2.0,2,0,True
+The culture of the country is not inviting.,1,[],0,0,0.0,0,903,,0,A1TO9C7AZND1VO,1.0,1,0,True
+I wonder about her culture.,1,[],0,0,0.0,0,904,,0,AE0C5U5HZ7WR9,2.0,2,0,True
+I teach American Culture at junior college in my state.,1,[],0,0,0.0,0,905,,0,A1D4RC6K6Y5KAV,2.0,1,0,True
+I am celebrating Christmas with my family because I grew up in the western culture.,1,[],0,0,0.0,0,906,,0,A345TDMHP3DQ3G,1.0,1,0,True
+Their culture was hard to discover ,1,[],0,0,0.0,0,907,,0,A1U5UPSCURNRAA,2.0,2,0,True
+It is very important to learn about Culture.,1,[],0,0,0.0,0,908,,0,A18UTX5FD7NPRV,2.0,1,0,True
+There had been great deal of hand wringing about the decline in our culture. ,1,[],0,0,0.0,0,909,,0,A3T79IEUFBB473,2.0,2,0,True
+Music effects everyone.,1,[],0,0,0.0,0,910,,0,A3HKD5JYXYBK5Q,1.0,1,0,True
+Cultures are part of yogurt.,1,[],0,0,0.0,0,911,,0,A3MSMV01T3S53S,2.0,1,0,True
+I loved experiencing the Italian culture when I was there.,1,[],0,0,0.0,0,912,,0,A2JAE9P7FQXU2T,2.0,2,0,True
+Everyone has different and exciting culture.,1,[],0,0,0.0,0,913,,0,A23K77HMD9APAJ,1.0,1,0,True
+Culture gives unique personality to many countries. ,1,[],0,0,0.0,0,914,,0,A322UHGPRL2UWO,2.0,1,0,True
+The Mayan beliefe were of future that would end in 2012.,1,[],0,0,0.0,0,915,,0,A1EDKVYT9ZCGUH,2.0,2,0,True
+I come from long line of Irish Heritage.,1,[],0,0,0.0,0,916,,0,A3CX8S6Q0QEW8E,1.0,1,0,True
+The culture was already discussed in the book.,1,['was already discussed'],1,1,1.0,1,917,['was already discussed'],1,AYX9OCFWBM939,2.0,2,1,True
+They had gone to temple to learn about her culture.,1,[],0,0,0.0,0,918,,0,A1HNB2243A2PQH,2.0,2,0,True
+Culture has always been an interesting topic to study.,1,[],0,0,0.0,0,919,,0,A1Y38T7IZWJQAE,2.0,2,0,True
+The business was made slow by the pandemic.,1,['was made'],1,1,1.0,1,920,['was made'],1,A3ATU3VULAB7K2,2.0,2,1,True
+I want new business card.,1,[],0,0,0.0,0,921,,0,A1CTJ8UT7SF317,1.0,1,0,True
+I don know much about business.,1,[],0,0,0.0,0,922,,0,A327Q0Y175MEH7,1.0,1,0,True
+The store owner had to close for the winter.,1,[],0,0,0.0,0,923,,0,A19TD2J8506A4Y,1.0,2,0,True
+The CEO has just reviewed the financial statements.,1,[],0,0,0.0,0,924,,0,A2DDXYTEVDV5F5,1.0,1,0,True
+I wish the stocks would go up. ,1,[],0,0,0.0,0,925,,0,AJ9O2ZA0E8UDZ,2.0,2,0,True
+They invested wisely.,1,[],0,0,0.0,0,926,,0,AYXXMHLZRAPF9,1.0,1,0,True
+Business is in shambles right now.,1,[],0,0,0.0,0,927,,0,A3M0L33TPD346S,1.0,1,0,True
+The boom in the economy was led by business.,1,['led by'],1,1,1.0,1,928,['led by'],1,A33GB614ST7J82,1.0,2,1,True
+ The company worked hard to be the top in their field.,1,[],0,0,0.0,0,929,,0, COPIEDAKHKMEPXX1YZ9,2.0,1,0,True
+Profits increased this fiscal year.,1,[],0,0,0.0,0,930,,0,A23273YME4RCEB,1.0,1,0,True
+The business was fined for operating without license.,1,['was fined'],1,1,1.0,1,931,['was fined'],1,A3O4WYGKH31OX,1.0,2,1,True
+The entire meal was paid for by my boss.,1,['was paid'],1,1,1.0,1,932,['was paid'],1,A3NLSGHK6RFXA8,1.0,2,1,True
+Joe attended the business meeting.,1,[],0,0,0.0,0,933,,0,AOJF7CPZVK5U3,1.0,1,0,True
+The stock market was paid attention to.,1,['was paid'],1,1,1.0,1,934,['was paid'],1,A154ZJKRSX6847,1.0,2,1,True
+Business interests are regulated by the federal government.,1,['are regulated'],1,1,1.0,1,935,['are regulated'],1,A3FXVNZ5VG98IP,1.0,2,1,True
+I started my own small business when I was very young.,1,[],0,0,0.0,0,936,,0,AYXN53TNFG71P,1.0,1,0,True
+The meeting was rescheduled for tomorrow. ,1,['was rescheduled'],1,1,1.0,1,937,['was rescheduled'],1,AMUKX1DM4ASA7,1.0,2,1,True
+China is great place to travel to.,1,[],0,0,0.0,0,938,,0,AFE7E450NETF2,1.0,1,0,True
+BUSINESS MEN NOT FINE ALL THE TIME. ,1,[],0,0,0.0,0,939,,0,A2DLZ9PK82J8L2,1.0,1,0,True
+Business is cut throat sport. ,1,['is cut'],1,1,1.0,1,940,['is cut'],1,ARON01UO1YK7I,2.0,2,0,False
+Local retail stores are great convenience. ,1,[],0,0,0.0,0,941,,0,A3RNGN5WLE1OBU,1.0,1,0,True
+I wish I was able to get more money at the bank.,1,[],0,0,0.0,0,942,,0,A1ZZETG57T5D5X,2.0,2,0,True
+Business is very interesting ,1,[],0,0,0.0,0,943,,0,A2Z75NJBZ46RE9,1.0,1,0,True
+Big Business was sued by the government.,1,['was sued'],1,1,1.0,1,944,['was sued'],1,A1CI5U3BLQ2DDS,1.0,2,1,True
+ Business is good for the economy. ,1,[],0,0,0.0,0,945,,0,A1CI5U3BLQ2DDS ,1.0,1,0,True
+The salesperson demonstrated his company products in meeting. ,1,[],0,0,0.0,0,946,,0,ATSNZCC16HIOI,1.0,1,0,True
+I want to own business ,1,[],0,0,0.0,0,947,,0,A1SWGSFIMZJQE,2.0,2,0,True
+Business is very broad category. ,1,[],0,0,0.0,0,948,,0,A33UZLF8WW0DV1,2.0,2,0,True
+Schedule all orientation meetings today before leaving the office.,1,[],0,0,0.0,0,949,,0,A39GP79ULCP9J2,1.0,1,0,True
+Business was good.,1,[],0,0,0.0,0,950,,0,A2X5BYJKVKSYQQ,1.0,1,0,True
+She didn know how to organize the business ,1,[],0,0,0.0,0,951,,0,A12S5JDG2D5HEW,2.0,2,0,True
+I am buying stock today.,1,[],0,0,0.0,0,952,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+The award was won by the top business.,1,['was won'],1,1,1.0,1,953,['was won'],1,A3P1QF00PF2DF9,1.0,2,1,True
+I am looking for business to start up.,1,[],0,0,0.0,0,954,,0,A16ZLWV0QUJP65,2.0,1,0,True
+Purdue Pharma settled the lawsuit with billions of dollars.,1,[],0,0,0.0,0,955,,0,AOJD8D9NXVAR3,1.0,1,0,True
+That business has been closed for awhile.,1,['has been closed'],1,1,1.0,1,956,['been closed'],1,A1ZLWV0QUJP65,2.0,2,1,True
+Jamal is fantastic business man. ,1,[],0,0,0.0,0,957,,0,AAL5LUI5U3NAV,1.0,1,0,True
+Her business is of no concern of mine. ,1,[],0,0,0.0,0,958,,0,A1TK1M16KJJKEO,1.0,2,0,True
+I work for large business,1,[],0,0,0.0,0,959,,0,A79XOBCSS4NTG,1.0,1,0,True
+Business is hard.,1,[],0,0,0.0,0,960,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+Business is major at most colleges and universities.,1,[],0,0,0.0,0,961,,0,A2SVKAI2PNTS79,2.0,2,0,True
+I closed this business.,1,[],0,0,0.0,0,962,,0,A2O3IWIVOZD4S7,1.0,1,0,True
+The business was shown new idea.,1,['was shown'],1,1,1.0,1,963,['was shown'],1,A2VNR6984SDFGQ,1.0,2,1,True
+The market was down. ,1,[],0,0,0.0,0,964,,0,A3CLBF224TRYC9,1.0,2,0,True
+The girl entered the business located on Main Street.,1,[],0,0,0.0,0,965,,0,A8TLS2F8LFQ68,1.0,1,0,True
+The business is open today. ,1,[],0,0,0.0,0,966,,0,AIJPLVW0ULYTH,2.0,1,0,True
+I sure hadn wanted to visit that apple store since it was so busy.,1,[],0,0,0.0,0,967,,0,A3CX0LXFHZ6I3I,1.0,2,0,True
+I ll start my business in the next few weeks.,1,[],0,0,0.0,0,968,,0,A2LEBJWW395FST,1.0,1,0,True
+The fundraiser for the business brought in lot of money.,1,[],0,0,0.0,0,969,,0,AFTSLCMJASJDR,1.0,2,0,True
+Her background was in Business,1,[],0,0,0.0,0,970,,0,AA0EJ752F121Q,2.0,2,0,True
+The Business closed its doors promptly at 5pm.,1,[],0,0,0.0,0,971,,0,A2VN0R4EGGV7KE,2.0,1,0,True
+I went to work today and it was long day.,1,[],0,0,0.0,0,972,,0,AJKA9BKC011F2,2.0,1,0,True
+My family business is affected by the pandemic. ,1,['is affected'],1,1,1.0,1,973,['is affected'],1,A2X823PACMMOKP,1.0,1,1,True
+I am leaving this business.,1,[],0,0,0.0,0,974,,0,ALG1XBLARJ545,1.0,2,0,True
+The business was robbed during the night.,1,['was robbed'],1,1,1.0,1,975,['was robbed'],1,A2SKOPFTRTNFUY,1.0,2,1,True
+Dressing up is required to attend meeting.,1,['is required'],1,1,1.0,1,976,['is required'],1,A347NXF6NQGM5G,1.0,2,0,False
+The business is doing well,1,[],0,0,0.0,0,977,,0,AFRKVRPZ2RHY8,1.0,2,0,True
+I am taking Business course and enjoying all that I am learning.,1,[],0,0,0.0,0,978,,0,A2OZKKX2O0YTLD,2.0,1,0,True
+I called them and got the sale ,1,[],0,0,0.0,0,979,,0,A240OTT1T85UGT,1.0,1,0,True
+My contributions to the business were not recognized by my father. ,1,['were not recognized'],1,1,1.0,1,980,,0,A55E4CZQLYYO3,2.0,2,1,False
+The accountant met with the lawyer.,1,[],0,0,0.0,0,981,,0,A3QNSOORS63W0D,2.0,1,0,True
+Business creates opportunity.,1,[],0,0,0.0,0,982,,0,A63XZD0XGIMAI,1.0,1,0,True
+Long lunches are often taken when having business meetings.,1,['are often taken'],1,1,1.0,1,983,['are often taken'],1,A2ONKY3JGB34T3,1.0,2,1,True
+The CEO made all final decisions for the company.,1,[],0,0,0.0,0,984,,0,AOJD8D9NXVAR3,1.0,1,0,True
+Business grows with society.,1,[],0,0,0.0,0,985,,0,A33B85TN97HQ33,1.0,1,0,True
+Sprint was bought out by T-Mobile.,1,['was bought'],1,1,1.0,1,986,['was bought'],1,A3J72C0SIACZBS,1.0,2,1,True
+Is is expected that business will be good this year.,1,['is is expected'],1,1,1.0,1,987,['is expected'],1,AW3PWVBIGPNAA,1.0,2,1,True
+The business is thriving.,1,[],0,0,0.0,0,988,,0,AC95JAUAM2L2Z,1.0,1,0,True
+There no business like show business.,1,[],0,0,0.0,0,989,,0,AFE7E450NETF2,1.0,2,0,True
+I am into business,1,[],0,0,0.0,0,990,,0,AXR1QGU4KTMSZ,1.0,1,0,True
+The company was involved in community service.,1,[],0,0,0.0,0,991,['was involved'],1,COPIEDAKHKMEPXX1YZ9,2.0,2,0,False
+Business is booming,1,[],0,0,0.0,0,992,,0,AOZBPO12UMPUY,1.0,1,0,True
+Business is booming ,1,[],0,0,0.0,0,993,,0,A1JSPB0XCFUUG1,2.0,1,0,True
+The accountant was fired.,1,['was fired'],1,1,1.0,1,994,['was fired'],1,A2VAG94W4SK18C,1.0,2,1,True
+Business is no fun but it worth it.,1,[],0,0,0.0,0,995,,0,A2GIT09BQEUM9M,,1,0,True
+Business was taken over. ,1,['was taken'],1,1,1.0,1,996,['was taken'],1,A162CO8K267FU8,1.0,2,1,True
+I keep track of my own orders. ,1,[],0,0,0.0,0,997,,0,A3S9ASZKIIJ3WF,2.0,1,0,True
+Business makes the world go round.,1,[],0,0,0.0,0,998,,0,A3JUAN2Y9XTK5L,2.0,1,0,True
+He opened the business 10 years ago.,1,[],0,0,0.0,0,999,,0,A23FK9ROU01U4D,2.0,2,0,True
+The business is not doing well,1,[],0,0,0.0,0,1000,,0,A79XOBCSS4NTG,1.0,2,0,True
+The firm was able to make ton of money this quarter. ,1,[],0,0,0.0,0,1001,,0,AU34Y1DWWQ47O,1.0,1,0,True
+i owned my business,1,[],0,0,0.0,0,1002,,0,A2TWX0MB777CAB,2.0,2,0,True
+Business can be very challenging at times.,1,[],0,0,0.0,0,1003,,0,A1HYNGG8LZUV47,2.0,1,0,True
+The business did not meet the state protocols to remain operational.,1,[],0,0,0.0,0,1004,,0,AQDBBBTN8NE9X,2.0,2,0,True
+Business was boring subject.,1,[],0,0,0.0,0,1005,,0,A36G7I51D5O1M4,2.0,2,0,True
+His business suffered due to the economy.,1,[],0,0,0.0,0,1006,,0,COPIEDAPV3GK8ZEXB0J,1.0,1,0,True
+I take many business trips.,1,[],0,0,0.0,0,1007,,0,A38LW34F26WBJY,1.0,1,0,True
+I run my business online,1,[],0,0,0.0,0,1008,,0,A35TZ4YGDSXSEC,1.0,1,0,True
+Stock prices were mixed after investors faced uncertainty.,1,[],0,0,0.0,0,1009,,0,A37CSK5QI41636,1.0,2,0,True
+It is time to close the doors on this business. ,1,[],0,0,0.0,0,1010,,0,ACIWLS3IQPV1J,2.0,1,0,True
+My mom was doing taxes as I watched tv.,1,[],0,0,0.0,0,1011,,0,A1N274L13ZKKI5,1.0,2,0,True
+This business is profitable every year.,1,[],0,0,0.0,0,1012,,0,A3NG205QJ48IM4,1.0,1,0,True
+My cousin got degree in Business.,1,[],0,0,0.0,0,1013,,0,A2I6YPPQK6BU09,1.0,1,0,True
+This business is failing fast. ,1,[],0,0,0.0,0,1014,,0,A1H4MYPDJ2K3VI,2.0,1,0,True
+Salaries were reduced by the CEO.,1,['were reduced'],1,1,1.0,1,1015,['were reduced'],1,A15B294KHVGPFV,1.0,2,1,True
+I really hate Apple,1,[],0,0,0.0,0,1016,,0,A3774HPOUKYTX7,1.0,1,0,True
+They are growing the business.,1,[],0,0,0.0,0,1017,,0,ARTARDCXLJ5H6,2.0,2,0,True
+The DOW is up.,1,[],0,0,0.0,0,1018,,0,A2RCUR9HJ9D0UQ,1.0,2,0,True
+I studied business in college.,1,[],0,0,0.0,0,1019,,0,AO9AKYPPGGGZ4,2.0,1,0,True
+I am an important business man,1,[],0,0,0.0,0,1020,,0,ADIW4L4IGU98R,1.0,1,0,True
+My daily activity involves running my own business.,1,[],0,0,0.0,0,1021,,0,A34IZFOSHOZ4GN,1.0,1,0,True
+I invested ton of money in stocks. ,1,[],0,0,0.0,0,1022,,0,A11ILN5YSUDVG8,1.0,1,0,True
+The presentation from today meeting was developed by the business manager.,1,['was developed'],1,1,1.0,1,1023,['was developed'],1,A13CFYL1AW272Y,1.0,2,1,True
+The corporation as whole was damaged significantly by the CEO scandal.,1,['was damaged'],1,1,1.0,1,1024,['was damaged'],1,AAFM5PPF9P0W,1.0,2,1,True
+I enjoy working here. ,1,[],0,0,0.0,0,1025,,0,A20P819KPQWCK0,1.0,1,0,True
+The CEO opinion was not heard by the board.,1,['was not heard'],1,1,1.0,1,1026,,0,A2OKJSKQFMCZTP,1.0,2,1,False
+I own my own business.,1,[],0,0,0.0,0,1027,,0,AM0FRMVODTMXA,1.0,1,0,True
+I am going to business meeting in one hour. ,1,[],0,0,0.0,0,1028,,0,A2WSYQ5TS09U1,1.0,1,0,True
+I am activating my bank account today.,1,[],0,0,0.0,0,1029,,0,A1FAQI8VXLAMBM,2.0,1,0,True
+Businesses are very important for the market.,1,[],0,0,0.0,0,1030,,0,A3C9B757QTE20C,2.0,1,0,True
+Business is conducted within the hours of 0900-1700,1,['is conducted'],1,1,1.0,1,1031,['is conducted'],1,AK70USZXEJSF3,2.0,2,1,True
+My business is very important.,1,[],0,0,0.0,0,1032,,0,A3BWZ6V34W8SXX,2.0,1,0,True
+Comic shops were more viable business before the pandemic. ,1,[],0,0,0.0,0,1033,,0,A3U6RDG7BLH6YZ,2.0,1,0,True
+Today business world is suffering because of the pandemic.,1,[],0,0,0.0,0,1034,,0,A2HUWXLMG214BI,2.0,2,0,True
+The bakery was happy with all of it satisfied customers.,1,[],0,0,0.0,0,1035,,0,A16DIQCMNWPBAN,2.0,2,0,True
+I think his business is pretty successful. ,1,[],0,0,0.0,0,1036,,0,A357ADRGNGMMKC,1.0,1,0,True
+Their business is secret.,1,[],0,0,0.0,0,1037,,0,A3V2HVY764HJS4,2.0,1,0,True
+The business man was sent home because he had fever,1,['was sent'],1,1,1.0,1,1038,['was sent'],1,A2W5PAZJG6X8Q8,2.0,2,1,True
+In business it is easy to become millionaire.,1,[],0,0,0.0,0,1039,,0,A118RTS8BOFIH7,1.0,1,0,True
+The contract was not signed by the business.,1,['was not signed'],1,1,1.0,1,1040,,0,A31CNXHGR49DJR,1.0,2,1,False
+Business is very volatile,1,[],0,0,0.0,0,1041,,0,A3OM2ZQ7FUDTIN,1.0,1,0,True
+"We had business to deal with first, then pleasure.",1,[],0,0,0.0,0,1042,,0,A3PSV85ZUXP9VF,2.0,2,0,True
+I lost all my money from my pizza business,1,[],0,0,0.0,0,1043,,0,A3G11HOZ5PCWOH,2.0,2,0,True
+Businesses suck the money out of folk wallets. ,1,[],0,0,0.0,0,1044,,0,A33ELVLU0NX9N9,1.0,1,0,True
+The CEO has an office in an high rise.,1,[],0,0,0.0,0,1045,,0,A2W434UNNBRS4L,1.0,2,0,True
+I am in the process of purchasing new car.,1,[],0,0,0.0,0,1046,,0,A2EW08X2I87RXL,2.0,1,0,True
+More than 300 employees of the company were laid off on Friday. ,1,['were laid'],1,1,1.0,1,1047,['were laid'],1,AHTWQSOY6HTJI,1.0,2,1,True
+That meeting made me feel so nervous.,1,[],0,0,0.0,0,1048,,0,A16Y5JEB1EF9CY,1.0,2,0,True
+Business is not very fun.,1,[],0,0,0.0,0,1049,,0,A3M0L33TPD346S,2.0,2,0,True
+The CEO of that company earned very high bonus this year.,1,[],0,0,0.0,0,1050,,0,AY4KZOUEZ8BAM,1.0,1,0,True
+Business is in the heart of commerce.,1,[],0,0,0.0,0,1051,,0,A14Z1JSAR9JEON,1.0,2,0,True
+Mind you business and stay outta mines.,1,[],0,0,0.0,0,1052,,0,A3M2Q7EZCJ85GE,2.0,2,0,True
+His business grew to hugh success over night. ,1,[],0,0,0.0,0,1053,,0,A36W1PIV68AE5KÔÉÖ,2.0,2,0,True
+I would like to receive payment for my private business.,1,[],0,0,0.0,0,1054,,0,ANR81FZBHHR0F,1.0,1,0,True
+The business closed after their hours of operation.,1,[],0,0,0.0,0,1055,,0,A2UOOBZQ5L2EL1,2.0,2,0,True
+Keeping his business is what keeps Steve working so hard.,1,[],0,0,0.0,0,1056,,0,j2wj0096lt,2.0,1,0,True
+WE are skyrocketing ,1,[],0,0,0.0,0,1057,,0,A3NUGUAMBKYMZY,1.0,1,0,True
+Business has been bad lately.,1,[],0,0,0.0,0,1058,,0,A33TBDS0UALKW2,1.0,1,0,True
+The company was taken over by its competitor.,1,['was taken'],1,1,1.0,1,1059,['was taken'],1,A2BT7QVGXJKFKI,1.0,2,1,True
+Amy studies accounting daily and is quite good at it.,1,[],0,0,0.0,0,1060,,0,A39J8MSTUDVH0D,1.0,1,0,True
+Our business has been slow this year.,1,[],0,0,0.0,0,1061,,0,A15X9KAJB8M54B,2.0,2,0,True
+Business is the engine of capitalism.,1,[],0,0,0.0,0,1062,,0,A1CRE2Z623JZ6V,2.0,1,0,True
+The chairman of the board was fired due to lack of sails.,1,['was fired'],1,1,1.0,1,1063,['was fired'],1,A3H8A6SSZH6MQQ,2.0,2,1,True
+Business was not the prime interest of the family meeting.,1,[],0,0,0.0,0,1064,,0,A2137K4XEU12TI,1.0,2,0,True
+Leaders of business often give speeches and workshops to teach people new to the workforce.,1,[],0,0,0.0,0,1065,,0,AMFIHFK9N0OVK,2.0,1,0,True
+I am starting my own business.,1,[],0,0,0.0,0,1066,,0,A1JAWNX4R60ZZ0,1.0,1,0,True
+I actively invest in the stock market.,1,[],0,0,0.0,0,1067,,0,A1MPJYJCUAOFOB,1.0,1,0,True
+She was told business is necessary.,1,['was told'],1,1,1.0,1,1068,['was told'],1,A3HT6YYXPBRKN3,2.0,2,1,True
+My business will excel with the right mentors.,1,[],0,0,0.0,0,1069,,0,A3V9UGWBPDRFSG,1.0,1,0,True
+The shareholders were satisfied with the bosses news about opening new business.,1,[],0,0,0.0,0,1070,,0,A1ZJ3TU4QJIKLY,2.0,2,1,False
+Business is very well known career field.,1,[],0,0,0.0,0,1071,,0,A129LL7SYP8EOE,2.0,1,0,True
+The local Chamber of Commerce was founded in 1952.,1,['was founded'],1,1,1.0,1,1072,['was founded'],1,A2VUF0V7HT51Q3,1.0,2,1,True
+I never got into business.,1,[],0,0,0.0,0,1073,,0,A3IB7YJHP04OHI,2.0,2,0,True
+The business is doing really well.,1,[],0,0,0.0,0,1074,,0,A13DHPKBQXN9R7,2.0,1,0,True
+The business world has had to adapt to many changes.,1,[],0,0,0.0,0,1075,,0,A1B3K5W6NZ03U2,1.0,1,0,True
+The businesses had been opened in 2019.,1,['had been opened'],1,1,1.0,1,1076,['been opened'],1,A29KJK7GPUF3OT,1.0,2,1,True
+The business was in jeopardy.,1,[],0,0,0.0,0,1077,,0,A26A77APE2SUR5,2.0,2,0,True
+My business is much more successful than most.,1,[],0,0,0.0,0,1078,,0,A8BSFVAPZBIUS ,1.0,1,0,True
+I am going to get those books done.,1,[],0,0,0.0,0,1079,,0,A1ADRYNCJIRFOO,1.0,1,0,True
+Those items were sold by the top salesperson in the company.,1,['were sold'],1,1,1.0,1,1080,['were sold'],1,A1PAN54I7HWSZI,1.0,2,1,True
+They are closing down their business.,1,[],0,0,0.0,0,1081,,0,AS8JG1LSWTMGY,2.0,2,0,True
+Business will pick-up as more people get their vaccine.,1,[],0,0,0.0,0,1082,,0,A25D8WXH1F4CG9,1.0,1,0,True
+I lost my business when the economy fell. ,1,[],0,0,0.0,0,1083,,0,A1TK1M16KJJKEO,1.0,2,0,True
+Len majored in business in university.,1,[],0,0,0.0,0,1084,,0,A1282WX3YWXM6E,2.0,1,0,True
+I AM GOING TO EAT AT THE LOCAL SUSHI RESTAURANT TONIGHT,1,[],0,0,0.0,0,1085,,0,A3SUUPLFBSG1T9,1.0,1,0,True
+Business was done as usual.,1,['was done'],1,1,1.0,1,1086,['was done'],1,A2T6EBB0Z6TQZS  ,1.0,2,1,True
+The man made sale that went bad. ,1,[],0,0,0.0,0,1087,,0,A3G1X3IP2VM4IK,2.0,2,0,True
+She was seeking position as manager in business.,1,[],0,0,0.0,0,1088,,0,A1KRDCZ1YYBUIZ,1.0,1,0,True
+We were looking at business sites. ,1,[],0,0,0.0,0,1089,,0,A1X84CLJ7N1PLZ,1.0,2,0,True
+Business has been good.,1,[],0,0,0.0,0,1090,,0,A141B3S3ZLY8DI,2.0,2,0,True
+The business was filing for bankruptcy.,1,[],0,0,0.0,0,1091,,0,A1BDJMFP24FBGL,1.0,1,0,True
+the man suceeded greatly at his business,1,[],0,0,0.0,0,1092,,0,A3F34OE3VQ7W0V,1.0,2,0,True
+A small business was bought out by large company.,1,['was bought'],1,1,1.0,1,1093,['was bought'],1,A2BQ5JORLYGZMV,2.0,2,1,True
+The business is blooming ,1,[],0,0,0.0,0,1094,,0,A3ONF400XL2Y9U,1.0,1,0,True
+Our business is stressful.,1,[],0,0,0.0,0,1095,,0,A2HDZE2L9EX2SY,1.0,1,0,True
+business was shut down,1,['was shut'],1,1,1.0,1,1096,['was shut'],1,A2EY0J9LOPU3TU,1.0,2,1,True
+The business of marketing is highly profitable.,1,[],0,0,0.0,0,1097,,0,A20SXG1DHDIDI7,1.0,1,0,True
+The old business had been subsumed by the new merger,1,['had been subsumed'],1,1,1.0,1,1098,['been subsumed'],1,A2Y81T0DIFJ866,1.0,2,1,True
+One of my goals is to have my own Business in the near future ,1,[],0,0,0.0,0,1099,,0,A2MF4QDKE40KVN,1.0,1,0,True
+I own my business for two years,1,[],0,0,0.0,0,1100,,0,A7Z6P6K85HX54,1.0,2,0,True
+Business is booming.,1,[],0,0,0.0,0,1101,,0,A2PY9UB56M2PP2,1.0,1,0,True
+The business is under pressure due to the pandemic. ,1,[],0,0,0.0,0,1102,,0,A2JUTTLDE5LGHH,1.0,2,0,True
+I have an interest in Business,1,[],0,0,0.0,0,1103,,0,A2F58OOW7K3DD2,1.0,1,0,True
+Monica was driven to the store last night.,1,['was driven'],1,1,1.0,1,1104,['was driven'],1,A1QW2XUJ7KZCV5,2.0,2,1,True
+I would ve done it differently. ,1,[],0,0,0.0,0,1105,,0,A3G3TIX6FEMN8R,2.0,2,0,True
+The bath is far too hot for me to bathe.,1,[],0,0,0.0,0,1106,,0,A2DDPSXH2X96RF,1.0,1,0,True
+Business is going great,1,[],0,0,0.0,0,1107,,0,A2BZY06YRWGEDL,2.0,1,0,True
+Stocks were sold by the company before the end of the quarter. ,1,['were sold'],1,1,1.0,1,1108,['were sold'],1,A1C8FN01981A69,2.0,2,1,True
+"When will people return to the office, after COVID-19 ",1,[],0,0,0.0,0,1109,,0,A2DU76P3SED4T6,2.0,1,0,True
+I will open my own business one day,1,[],0,0,0.0,0,1110,,0,AYSX5GNO640MZ,1.0,1,0,True
+Jeff and Gary agreed on the merger and shook hands.,1,[],0,0,0.0,0,1111,,0,A2R30HQXQN76IC,1.0,1,0,True
+A group of businessmen were gathered at the bar.,1,['were gathered'],1,1,1.0,1,1112,['were gathered'],1,AMDUEMZUK9GJC,1.0,1,1,True
+Clients were given itemized invoices.,1,['were given'],1,1,1.0,1,1113,['were given'],1,A2WS07SCLNP1GV,1.0,2,1,True
+Many businesses were shut down during the Covid pandemic. ,1,['were shut'],1,1,1.0,1,1114,['were shut'],1,A3V3LIPOU53GZQ,2.0,2,1,True
+The CEO wanted to gather the employee together.,1,[],0,0,0.0,0,1115,,0,AQDA6OMC4W5V8,1.0,2,0,True
+The supervisor read the memo and asked the employees questions.,1,[],0,0,0.0,0,1116,,0,A1K3VCFF62LIO2,2.0,1,0,True
+The business reopened after two months of lockdown.,1,[],0,0,0.0,0,1117,,0,A2AFAWJX5LTUVN,2.0,1,0,True
+The new information for the banking regulations will be delivered this afternoon.,1,['will be delivered'],1,1,1.0,1,1118,['be delivered'],1,AW8JVJQNLTXND,2.0,1,1,True
+Investing in the company is lucretive.,1,[],0,0,0.0,0,1119,,0,A26ZENZ5G8AEGM,1.0,1,0,True
+Lot of economic growth is provided by businesses.,1,['is provided'],1,1,1.0,1,1120,['is provided'],1,A3Q9H7A8J8GR01,1.0,2,1,True
+The business recognized its error and made retribution. ,1,[],0,0,0.0,0,1121,,0,A2SULQE4M8C3CM,2.0,2,0,True
+Business influences politicians.,1,[],0,0,0.0,0,1122,,0,A2LDDDJ4WBKB8Y,1.0,1,0,True
+Companies enjoy making good profit from the businesses they run.,1,[],0,0,0.0,0,1123,,0,A2VJ27EN5W4MU,1.0,2,0,True
+The man is starting business.,1,[],0,0,0.0,0,1124,,0,A1SBWRAOJBEFIM,1.0,1,0,True
+BUSSINESS ARE DEVELOP THROUGH A SIMPLE IDEA.,1,[],0,0,0.0,0,1125,['ARE DEVELOP'],1,A12JQZP4XVOABB,2.0,2,0,False
+he is busy in business,1,[],0,0,0.0,0,1126,,0,AE5138F868GYB,1.0,1,0,True
+Business will grow to offset the cost of living.,1,[],0,0,0.0,0,1127,,0,AY2L2CZ6OKNEA,2.0,1,0,True
+The income was totaled by the Accountant. ,1,['was totaled'],1,1,1.0,1,1128,['was totaled'],1,A2S7LNJG767XIU,1.0,2,1,True
+The business dedicates long hours to helping those in need.,1,[],0,0,0.0,0,1129,,0,A370S3V5OUNP4E,1.0,1,0,True
+He was going to apply there.,1,[],0,0,0.0,0,1130,,0,A2ZKKOPPN3AX2G,1.0,2,0,True
+I have business in the city.,1,[],0,0,0.0,0,1131,,0,AH7I3K3OJKA5L,2.0,1,0,True
+Companies merge with other companies.,1,[],0,0,0.0,0,1132,,0,A5BCSSPC180AG,2.0,2,0,True
+The business will go under very soon.,1,[],0,0,0.0,0,1133,,0,A1TO9C7AZND1VO,1.0,1,0,True
+I wonder if business is good.,1,[],0,0,0.0,0,1134,,0,AE0C5U5HZ7WR9,2.0,2,0,True
+The newest business to spring during the Pandemic is Home Delivery.,1,[],0,0,0.0,0,1135,,0,A1D4RC6K6Y5KAV,2.0,1,0,True
+I started my own business.,1,[],0,0,0.0,0,1136,,0,A345TDMHP3DQ3G,1.0,1,0,True
+Business was going well,1,[],0,0,0.0,0,1137,,0,A1U5UPSCURNRAA,2.0,2,0,True
+Business is booming this month ,1,[],0,0,0.0,0,1138,,0,A18UTX5FD7NPRV,2.0,1,0,True
+CEOS were not given much notice before firing. ,1,['were not given'],1,1,1.0,1,1139,,0,A3T79IEUFBB473,2.0,2,1,False
+The accountant showed his work at the meeting.,1,[],0,0,0.0,0,1140,,0,A3HKD5JYXYBK5Q,1.0,1,0,True
+Business is questionable these days.,1,[],0,0,0.0,0,1141,,0,A3MSMV01T3S53S,2.0,1,0,True
+He had his own business for 20 years.,1,[],0,0,0.0,0,1142,,0,A2JAE9P7FQXU2T,2.0,2,0,True
+I started business recently that is going so great so far ,1,[],0,0,0.0,0,1143,,0,A23K77HMD9APAJ,1.0,1,0,True
+A business thrives when managed responsibly. ,1,[],0,0,0.0,0,1144,,0,A322UHGPRL2UWO,2.0,1,0,True
+The shareholders were not satisfied by the CEO explanations,1,[],0,0,0.0,0,1145,,0,A1EDKVYT9ZCGUH,2.0,2,1,False
+I would mind what you are doing in this meeting.,1,[],0,0,0.0,0,1146,,0,A3CX8S6Q0QEW8E,1.0,1,0,True
+I had no business doing that.,1,[],0,0,0.0,0,1147,,0,AYX9OCFWBM939,2.0,2,0,True
+They had good business sales then.,1,[],0,0,0.0,0,1148,,0,A1HNB2243A2PQH,2.0,2,0,True
+I had never understood many aspects of business.,1,[],0,0,0.0,0,1149,,0,A1Y38T7IZWJQAE,2.0,2,0,True

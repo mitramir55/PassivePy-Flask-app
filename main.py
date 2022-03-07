@@ -51,7 +51,6 @@ def passivepy_page(mode='', **kwargs):
 
         if file and allowed_file(file.filename):
 
-
             # get it from the user
             filename = secure_filename(file.filename)
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
