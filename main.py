@@ -50,9 +50,9 @@ def analyze_dataset(mode, file, column_name):
 
         # do the analysis
         if mode=='corpus_level':
-            df_output = passivepy.match_corpus_level(df=df, column_name = column_name, n_process = 1, batch_size = 100)
+            df_output = passivepy.match_corpus_level(df=df, column_name = column_name, n_process = 1, batch_size = 50)
         elif mode=='sentence_level':
-            df_output = passivepy.match_sentence_level(df=df, column_name = column_name, n_process = 1, batch_size = 100)
+            df_output = passivepy.match_sentence_level(df=df, column_name = column_name, n_process = 1, batch_size = 50)
 
         # give it back to user
         output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
