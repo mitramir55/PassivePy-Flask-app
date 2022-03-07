@@ -46,6 +46,7 @@ def analyze_dataset(mode, file, column_name):
         file_path = save_file(file, filename)
 
         df = read_file(filename, file_path)
+        df.dropna(inplace=True)
         check_column_name_in_df(df, column_name)
 
         # do the analysis
