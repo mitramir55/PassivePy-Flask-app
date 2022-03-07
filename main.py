@@ -9,6 +9,66 @@ def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+def check_column_name_in_df(df, column_name):
+    df_columns = list(df.columns)
+    if column_name not in df_columns:
+        flash (f"Please enter the right column name. No {column_name} found.")
+        return render_template('passivepy_page.html')
+
+def read_file(filename, file_path):
+    if filename.rsplit('.', 1)[1].lower() == 'csv':
+        df = pd.read_csv(file_path)
+    elif filename.rsplit('.', 1)[1].lower() == 'xlsx':
+        df = pd.read_excel(file_path)
+    return df
+
+def save_file(file, filename):
+    file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    file.save(file_path)
+    return file_path
+
+def check_column_name_presence(request):
+    if not request.form["column_name"]:
+        flash('Please enter the column name!')
+        return redirect(url_for('passivepy_page', error=True))
+
+def check_file_presence(request):
+    if 'sample_df' not in request.files:
+        flash ("No file")
+        return render_template('passivepy_page.html')
+
+
+def analyze_dataset(mode):
+
+    check_column_name_presence(request)
+    column_name = request.form["column_name"]
+
+    check_file_presence(request)
+    file= request.files['sample_df']
+
+
+    if file and allowed_file(file.filename):
+
+        # get it from the user
+        filename = secure_filename(file.filename)
+        file_path = save_file(file, filename)
+
+        df = read_file(filename, file_path)
+        check_column_name_in_df(df, column_name)
+
+        # do the analysis
+        if mode=='corpus_level':
+            df_output = passivepy.match_corpus_level(df=df, column_name = column_name)
+        elif mode=='sentence_level':
+            df_output = passivepy.match_sentence_level(df=df, column_name = column_name)
+
+        # give it back to user
+        output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
+        df_output.to_csv(output_path, index=False)
+
+        return render_template("passivepy_page.html", mode=mode, zip=zip, 
+        column_names=df_output.columns.values, row_data=list(df_output.values.tolist()))
+
 
 spacy_model = "en_core_web_sm"
 passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
@@ -32,91 +92,11 @@ def passivepy_page(mode='', **kwargs):
     
     # corpus level----------------------------------------------------------------
     if request.method == 'POST' and request.form['submit'] == "Analyze corpus-level":
-        if not request.form["column_name_c"]:
-            flash('Please enter the column name!')
-            return redirect(url_for('passivepy_page', error=True))
-
-        column_name = request.form["column_name_c"]
-
-        # if there was no file
-        if 'sample_df' not in request.files:
-            flash ("No file")
-            return render_template('passivepy_page.html')
-
-        # if the user didn't choose any file
-        file= request.files['sample_df']
-        if file.filename == '':
-            flash('No selected file')
-
-
-        if file and allowed_file(file.filename):
-
-            # get it from the user
-            filename = secure_filename(file.filename)
-            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            file.save(file_path)
-
-            # read the file
-            if filename.rsplit('.', 1)[1].lower() == 'csv':
-                df = pd.read_csv(file_path)
-            elif filename.rsplit('.', 1)[1].lower() == 'xlsx':
-                df = pd.read_excel(file_path)
-
-            # do the analysis
-            df_detected_c = passivepy.match_corpus_level(df=df, column_name = column_name)
-
-            # give it back to user
-            output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
-            df_detected_c.to_csv(output_path, index=False)
-
-
-            # link_column is the column that I want to add a button to
-            return render_template("passivepy_page.html", mode='corpus_level', zip=zip, column_names=df_detected_c.columns.values, row_data=list(df_detected_c.values.tolist()))
+        analyze_dataset(mode='corpus_level')
 
     # sentence level -----------------------------------------------------------------------
     if request.method == 'POST' and request.form['submit'] == "Analyze sentence-level":
-
-        if not request.form["column_name_s"]:
-            flash('Please enter the column name!')
-            return redirect(url_for('passivepy_page', mode='sentence_level', error=True))
-
-
-        column_name = request.form["column_name_s"]
-
-        # if there was no file
-        if 'sample_df' not in request.files:
-            flash ("No file")
-            return render_template('passivepy_page.html')
-
-        # if the user didn't choose any file
-        file= request.files['sample_df']
-        if file.filename == '':
-            flash('No selected file')
-
-
-        if file and allowed_file(file.filename):
-
-
-            # get it from the user
-            filename = secure_filename(file.filename)
-            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            file.save(file_path)
-
-            # read the file
-            if filename.rsplit('.', 1)[1].lower() == 'csv':
-                df = pd.read_csv(file_path)
-            elif filename.rsplit('.', 1)[1].lower() == 'xlsx':
-                df = pd.read_excel(file_path)
-
-            # do the analysis
-            df_detected_s = passivepy.match_sentence_level(df=df, column_name = column_name)
-
-            # give it back to user
-            output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
-            df_detected_s.to_csv(output_path, index=False)
-
-            return render_template("passivepy_page.html", mode='sentence_level', zip=zip, 
-            column_names=df_detected_s.columns.values, row_data=list(df_detected_s.values.tolist()))
+        analyze_dataset(mode='sentence_level')
     
     # main page------------------------------------------------------------------
     else:
