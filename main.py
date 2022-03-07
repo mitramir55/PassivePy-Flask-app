@@ -5,6 +5,12 @@ from PassivePySrc import PassivePy
 from werkzeug.utils import secure_filename
 
 
+
+spacy_model = "en_core_web_sm"
+passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
+app = Flask(__name__)
+
+
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -27,25 +33,11 @@ def save_file(file, filename):
     file.save(file_path)
     return file_path
 
-def check_column_name_presence(request):
-    if not request.form["column_name"]:
-        flash('Please enter the column name!')
-        return redirect(url_for('passivepy_page', error=True))
 
-def check_file_presence(request):
-    if 'sample_df' not in request.files:
-        flash ("No file")
-        return render_template('passivepy_page.html')
+        
 
-
-def analyze_dataset(mode):
-
-    check_column_name_presence(request)
-    column_name = request.form["column_name"]
-
-    check_file_presence(request)
-    file= request.files['sample_df']
-
+        
+def analyze_dataset(mode, file, column_name):
 
     if file and allowed_file(file.filename):
 
@@ -66,15 +58,9 @@ def analyze_dataset(mode):
         output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
         df_output.to_csv(output_path, index=False)
 
-        return render_template("passivepy_page.html", mode=mode, zip=zip, 
-        column_names=df_output.columns.values, row_data=list(df_output.values.tolist()))
+        return df_output
+        
 
-
-spacy_model = "en_core_web_sm"
-passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
-
-# Flask ----------------------------------------------------------------
-app = Flask(__name__)
 @app.route('/', methods=['POST', 'GET'])
 def passivepy_page(mode='', **kwargs):
 
@@ -82,7 +68,7 @@ def passivepy_page(mode='', **kwargs):
     if request.method == 'POST' and request.form['submit'] == "Analyze sample":
         if not request.form["sent"]:
             flash('Please enter the sentence!')
-            return redirect(url_for('passivepy_page', error=True))
+            return redirect(url_for('passivepy_page'))
 
         sample_text = request.form["sent"]
         df_sample_text = passivepy.match_text(sample_text)
@@ -92,11 +78,45 @@ def passivepy_page(mode='', **kwargs):
     
     # corpus level----------------------------------------------------------------
     if request.method == 'POST' and request.form['submit'] == "Analyze corpus-level":
-        analyze_dataset(mode='corpus_level')
+        mode = 'corpus_level'
+
+        if not request.form["column_name"]:
+            flash('Please enter the column name!')
+            return render_template('passivepy_page.html')
+        column_name = request.form["column_name"]
+
+
+        if 'sample_df' not in request.files:
+            flash ("No file")
+            return render_template('passivepy_page.html')
+        file= request.files['sample_df']
+
+        df_output = analyze_dataset(mode=mode, file=file, column_name=column_name)
+
+
+        return render_template("passivepy_page.html", mode=mode, zip=zip, 
+        column_names=df_output.columns.values, row_data=list(df_output.values.tolist()))
 
     # sentence level -----------------------------------------------------------------------
-    if request.method == 'POST' and request.form['submit'] == "Analyze sentence-level":
-        analyze_dataset(mode='sentence_level')
+    elif request.method == 'POST' and request.form['submit'] == "Analyze sentence-level":
+
+        mode = 'sentence_level'
+        if not request.form["column_name"]:
+            flash('Please enter the column name!')
+            return render_template('passivepy_page.html')
+        column_name = request.form["column_name"]
+
+
+        if 'sample_df' not in request.files:
+            flash ("No file")
+            return render_template('passivepy_page.html')
+        file= request.files['sample_df']
+
+
+        df_output = analyze_dataset(mode=mode, file=file, column_name=column_name)
+
+        return render_template("passivepy_page.html", mode=mode, zip=zip, 
+        column_names=df_output.columns.values, row_data=list(df_output.values.tolist()))
     
     # main page------------------------------------------------------------------
     else:
