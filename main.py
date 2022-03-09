@@ -35,8 +35,6 @@ def save_file(file, filename):
 
 
         
-
-        
 def analyze_dataset(mode, file, column_name):
 
     if file and allowed_file(file.filename):

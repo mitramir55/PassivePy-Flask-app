@@ -5,7 +5,7 @@ gunicorn
 Flask
 pandas
 Werkzeug
-PassivePy==0.2.14
+PassivePy==0.2.15
 regex
 openpyxl
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
