@@ -8,137 +8,196 @@
     and scalable way (e.g., small and large collections of texts can be analyzed) to capture passive voice from different 
     corpora for social and psychological evaluations of text.</p>
     <hr>
-    <div class="alert alert-light" role="alert">
-        <p>
-            Disclaimer: This website is provided solely for the purpose of 
-            testing this package. As a result, it can handle a few thousand
-            (up to more than 10,000) one-line sentences or a few hundred paragraphs in each file.
-         </p>
-  </div>
-<h5>Single sentence analysis</h5>
-<form action="#" method="post">
-    <p>Please enter your sentence in the box bellow: </p>
-    <p><input type="text" name="sent" aria-label="sent"></p>
-    <p><input  type="submit" name="submit" value="Analyze sample"></p>
-</form>
 
-{% if mode=='sample_text' %}
 
-        <table>
-            <tr>
-                {% for col in column_names %}
-                <th style="background-color: #74c5c1;">{{ col }}</th>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-primary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Try our package
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+
+                <div class="alert alert-light" role="alert">
+                    <p>
+                        Disclaimer: This website is provided solely for the purpose of 
+                        testing this package. As a result, it can handle a few thousand
+                        (up to 10,000) one-line sentences or a few hundred paragraphs in each file.
+                    </p>
+            </div>
+            <h5>Single sentence analysis</h5>
+            <form action="#" method="post">
+                <p>Please enter your sentence in the box bellow: </p>
+                <p><input type="text" name="sent" aria-label="sent"></p>
+                <p><input  type="submit" name="submit" value="Analyze sample"></p>
+            </form>
+
+                {% if mode=='sample_text' %}
+
+                    <table>
+                        <tr>
+                            {% for col in column_names %}
+                            <th style="background-color: #74c5c1;">{{ col }}</th>
+                            {% endfor %}
+                        </tr>
+                        {% for row in row_data %}
+                        <tr>
+                            {% for col, row_ in zip(column_names, row) %}
+                            {% if col == link_column %}
+                            <td>
+                                    {{ row_ }}
+                            </td>
+                            {% else %}
+                            <td>{{row_}}</td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+
+                    </table>
+
+                
+            {% endif %}
+            <hr>
+            <!----------------------------------------- corpus level ------------------------------------->
+
+
+
+
+            <h5>Corpus-level analysis</h5>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that needs to be
+                    analyzed in the box bellow: </p>
+                <label> The column name (case-sensitive): <input type="text" name="column_name"></label>
+                <label>Your file: <input type="file" name="df"></label>
+                <p><input type="submit" name="submit" value="Analyze corpus-level"></p>
+            </form>
+
+            {% if mode=='corpus_level' %}
+
+                <a class="btn btn-info" role="button" href="{{url_for('static', filename='outputs/output.csv')}}">
+            Download
+            </a>
+
+            <table>
+                <tr>
+                    {% for col in column_names %}
+                    <th style="background-color: #74c5c1;">{{ col }}</th>
+                    {% endfor %}
+                </tr>
+                {% for row in row_data %}
+                <tr>
+                    {% for col, row_ in zip(column_names, row) %}
+                    {% if col == link_column %}
+                    <td>
+                            {{ row_ }}
+                    </td>
+                    {% else %}
+                    <td>{{row_}}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
                 {% endfor %}
-            </tr>
-            {% for row in row_data %}
-            <tr>
-                {% for col, row_ in zip(column_names, row) %}
-                {% if col == link_column %}
-                <td>
-                        {{ row_ }}
-                </td>
-                {% else %}
-                <td>{{row_}}</td>
-                {% endif %}
-                {% endfor %}
-            </tr>
-            {% endfor %}
 
-        </table>
-
-    
-{% endif %}
-<hr>
-<!----------------------------------------- corpus level ------------------------------------->
+            </table>
 
 
+            {% endif %}
 
 
-<h5>Corpus-level analysis</h5>
+            <!----------------------------------------- sentence level ------------------------------------->
 
-<form action="#" method="post" enctype="multipart/form-data">
-    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that needs to be
-        analyzed in the box bellow: </p>
-    <label> The column name (case-sensitive): <input type="text" name="column_name"></label>
-    <label>Your file: <input type="file" name="sample_df"></label>
-    <p><input type="submit" name="submit" value="Analyze corpus-level"></p>
-</form>
+            <hr>
+            <h5>Sentence-level analysis</h5>
 
-{% if mode=='corpus_level' %}
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that needs to be
+                    analyzed in the box bellow: </p>
+                <label> The column name (case-sensitive): <input type="text" name="column_name"></label>
+                <label>Your file: <input type="file" name="df"></label>
+                <p><input type="submit" name="submit" value="Analyze sentence-level"></p>
+            </form>
 
-    <a class="btn btn-info" role="button" href="{{url_for('static', filename='outputs/output.csv')}}">
-  Download
-</a>
+            {% if mode=='sentence_level' %}
 
-<table>
-    <tr>
-        {% for col in column_names %}
-        <th style="background-color: #74c5c1;">{{ col }}</th>
-        {% endfor %}
-    </tr>
-    {% for row in row_data %}
-    <tr>
-        {% for col, row_ in zip(column_names, row) %}
-        {% if col == link_column %}
-        <td>
-                {{ row_ }}
-        </td>
-        {% else %}
-        <td>{{row_}}</td>
-        {% endif %}
-        {% endfor %}
-    </tr>
-    {% endfor %}
+            <a class="btn btn-info" role="button" href="{{url_for('static', filename='outputs/output.csv')}}">
+                Download
+            </a>
+                    <table>
+                        <tr>
+                            {% for col in column_names %}
+                            <th style="background-color: #74c5c1;">{{ col }}</th>
+                            {% endfor %}
+                        </tr>
+                        {% for row in row_data %}
+                        <tr>
+                            {% for col, row_ in zip(column_names, row) %}
+                            {% if col == link_column %}
+                            <td>
+                                    {{ row_ }}
+                            </td>
+                            {% else %}
+                            <td>{{row_}}</td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
 
-</table>
-
-
-
-{% endif %}
+                    </table>
 
 
-<!----------------------------------------- sentence level ------------------------------------->
+            {% endif %}
 
-<hr>
-<h5>Sentence-level analysis</h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-secondary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Try on your own system
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                
+                To try this package on your own system please visit
+                 <a href="https://mitramir55.github.io/PassivePyManualWebsite/">this page</a>. Just keep in
+                 mind that you need to install Python and the required packages on your system.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-secondary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Try in Google Colab
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              With this Google Colab environment, you can run the package in an environment like 
+              your system, but without having to install Python or any packages.
+               (<a href="https://colab.research.google.com/drive/10J5f23Jy3Wcnv5rKZew2xXWPlc4nuMk3?usp=sharing">link to notebook</a>)
+              
+            </div>
+          </div>
+        </div>
+      </div>
 
-<form action="#" method="post" enctype="multipart/form-data">
-    <p>Please choose a file (CSV or XLSX) for this analysis and write the name of the column that needs to be
-        analyzed in the box bellow: </p>
-    <label> The column name (case-sensitive): <input type="text" name="column_name"></label>
-    <label>Your file: <input type="file" name="sample_df"></label>
-    <p><input type="submit" name="submit" value="Analyze sentence-level"></p>
-</form>
 
-{% if mode=='sentence_level' %}
 
-<a class="btn btn-info" role="button" href="{{url_for('static', filename='outputs/output.csv')}}">
-    Download
-  </a>
-        <table>
-            <tr>
-                {% for col in column_names %}
-                <th style="background-color: #74c5c1;">{{ col }}</th>
-                {% endfor %}
-            </tr>
-            {% for row in row_data %}
-            <tr>
-                {% for col, row_ in zip(column_names, row) %}
-                {% if col == link_column %}
-                <td>
-                        {{ row_ }}
-                </td>
-                {% else %}
-                <td>{{row_}}</td>
-                {% endif %}
-                {% endfor %}
-            </tr>
-            {% endfor %}
 
-        </table>
 
-    
-     
         {% with messages = get_flashed_messages() %}
         {% if messages %}
             {% for message in messages %}
@@ -148,8 +207,6 @@
             {% endfor %}
         {% endif %}
         {% endwith %}
-{% endif %}
-
 
 
 {% endblock %}

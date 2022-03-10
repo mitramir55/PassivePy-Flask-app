@@ -34,7 +34,6 @@ def save_file(file, filename):
     return file_path
 
 
-        
 def analyze_dataset(mode, file, column_name):
 
     if file and allowed_file(file.filename):
@@ -84,7 +83,6 @@ def passivepy_page(mode='', **kwargs):
             return render_template('passivepy_page.html')
         column_name = request.form["column_name"]
 
-
         if 'sample_df' not in request.files:
             flash ("No file")
             return render_template('passivepy_page.html')
@@ -106,10 +104,10 @@ def passivepy_page(mode='', **kwargs):
         column_name = request.form["column_name"]
 
 
-        if 'sample_df' not in request.files:
+        if 'df' not in request.files:
             flash ("No file")
             return render_template('passivepy_page.html')
-        file= request.files['sample_df']
+        file= request.files['df']
 
 
         df_output = analyze_dataset(mode=mode, file=file, column_name=column_name)
