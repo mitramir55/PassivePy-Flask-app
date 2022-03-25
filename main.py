@@ -83,10 +83,10 @@ def passivepy_page(mode='', **kwargs):
             return render_template('passivepy_page.html')
         column_name = request.form["column_name"]
 
-        if 'sample_df' not in request.files:
-            flash ("No file")
+        if not request.files['df']:
+            flash ("Please select a file for the analysis.")
             return render_template('passivepy_page.html')
-        file= request.files['sample_df']
+        file= request.files['df']
 
         df_output = analyze_dataset(mode=mode, file=file, column_name=column_name)
 
@@ -104,8 +104,8 @@ def passivepy_page(mode='', **kwargs):
         column_name = request.form["column_name"]
 
 
-        if 'df' not in request.files:
-            flash ("No file")
+        if not request.files['df']:
+            flash ("Please select a file for the analysis.")
             return render_template('passivepy_page.html')
         file= request.files['df']
 

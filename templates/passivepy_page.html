@@ -41,9 +41,7 @@
                 <p><input type="text" name="sent" aria-label="sent"></p>
                 <p><input  type="submit" name="submit" value="Analyze sample"></p>
             </form>
-
                 {% if mode=='sample_text' %}
-
                     <table>
                         <tr>
                             {% for col in column_names %}
@@ -65,15 +63,9 @@
                         {% endfor %}
 
                     </table>
-
-                
             {% endif %}
             <hr>
             <!----------------------------------------- corpus level ------------------------------------->
-
-
-
-
             <h5>Corpus-level analysis</h5>
 
             <form action="#" method="post" enctype="multipart/form-data">
