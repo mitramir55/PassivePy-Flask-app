@@ -10,6 +10,17 @@ spacy_model = "en_core_web_sm"
 passivepy = PassivePy.PassivePyAnalyzer(spacy_model)
 app = Flask(__name__)
 
+# config------------------------------------------------
+UPLOAD_FOLDER = 'static/uploaded_files/'
+OUTPUT_FOLDER = 'static/outputs/'
+ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
+
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['SECRET_KEY'] = '12345'
+
+#------------------------------------------------------
+
+
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -28,8 +39,8 @@ def read_file(filename, file_path):
         df = pd.read_excel(file_path)
     return df
 
-def save_file(file, filename):
-    file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+def save_file(file, filename, path):
+    file_path = os.path.join(path, filename)
     file.save(file_path)
     return file_path
 
@@ -40,7 +51,7 @@ def analyze_dataset(mode, file, column_name):
 
         # get it from the user
         filename = secure_filename(file.filename)
-        file_path = save_file(file, filename)
+        file_path = save_file(file, filename, UPLOAD_FOLDER)
 
         df = read_file(filename, file_path)
         df.dropna(inplace=True)
@@ -89,7 +100,7 @@ def passivepy_page(mode='', **kwargs):
         file= request.files['df']
 
         df_output = analyze_dataset(mode=mode, file=file, column_name=column_name)
-
+        df_output.to_csv(OUTPUT_FOLDER+'output_corpus_level.csv', index=False)
 
         return render_template("passivepy_page.html", mode=mode, zip=zip, 
         column_names=df_output.columns.values, row_data=list(df_output.values.tolist()))
@@ -111,6 +122,7 @@ def passivepy_page(mode='', **kwargs):
 
 
         df_output = analyze_dataset(mode=mode, file=file, column_name=column_name)
+        df_output.to_csv(OUTPUT_FOLDER + 'output_sentence_level.csv', index=False)
 
         return render_template("passivepy_page.html", mode=mode, zip=zip, 
         column_names=df_output.columns.values, row_data=list(df_output.values.tolist()))
@@ -119,16 +131,6 @@ def passivepy_page(mode='', **kwargs):
     else:
         return render_template('passivepy_page.html', mode='')
 
-
-
-# config------------------------------------------------
-UPLOAD_FOLDER = 'static/uploaded_files/'
-ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
-
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['SECRET_KEY'] = '12345'
-
-#------------------------------------------------------
 
 
 
