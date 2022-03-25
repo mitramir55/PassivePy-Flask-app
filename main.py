@@ -16,6 +16,7 @@ OUTPUT_FOLDER = 'static/outputs/'
 ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['OUTPUT_FOLDER'] = OUTPUT_FOLDER
 app.config['SECRET_KEY'] = '12345'
 
 #------------------------------------------------------
@@ -54,7 +55,7 @@ def analyze_dataset(mode, file, column_name):
         file_path = save_file(file, filename, UPLOAD_FOLDER)
 
         df = read_file(filename, file_path)
-        df.dropna(inplace=True)
+        df.dropna(subset=[column_name], inplace=True)
         check_column_name_in_df(df, column_name)
 
         # do the analysis
@@ -64,7 +65,7 @@ def analyze_dataset(mode, file, column_name):
             df_output = passivepy.match_sentence_level(df=df, column_name = column_name, n_process = 1, batch_size = 50)
 
         # give it back to user
-        output_path = os.path.join(app.config['UPLOAD_FOLDER'], 'output.csv') 
+        output_path = os.path.join(app.config['OUTPUT_FOLDER'], f'output_{mode}.csv') 
         df_output.to_csv(output_path, index=False)
 
         return df_output
